@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*!
+ * HaTeMiLe to All for CSS
+ *
+ * Copyright 2016 Carlson Santana Cruz
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ */
+
+[role="heading"][aria-level] {
+	bookmark-label: content(text);
+}
+
+[role="heading"][aria-level="1"] {
+	bookmark-level: 1;
+}
+
+[role="heading"][aria-level="2"] {
+	bookmark-level: 2;
+}
+
+[role="heading"][aria-level="3"] {
+	bookmark-level: 3;
+}
+
+[role="heading"][aria-level="4"] {
+	bookmark-level: 4;
+}
+
+[role="heading"][aria-level="5"] {
+	bookmark-level: 5;
+}
+
+[role="heading"][aria-level="6"] {
+	bookmark-level: 6;
+}
+
+[aria-dropeffect="copy"]:hover {
+	cursor: copy;
+}
+
+[aria-dropeffect="move"]:hover {
+	cursor: move;
+}
+
+[aria-dropeffect="link"]:hover {
+	cursor: alias;
+}
+
+[aria-dropeffect="execute"]:hover {
+	cursor: pointer;
+}
+
+[aria-dropeffect="popup"]:hover {
+	cursor: context-menu;
+}
+
+[aria-busy="true"]:hover {
+	cursor: wait;
+}
+
+[aria-haspopup="true"]:hover {
+	cursor: context-menu;
+}

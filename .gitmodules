@@ -1,0 +1,3 @@
+[submodule "scripts/hatemile"]
+	path = scripts/hatemile
+	url = https://github.com/carlsonsantana/HaTeMiLe-for-JavaScript

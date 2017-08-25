@@ -1,0 +1,431 @@
+{
+	"appDesc": {
+		"message": "Improve the accessibility of web pages, especially for users who use screen readers or navigate using the keyboard."
+	}
+	, "hatemile_preferences_caption": {
+		"message": "HaTeMiLe Preferences"
+	}
+	, "hatemile_description_caption": {
+		"message": "Text description"
+	}
+	, "hatemile_link_caption": {
+		"message": "Link"
+	}
+	, "hatemile_navigation_caption": {
+		"message": "Navigation"
+	}
+	, "hatemile_draganddrop_caption": {
+		"message": "Drag-and-Drop"
+	}
+	, "hatemile_forms_caption": {
+		"message": "Forms"
+	}
+	, "hatemile_grabbed_true_before": {
+		"message": "Text before grabbed elements"
+	}
+	, "hatemile_grabbed_true_after": {
+		"message": "Text after grabbed elements"
+	}
+	, "hatemile_grabbed_false_before": {
+		"message": "Text before draggable elements"
+	}
+	, "hatemile_grabbed_false_after": {
+		"message": "Text after draggable elements"
+	}
+	, "hatemile_label_prefix_before": {
+		"message": "Prefix before the label of element"
+	}
+	, "hatemile_label_suffix_before": {
+		"message": "Suffix before the label of element"
+	}
+	, "hatemile_label_prefix_after": {
+		"message": "Prefix after the label of element"
+	}
+	, "hatemile_label_suffix_after": {
+		"message": "Suffix after the label of element"
+	}
+	, "hatemile_dropeffect_copy_before": {
+		"message": "Text before target to paste the seletected element"
+	}
+	, "hatemile_dropeffect_copy_after": {
+		"message": "Text after target to paste the seletected element"
+	}
+	, "hatemile_dropeffect_move_before": {
+		"message": "Text before target to move the seletected element"
+	}
+	, "hatemile_dropeffect_move_after": {
+		"message": "Text after target to move the seletected element"
+	}
+	, "hatemile_dropeffect_link_before": {
+		"message": "Text before target to link the seletected element"
+	}
+	, "hatemile_dropeffect_link_after": {
+		"message": "Text after target to link the seletected element"
+	}
+	, "hatemile_dropeffect_execute_before": {
+		"message": "Text before target to execute the seletected element"
+	}
+	, "hatemile_dropeffect_execute_after": {
+		"message": "Text after target to execute the seletected element"
+	}
+	, "hatemile_dropeffect_popup_before": {
+		"message": "Text before target to show drop poup"
+	}
+	, "hatemile_dropeffect_popup_after": {
+		"message": "Text after target to show drop popup"
+	}
+	, "hatemile_download_before": {
+		"message": "Text before a download link"
+	}
+	, "hatemile_download_after": {
+		"message": "Text after a download link"
+	}
+	, "hatemile_target_blank_before": {
+		"message": "Text before a link that open new tab"
+	}
+	, "hatemile_target_blank_after": {
+		"message": "Text after a link that open new tab"
+	}
+	, "hatemile_title_prefix_before": {
+		"message": "Prefix before the title of element"
+	}
+	, "hatemile_title_suffix_before": {
+		"message": "Suffix before the title of element"
+	}
+	, "hatemile_title_prefix_after": {
+		"message": "Prefix after the title of element"
+	}
+	, "hatemile_title_suffix_after": {
+		"message": "Suffix after the title of element"
+	}
+	, "hatemile_accesskey_prefix_before": {
+		"message": "Prefix before of element shortcut"
+	}
+	, "hatemile_accesskey_suffix_before": {
+		"message": "Suffix before of element shortcut"
+	}
+	, "hatemile_accesskey_prefix_after": {
+		"message": "Prefix after of element shortcut"
+	}
+	, "hatemile_accesskey_suffix_after": {
+		"message": "Suffix after of element shortcut"
+	}
+	, "hatemile_longdescription_prefix_before": {
+		"message": "Prefix before of longdescription link"
+	}
+	, "hatemile_longdescription_suffix_before": {
+		"message": "Suffix before of longdescription link"
+	}
+	, "hatemile_longdescription_prefix_after": {
+		"message": "Prefix after of longdescription link"
+	}
+	, "hatemile_longdescription_suffix_after": {
+		"message": "Suffix after of longdescription link"
+	}
+	, "hatemile_elements_heading_before": {
+		"message": "Text before the table of contents"
+	}
+	, "hatemile_elements_heading_after": {
+		"message": "Text after the table of contents"
+	}
+	, "hatemile_skipper_tableofcontents": {
+		"message": "Text of link to table of contents"
+	}
+	, "hatemile_value_maximum_prefix_before": {
+		"message": "Prefix before the maximum value of field"
+	}
+	, "hatemile_value_maximum_suffix_before": {
+		"message": "Suffix before the maximum value of field"
+	}
+	, "hatemile_value_maximum_prefix_after": {
+		"message": "Prefix after the maximum value of field"
+	}
+	, "hatemile_value_maximum_suffix_after": {
+		"message": "Suffix after the maximum value of field"
+	}
+	, "hatemile_value_minimum_prefix_before": {
+		"message": "Prefix before the minimum value of field"
+	}
+	, "hatemile_value_minimum_suffix_before": {
+		"message": "Suffix before the minimum value of field"
+	}
+	, "hatemile_value_minimum_prefix_after": {
+		"message": "Prefix after the minimum value of field"
+	}
+	, "hatemile_value_minimum_suffix_after": {
+		"message": "Suffix after the minimum value of field"
+	}
+	, "hatemile_invalid_url_before": {
+		"message": "Text before a field with invalid URL"
+	}
+	, "hatemile_invalid_url_after": {
+		"message": "Text after a field with invalid URL"
+	}
+	, "hatemile_invalid_email_before": {
+		"message": "Text before a field with invalid e-mail"
+	}
+	, "hatemile_invalid_email_after": {
+		"message": "Text after a field with invalid e-mail"
+	}
+	, "hatemile_invalid_range_before": {
+		"message": "Text before a field with value out of valid range"
+	}
+	, "hatemile_invalid_range_after": {
+		"message": "Text after a field with value out of valid range"
+	}
+	, "hatemile_invalid_length_before": {
+		"message": "Text before a field that not contain a number of caracters in valid range"
+	}
+	, "hatemile_invalid_length_after": {
+		"message": "Text after a field that not contain a number of caracters in valid range"
+	}
+	, "hatemile_invalid_pattern_before": {
+		"message": "Text before a field with value does not match with the requested format"
+	}
+	, "hatemile_invalid_pattern_after": {
+		"message": "Text after a field with value does not match with the requested format"
+	}
+	, "hatemile_invalid_required_before": {
+		"message": "Text before a field that need be filled"
+	}
+	, "hatemile_invalid_required_after": {
+		"message": "Text after a field that need be filled"
+	}
+	, "hatemile_invalid_date_before": {
+		"message": "Text before a field with invalid date"
+	}
+	, "hatemile_invalid_date_after": {
+		"message": "Text after a field with invalid date"
+	}
+	, "hatemile_invalid_time_before": {
+		"message": "Text before a field with invalid time"
+	}
+	, "hatemile_invalid_time_after": {
+		"message": "Text after a field with invalid time"
+	}
+	, "hatemile_invalid_datetime_before": {
+		"message": "Text before a field with invalid date and time"
+	}
+	, "hatemile_invalid_datetime_after": {
+		"message": "Text after a field with invalid date and time"
+	}
+	, "hatemile_invalid_month_before": {
+		"message": "Text before a field with invalid month"
+	}
+	, "hatemile_invalid_month_after": {
+		"message": "Text after a field with invalid month"
+	}
+	, "hatemile_invalid_week_before": {
+		"message": "Text before a field with invalid week"
+	}
+	, "hatemile_invalid_week_after": {
+		"message": "Text after a field with invalid week"
+	}
+	, "extensions_hatemile_aria_grabbed_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_grabbed_true_after": {
+		"message": " (Dragging)"
+	}
+	, "extensions_hatemile_aria_grabbed_false_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_grabbed_false_after": {
+		"message": " (Draggable)"
+	}
+	, "extensions_hatemile_aria_label_prefix_before": {
+		"message": "(Label: "
+	}
+	, "extensions_hatemile_aria_label_suffix_before": {
+		"message": ") "
+	}
+	, "extensions_hatemile_aria_label_prefix_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_label_suffix_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_copy_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_copy_after": {
+		"message": " (Paste the selected element in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_move_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_move_after": {
+		"message": " (Move the selected element in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_link_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_link_after": {
+		"message": " (Create a link of selected element in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_execute_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_execute_after": {
+		"message": " (Execute the selected element in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_popup_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_popup_after": {
+		"message": " (Open a popup in target)"
+	}
+	, "extensions_hatemile_aria_required_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_required_true_after": {
+		"message": " (Required)"
+	}
+	, "extensions_hatemile_aria_value_maximum_prefix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_value_maximum_suffix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_value_maximum_prefix_after": {
+		"message": " (Maximum value: "
+	}
+	, "extensions_hatemile_aria_value_maximum_suffix_after": {
+		"message": ")"
+	}
+	, "extensions_hatemile_aria_value_minimum_prefix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_value_minimum_suffix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_value_minimum_prefix_after": {
+		"message": " (Minimum value: "
+	}
+	, "extensions_hatemile_aria_value_minimum_suffix_after": {
+		"message": ")"
+	}
+	, "extensions_hatemile_attribute_download_before": {
+		"message": "(Download) "
+	}
+	, "extensions_hatemile_attribute_download_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_target_blank_before": {
+		"message": "(Open this link in new tab) "
+	}
+	, "extensions_hatemile_attribute_target_blank_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_title_prefix_before": {
+		"message": "(Title: "
+	}
+	, "extensions_hatemile_attribute_title_suffix_before": {
+		"message": ") "
+	}
+	, "extensions_hatemile_attribute_title_prefix_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_title_suffix_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_accesskey_prefix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_accesskey_suffix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_accesskey_prefix_after": {
+		"message": " (Keyboard shortcut: ALT + "
+	}
+	, "extensions_hatemile_attribute_accesskey_suffix_after": {
+		"message": ")"
+	}
+	, "extensions_hatemile_attribute_data_invalid_url_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_url_after": {
+		"message": " (Invalid URL value)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_email_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_email_after": {
+		"message": " (Invalid e-mail address value)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_range_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_range_after": {
+		"message": " (Value out of valid range)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_length_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_length_after": {
+		"message": " (Value not contain a number of caracters in valid range)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_pattern_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_pattern_after": {
+		"message": " (Value does not match with the requested format)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_required_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_required_after": {
+		"message": " (Fill out the field)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_date_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_date_after": {
+		"message": " (Invalid date value)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_time_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_time_after": {
+		"message": " (Invalid time value)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_datetime_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_datetime_after": {
+		"message": " (Invalid date and time value)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_month_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_month_after": {
+		"message": " (Invalid month value)"
+	}
+	, "extensions_hatemile_attribute_data_invalid_week_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_data_invalid_week_after": {
+		"message": " (Invalid week value)"
+	}
+	, "extensions_hatemile_attribute_longdescription_prefix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_longdescription_suffix_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_longdescription_prefix_after": {
+		"message": " "
+	}
+	, "extensions_hatemile_attribute_longdescription_suffix_after": {
+		"message": "[d]"
+	}
+	, "extensions_hatemile_elements_heading_before": {
+		"message": "Table of contents"
+	}
+	, "extensions_hatemile_elements_heading_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_skipper_tableofcontents": {
+		"message": "Go to table of contents"
+	}
+}
