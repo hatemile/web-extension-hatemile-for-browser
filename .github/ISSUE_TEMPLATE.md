@@ -17,5 +17,6 @@
 [What actually happened]
 
 ## Your Environment
-* **Version of Mozilla Firefox**: 
+* **Web Browser**:
+* **Version of browser**: 
 * **Version of HaTeMiLe for Browser**:
