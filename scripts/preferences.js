@@ -7,7 +7,7 @@
 	}
 })();
 
-getAllPreferences(function(configuration) {
+getConfiguration(function(configuration) {
 	var element;
 	var elements = document.querySelectorAll('[data-configuration]');
 	for (var i = 0, length = elements.length; i < length; i++) {
@@ -16,8 +16,9 @@ getAllPreferences(function(configuration) {
 		
 		element.addEventListener('change', function(event) {
 			var target = event.target;
-			configuration[target.getAttribute('data-configuration')] = element.value;
+			configuration[target.getAttribute('data-configuration')] = target.value;
 			chrome.storage.sync.set(configuration);
+			console.log(target);
 		});
 	}
 });
