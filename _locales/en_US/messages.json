@@ -221,6 +221,90 @@
 	, "hatemile_invalid_week_after": {
 		"message": "Text after a field with invalid week"
 	}
+	, "extensions_hatemile_aria_autocomplete_both_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_autocomplete_both_after": {
+		"message": " (List or inline autocomplete)"
+	}
+	, "extensions_hatemile_aria_autocomplete_inline_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_autocomplete_inline_after": {
+		"message": " (Inline autocomplete)"
+	}
+	, "extensions_hatemile_aria_autocomplete_list_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_autocomplete_list_after": {
+		"message": " (List autocomplete)"
+	}
+	, "extensions_hatemile_aria_busy_true_before": {
+		"message": "(Updating) "
+	}
+	, "extensions_hatemile_aria_busy_true_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_checked_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_checked_true_after": {
+		"message": " (Checked)"
+	}
+	, "extensions_hatemile_aria_checked_false_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_checked_false_after": {
+		"message": " (Not checked)"
+	}
+	, "extensions_hatemile_aria_checked_mixed_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_checked_mixed_after": {
+		"message": " (Half checked)"
+	}
+	, "extensions_hatemile_aria_dropeffect_copy_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_copy_after": {
+		"message": " (Drop copy in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_move_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_move_after": {
+		"message": " (Drop move in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_link_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_link_after": {
+		"message": " (Drop link in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_execute_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_execute_after": {
+		"message": " (Drop execute in target)"
+	}
+	, "extensions_hatemile_aria_dropeffect_popup_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_dropeffect_popup_after": {
+		"message": " (Drop popup in target)"
+	}
+	, "extensions_hatemile_aria_expanded_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_expanded_true_after": {
+		"message": " (Expanded)"
+	}
+	, "extensions_hatemile_aria_expanded_false_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_expanded_false_after": {
+		"message": " (Collapsed)"
+	}
 	, "extensions_hatemile_aria_grabbed_true_before": {
 		"message": ""
 	}
@@ -232,6 +316,18 @@
 	}
 	, "extensions_hatemile_aria_grabbed_false_after": {
 		"message": " (Draggable)"
+	}
+	, "extensions_hatemile_aria_haspopup_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_haspopup_true_after": {
+		"message": " (Has popup)"
+	}
+	, "extensions_hatemile_aria_invalid_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_invalid_true_after": {
+		"message": " (Invalid value)"
 	}
 	, "extensions_hatemile_aria_label_prefix_before": {
 		"message": "(Label: "
@@ -245,41 +341,83 @@
 	, "extensions_hatemile_aria_label_suffix_after": {
 		"message": ""
 	}
-	, "extensions_hatemile_aria_dropeffect_copy_before": {
+	, "extensions_hatemile_aria_level_prefix_before": {
+		"message": "(Level: "
+	}
+	, "extensions_hatemile_aria_level_suffix_before": {
+		"message": ") "
+	}
+	, "extensions_hatemile_aria_level_prefix_after": {
 		"message": ""
 	}
-	, "extensions_hatemile_aria_dropeffect_copy_after": {
-		"message": " (Paste the selected element in target)"
-	}
-	, "extensions_hatemile_aria_dropeffect_move_before": {
+	, "extensions_hatemile_aria_level_suffix_after": {
 		"message": ""
 	}
-	, "extensions_hatemile_aria_dropeffect_move_after": {
-		"message": " (Move the selected element in target)"
-	}
-	, "extensions_hatemile_aria_dropeffect_link_before": {
+	, "extensions_hatemile_aria_orientation_vertical_before": {
 		"message": ""
 	}
-	, "extensions_hatemile_aria_dropeffect_link_after": {
-		"message": " (Create a link of selected element in target)"
+	, "extensions_hatemile_aria_orientation_vertical_after": {
+		"message": " (Vertical orientation)"
 	}
-	, "extensions_hatemile_aria_dropeffect_execute_before": {
+	, "extensions_hatemile_aria_orientation_horizontal_before": {
 		"message": ""
 	}
-	, "extensions_hatemile_aria_dropeffect_execute_after": {
-		"message": " (Execute the selected element in target)"
+	, "extensions_hatemile_aria_orientation_horizontal_after": {
+		"message": " (Horizontal orientation)"
 	}
-	, "extensions_hatemile_aria_dropeffect_popup_before": {
+	, "extensions_hatemile_aria_pressed_true_before": {
 		"message": ""
 	}
-	, "extensions_hatemile_aria_dropeffect_popup_after": {
-		"message": " (Open a popup in target)"
+	, "extensions_hatemile_aria_pressed_true_after": {
+		"message": " (Pressed)"
+	}
+	, "extensions_hatemile_aria_pressed_false_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_pressed_false_after": {
+		"message": " (Not pressed)"
+	}
+	, "extensions_hatemile_aria_pressed_mixed_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_pressed_mixed_after": {
+		"message": " (Half pressed)"
 	}
 	, "extensions_hatemile_aria_required_true_before": {
 		"message": ""
 	}
 	, "extensions_hatemile_aria_required_true_after": {
 		"message": " (Required)"
+	}
+	, "extensions_hatemile_aria_selected_true_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_selected_true_after": {
+		"message": " (Selected)"
+	}
+	, "extensions_hatemile_aria_selected_false_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_selected_false_after": {
+		"message": " (Not selected)"
+	}
+	, "extensions_hatemile_aria_sort_ascending_before": {
+		"message": "(Sorted ascending) "
+	}
+	, "extensions_hatemile_aria_sort_ascending_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_sort_descending_before": {
+		"message": "(Sorted descending) "
+	}
+	, "extensions_hatemile_aria_sort_descending_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_aria_sort_other_before": {
+		"message": "(Sorted) "
+	}
+	, "extensions_hatemile_aria_sort_other_after": {
+		"message": ""
 	}
 	, "extensions_hatemile_aria_value_maximum_prefix_before": {
 		"message": ""
@@ -291,7 +429,7 @@
 		"message": " (Maximum value: "
 	}
 	, "extensions_hatemile_aria_value_maximum_suffix_after": {
-		"message": ")"
+		"message": ") "
 	}
 	, "extensions_hatemile_aria_value_minimum_prefix_before": {
 		"message": ""
@@ -303,19 +441,7 @@
 		"message": " (Minimum value: "
 	}
 	, "extensions_hatemile_aria_value_minimum_suffix_after": {
-		"message": ")"
-	}
-	, "extensions_hatemile_attribute_download_before": {
-		"message": "(Download) "
-	}
-	, "extensions_hatemile_attribute_download_after": {
-		"message": ""
-	}
-	, "extensions_hatemile_attribute_target_blank_before": {
-		"message": "(Open this link in new tab) "
-	}
-	, "extensions_hatemile_attribute_target_blank_after": {
-		"message": ""
+		"message": ") "
 	}
 	, "extensions_hatemile_attribute_title_prefix_before": {
 		"message": "(Title: "
@@ -329,17 +455,56 @@
 	, "extensions_hatemile_attribute_title_suffix_after": {
 		"message": ""
 	}
+	, "extensions_hatemile_attribute_accesskey_default": {
+		"message": "ACCESS KEY PREFIX"
+	}
 	, "extensions_hatemile_attribute_accesskey_prefix_before": {
-		"message": ""
+		"message": "List of keyboard shortcuts: "
 	}
 	, "extensions_hatemile_attribute_accesskey_suffix_before": {
 		"message": ""
 	}
 	, "extensions_hatemile_attribute_accesskey_prefix_after": {
-		"message": " (Keyboard shortcut: ALT + "
+		"message": " (Keyboard shortcut: "
 	}
 	, "extensions_hatemile_attribute_accesskey_suffix_after": {
 		"message": ")"
+	}
+	, "extensions_hatemile_attribute_target_blank_before": {
+		"message": "(Open this link in new tab) "
+	}
+	, "extensions_hatemile_attribute_target_blank_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_download_before": {
+		"message": "(Download) "
+	}
+	, "extensions_hatemile_attribute_download_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_draggable_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_draggable_after": {
+		"message": " (Draggable)"
+	}
+	, "extensions_hatemile_attribute_dropzone_copy_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_dropzone_copy_after": {
+		"message": " (Drop copy in target)"
+	}
+	, "extensions_hatemile_attribute_dropzone_move_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_dropzone_move_after": {
+		"message": " (Drop move in target)"
+	}
+	, "extensions_hatemile_attribute_dropzone_link_before": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_dropzone_link_after": {
+		"message": " (Drop link in target)"
 	}
 	, "extensions_hatemile_attribute_data_invalid_url_before": {
 		"message": ""
@@ -407,6 +572,42 @@
 	, "extensions_hatemile_attribute_data_invalid_week_after": {
 		"message": " (Invalid week value)"
 	}
+	, "extensions_hatemile_attribute_language_prefix_before": {
+		"message": "(Begin of language: "
+	}
+	, "extensions_hatemile_attribute_language_suffix_before": {
+		"message": ") "
+	}
+	, "extensions_hatemile_attribute_language_prefix_after": {
+		"message": " (End of language: "
+	}
+	, "extensions_hatemile_attribute_language_suffix_after": {
+		"message": ")"
+	}
+	, "extensions_hatemile_attribute_role_prefix_before": {
+		"message": "(Begin of "
+	}
+	, "extensions_hatemile_attribute_role_suffix_before": {
+		"message": ") "
+	}
+	, "extensions_hatemile_attribute_role_prefix_after": {
+		"message": " (End of "
+	}
+	, "extensions_hatemile_attribute_role_suffix_after": {
+		"message": ")"
+	}
+	, "extensions_hatemile_attribute_headers_prefix_before": {
+		"message": " (Headers: "
+	}
+	, "extensions_hatemile_attribute_headers_suffix_before": {
+		"message": ") "
+	}
+	, "extensions_hatemile_attribute_headers_prefix_after": {
+		"message": ""
+	}
+	, "extensions_hatemile_attribute_headers_suffix_after": {
+		"message": ""
+	}
 	, "extensions_hatemile_attribute_longdescription_prefix_before": {
 		"message": ""
 	}
@@ -414,7 +615,7 @@
 		"message": ""
 	}
 	, "extensions_hatemile_attribute_longdescription_prefix_after": {
-		"message": " "
+		"message": ""
 	}
 	, "extensions_hatemile_attribute_longdescription_suffix_after": {
 		"message": "[d]"

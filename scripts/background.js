@@ -1,12 +1,6 @@
 loadStyle('accessiblearia.css', 'accessiblearia');
 loadStyle('accessibleformvalidation.css', 'accessibleformvalidation');
 loadStyle('hide_changes.css', 'hidechanges');
-getAccessibleDisplayCSS(function(content) {
-	writeStyle(content, 'accessibledisplay');
-});
-getAccessibleFormDisplayCSS(function(content) {
-	writeStyle(content, 'accessibleformdisplay');
-});
 loadScript('hatemile/js/common.js', 'hatemile-common');
 loadScript('hatemile/js/eventlistener.js', 'eventlistenerlist');
 loadScript('hatemile/js/hatemile/util/CommonFunctions.js', 'hatemile-common-functions');
@@ -20,7 +14,6 @@ loadScript('execute.js', 'hatemile-execute');
 
 window.addEventListener('load', function() {
 	getConfiguration(function(configuration) {
-		configuration["prefix-generated-ids"] = 'id-hatemile-browser-' + Math.random().toString(36).substring(7);
 		var configure = new hatemile.util.Configure(configuration);
 		var htmlParser = new hatemile.util.html.vanilla.VanillaHTMLDOMParser(document);
 		
@@ -33,20 +26,24 @@ window.addEventListener('load', function() {
 		accessibleForm.markAllRangeFields();
 		accessibleForm.markAllRequiredFields();
 
-		getSkippers(function(skippers) {
-			var accessibleNavigation = new hatemile.implementation.AccessibleNavigationImplementation(htmlParser, configure, [
-				{
-					'selector': '#container-heading'
-					, 'description': skippers['skipper-tableofcontents']
-					, 'shortcut': '0'
-				}
-			]);
-			accessibleNavigation.provideNavigationByAllHeadings();
-			accessibleNavigation.provideNavigationToAllLongDescriptions();
-			accessibleNavigation.provideNavigationByAllSkippers();
-		});
+		var accessibleNavigation = new hatemile.implementation.AccessibleNavigationImplementation(htmlParser, configure, [
+			{
+				'selector': '#container-heading'
+				, 'description': configuration['skipper-tableofcontents']
+				, 'shortcut': '0'
+			}
+		]);
+		accessibleNavigation.provideNavigationByAllHeadings();
+		accessibleNavigation.provideNavigationToAllLongDescriptions();
+		accessibleNavigation.provideNavigationByAllSkippers();
 
-		var accessibleDisplay = new hatemile.implementation.AccessibleDisplayScreenReaderImplementation(htmlParser, configure);
+		var accessibleDisplay = new hatemile.implementation.AccessibleDisplayScreenReaderImplementation(htmlParser, configure, window.navigator.userAgent);
 		accessibleDisplay.displayAllCellHeaders();
+		accessibleDisplay.displayAllWAIARIAStates();
+		accessibleDisplay.displayAllLinksAttributes();
+		accessibleDisplay.displayAllDragsAndDrops();
+		accessibleDisplay.displayAllAlternativeTextImages();
+		accessibleDisplay.displayAllTitles();
+		accessibleDisplay.displayAllShortcuts();
 	});
 });

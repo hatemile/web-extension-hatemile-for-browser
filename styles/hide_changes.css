@@ -4,71 +4,26 @@
 , #container-heading
 , #container-skippers
 , #container-shortcuts
-, .screen-reader-only
-, [download]:before
-, [download]:after
-, [target]:before
-, [target]:after
-, [draggable]:before
-, [draggable]:after
-, [aria-grabbed]:before
-, [aria-grabbed]:after
-, [title]:before
-, [title]:after
-, [aria-label]:before
-, [aria-label]:after
-, [dropzone]:before
-, [dropzone]:after
-, [aria-dropeffect]:before
-, [aria-dropeffect]:after
-, [accesskey]:before
-, [accesskey]:after
-, [data-labelrequired="true"]:before
-, [data-labelrequired="true"]:after
-, [data-labelvaluemin]:before
-, [data-labelvaluemin]:after
-, [data-labelvaluemax]:before
-, [data-labelvaluemax]:after
-, [data-labelinvalidurl="true"]:before 
-, [data-labelinvalidurl="true"]:after 
-, [data-labelinvalidemail="true"]:before 
-, [data-labelinvalidemail="true"]:after 
-, [data-labelinvalidrange="true"]:before 
-, [data-labelinvalidrange="true"]:after 
-, [data-labelinvalidlength="true"]:before 
-, [data-labelinvalidlength="true"]:after 
-, [data-labelinvalidpattern="true"]:before 
-, [data-labelinvalidpattern="true"]:after 
-, [data-labelinvalidrequired="true"]:before 
-, [data-labelinvalidrequired="true"]:after 
-, [data-labelinvaliddate="true"]:before 
-, [data-labelinvaliddate="true"]:after 
-, [data-labelinvalidtime="true"]:before 
-, [data-labelinvalidtime="true"]:after 
-, [data-labelinvaliddatetime="true"]:before 
-, [data-labelinvaliddatetime="true"]:after 
-, [data-labelinvalidmonth="true"]:before 
-, [data-labelinvalidmonth="true"]:after 
-, [data-labelinvalidweek="true"]:before 
-, [data-labelinvalidweek="true"]:after {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	border: none;
-	text-indent: -9999px;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+, .force-read-before
+, .force-read-after {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: none;
+    text-indent: -9999px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 [unselectable="on"] {
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }

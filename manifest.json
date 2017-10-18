@@ -9,7 +9,6 @@
 			, "persistent": false
 			, "js": [
 				"scripts/hatemile/js/common.js"
-				, "scripts/mustache.js"
 				, "scripts/hatemile/js/hatemile/util/CommonFunctions.js"
 				, "scripts/hatemile/js/hatemile/util/Configure.js"
 				, "scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js"
@@ -36,8 +35,6 @@
 		"styles/accessiblearia.css"
 		, "styles/accessibleformvalidation.css"
 		, "styles/hide_changes.css"
-		, "styles/accessibledisplay.mustache"
-		, "styles/accessibleformdisplay.mustache"
 		, "scripts/hatemile/js/eventlistener.js"
 		, "scripts/hatemile/js/common.js"
 		, "scripts/hatemile/js/hatemile/util/CommonFunctions.js"

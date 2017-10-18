@@ -20,32 +20,6 @@ initHaTeMiLeForBrowser = function() {
 				}
 			});
 		}
-		
-		if ((window.hatemile)
-				&& (window.hatemile.implementation)
-				&& (window.hatemile.implementation.AccessibleDisplayScreenReaderImplementation)) {
-			var styleElement = document.createElement('style');
-			styleElement.setAttribute('type', 'text/css');
-			styleElement.appendChild(document.createTextNode('[aria-checked]:before'
-					+ ', [aria-checked]:after, [aria-pressed]:before, [aria-pressed]:after'
-					+ ', [aria-selected]:before, [aria-selected]:after, [aria-orientation]:before'
-					+ ', [aria-orientation]:after, [aria-level]:before, [aria-level]:after'
-					+ ', [aria-sort]:before, [aria-sort]:after, [download]:before'
-					+ ', [download]:after, [target]:before, [target]:after, [draggable]:before'
-					+ ', [draggable]:after, [aria-grabbed]:before, [aria-grabbed]:after'
-					+ ', [title]:before, [title]:after, [aria-label]:before, [aria-label]:after'
-					+ ', [dropzone]:before, [dropzone]:after, [aria-dropeffect]:before'
-					+ ', [aria-dropeffect]:after, [aria-expanded]:before, [aria-expanded]:after'
-					+ ', [aria-haspopup]:before, [aria-haspopup]:after, [accesskey]:before'
-					+ ', [accesskey]:after, [aria-busy]:before, [aria-busy]:after {'
-					+ 'content: "";'
-					+ '}'));
-			if (document.head) {
-				document.head.appendChild(styleElement);
-			} else {
-				document.body.appendChild(styleElement);
-			}
-		}
 	} catch (e) {}
 	window.removeEventListener('load', initHaTeMiLeForBrowser, false);
 };

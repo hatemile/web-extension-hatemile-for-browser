@@ -14,10 +14,10 @@ input[aria-invalid="false"]:focus
 , input:valid:focus
 , select:valid:focus
 , textarea:valid:focus {
-	border: 1px solid #00ff00;
-	box-shadow: #00ff00 0px 0px 2px 0;
-	-webkit-box-shadow: #00ff00 0px 0px 2px 0;
-	-moz-box-shadow: #00ff00 0px 0px 2px 0;
+    border: 1px solid #00ff00;
+    box-shadow: #00ff00 0px 0px 2px 0;
+    -webkit-box-shadow: #00ff00 0px 0px 2px 0;
+    -moz-box-shadow: #00ff00 0px 0px 2px 0;
 }
 
 input[aria-invalid="true"]
@@ -26,8 +26,8 @@ input[aria-invalid="true"]
 , input:invalid
 , select:invalid
 , textarea:invalid {
-	border: 1px solid #ff0000;
-	box-shadow: #ff0000 0px 0px 2px 0;
-	-webkit-box-shadow: #ff0000 0px 0px 2px 0;
-	-moz-box-shadow: #ff0000 0px 0px 2px 0;
+    border: 1px solid #ff0000;
+    box-shadow: #ff0000 0px 0px 2px 0;
+    -webkit-box-shadow: #ff0000 0px 0px 2px 0;
+    -moz-box-shadow: #ff0000 0px 0px 2px 0;
 }
