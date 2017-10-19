@@ -1,0 +1,32 @@
+{
+  "name": "web-extension-hatemile-for-browser",
+  "version": "2.0.3",
+  "description": "Improve the accessibility of web pages, especially for users who use screen readers or navigate using the keyboard.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlsonsantana/web-extension-hatemile-for-browser.git"
+  },
+  "keywords": [
+    "accessibility",
+    "assistive-technology",
+    "screen-reader",
+    "wcag",
+    "wai-aria"
+  ],
+  "author": "Carlson Santana Cruz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/carlsonsantana/web-extension-hatemile-for-browser/issues"
+  },
+  "homepage": "https://github.com/carlsonsantana/web-extension-hatemile-for-browser#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-regex-replace": "^0.4.0",
+    "grunt-stripcomments": "^0.7.2"
+  }
+}
