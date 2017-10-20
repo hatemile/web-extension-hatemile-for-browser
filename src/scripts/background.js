@@ -28,9 +28,9 @@ window.addEventListener('load', function() {
 
         var accessibleNavigation = new hatemile.implementation.AccessibleNavigationImplementation(htmlParser, configure, [
             {
-                'selector': '#container-heading'
-                , 'description': configuration['skipper-tableofcontents']
-                , 'shortcut': '0'
+                'selector': '#container-heading',
+                'description': configuration['skipper-tableofcontents'],
+                'shortcut': '0'
             }
         ]);
         accessibleNavigation.provideNavigationByAllHeadings();
