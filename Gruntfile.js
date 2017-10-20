@@ -5,6 +5,15 @@ module.exports = function(grunt) {
     // Project configuration.
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
+        eslint: {
+            options: {
+                configFile: 'eslint.json'
+            },
+            files: [
+                'Gruntfile.js',
+                'src/scripts/*.js'
+            ]
+        },
         copy: {
             main: {
                 files: [
@@ -105,13 +114,16 @@ module.exports = function(grunt) {
     });
 
     // Load dependencies.
+    grunt.loadNpmTasks('grunt-eslint');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-stripcomments');
     grunt.loadNpmTasks('grunt-regex-replace');
 
     // Default task(s).
+    grunt.registerTask('test', ['eslint']);
     grunt.registerTask('default', [
+        'eslint',
         'clean:remove_dist_files',
         'copy',
         'clean:remove_unused_files',
