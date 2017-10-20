@@ -16,7 +16,7 @@ window.addEventListener('load', function() {
     getConfiguration(function(configuration) {
         var configure = new hatemile.util.Configure(configuration);
         var htmlParser = new hatemile.util.html.vanilla.VanillaHTMLDOMParser(document);
-        
+
         var accessibleAssociation = new hatemile.implementation.AccessibleAssociationImplementation(htmlParser, configure);
         accessibleAssociation.associateAllDataCellsWithHeaderCells();
         accessibleAssociation.associateAllLabelsWithFields();
