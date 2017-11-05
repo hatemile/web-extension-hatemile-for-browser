@@ -35,7 +35,7 @@ function writeStyle(content, identifier) {
 }
 
 function loadStyle(file, identifier) {
-    getFileContent('styles/' + file, writeStyle, identifier);
+    getFileContent(file, writeStyle, identifier);
 }
 
 function getConfiguration(callback) {

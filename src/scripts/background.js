@@ -1,6 +1,6 @@
-loadStyle('accessiblearia.css', 'accessiblearia');
-loadStyle('accessibleformvalidation.css', 'accessibleformvalidation');
-loadStyle('hide_changes.css', 'hidechanges');
+loadStyle('styles/accessiblearia.css', 'accessiblearia');
+loadStyle('styles/accessibleformvalidation.css', 'accessibleformvalidation');
+loadStyle('scripts/hatemile/css/hide_changes.css', 'hidechanges');
 loadScript('hatemile/js/common.js', 'hatemile-common');
 loadScript('hatemile/js/eventlistener.js', 'eventlistenerlist');
 loadScript('hatemile/js/hatemile/util/CommonFunctions.js',

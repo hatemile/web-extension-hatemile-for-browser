@@ -34,7 +34,7 @@
     "web_accessible_resources": [
         "styles/accessiblearia.css",
         "styles/accessibleformvalidation.css",
-        "styles/hide_changes.css",
+        "scripts/hatemile/css/hide_changes.css",
         "scripts/hatemile/js/eventlistener.js",
         "scripts/hatemile/js/common.js",
         "scripts/hatemile/js/hatemile/util/CommonFunctions.js",
@@ -46,7 +46,7 @@
         "scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js",
         "scripts/execute.js"
     ],
-    "version": "2.0.3",
+    "version": "2.0.5",
     "options_page": "preferences.html",
     "manifest_version": 2,
     "permissions": [
