@@ -39,7 +39,7 @@ function loadStyle(file, identifier) {
 }
 
 function getConfiguration(callback) {
-    chrome.storage.sync.get({
+    var keys = {
         'prefix-generated-ids': 'id-hatemile-browser-'
             + Math.random().toString(36).substring(7),
         'aria-autocomplete-both-before': chrome.i18n.getMessage('extensions_'
@@ -314,5 +314,12 @@ function getConfiguration(callback) {
             + 'elements_heading_after'),
         'skipper-tableofcontents': chrome.i18n.getMessage('extensions_hatemile_'
             + 'skipper_tableofcontents')
-    }, callback);
+    }
+    if ((typeof browser !== typeof undefined) && (browser.storage) &&
+            (browser.storage.local) && (browser.storage.local.get)) {
+        var settings = browser.storage.local.get(keys);
+        settings.then(callback, function () {});
+    } else {
+        chrome.storage.sync.get(keys, callback);
+    }
 }
