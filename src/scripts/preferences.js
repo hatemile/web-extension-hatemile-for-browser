@@ -20,7 +20,12 @@ getConfiguration(function(configuration) {
             var target = event.target;
             configuration[target.getAttribute('data-configuration')] = target
                     .value;
-            chrome.storage.sync.set(configuration);
+            if ((typeof browser !== typeof undefined) && (browser.storage) &&
+                (browser.storage.local) && (browser.storage.local.set)) {
+                browser.storage.local.set(configuration);
+            } else {
+                chrome.storage.sync.set(configuration);
+            }
         });
     }
 });
