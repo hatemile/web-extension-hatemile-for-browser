@@ -1,6 +1,6 @@
 {
   "name": "web-extension-hatemile-for-browser",
-  "version": "2.0.5",
+  "version": "2.0.7",
   "description": "Improve the accessibility of web pages, especially for users who use screen readers or navigate using the keyboard.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

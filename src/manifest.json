@@ -46,7 +46,7 @@
         "scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js",
         "scripts/execute.js"
     ],
-    "version": "2.0.5",
+    "version": "2.0.7",
     "options_page": "preferences.html",
     "options_ui": {
         "page": "preferences.html",
