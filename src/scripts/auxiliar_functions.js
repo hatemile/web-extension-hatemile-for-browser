@@ -1,41 +1,22 @@
-function getFileContent(file, callback, identifier) {
-    var request = new XMLHttpRequest();
-    request.open('GET', chrome.extension.getURL(file), false);
-    request.onreadystatechange = function() {
-        if ((request.readyState === XMLHttpRequest.DONE)
-                && (request.status === 200)) {
-            callback(request.responseText, identifier);
-        }
-    };
-    request.send();
-}
-
-function writeScript(content, identifier) {
+function loadScript(file, identifier) {
     if (!document.getElementById(identifier)) {
         var script = document.createElement('script');
         script.setAttribute('type', 'text/javascript');
         script.setAttribute('id', identifier);
-        script.appendChild(document.createTextNode(content));
+        script.setAttribute('src', chrome.runtime.getURL('scripts/' + file));
         document.documentElement.appendChild(script);
     }
 }
 
-function loadScript(file, identifier) {
-    getFileContent('scripts/' + file, writeScript, identifier);
-}
-
-function writeStyle(content, identifier) {
+function loadStyle(file, identifier) {
     if (!document.getElementById(identifier)) {
-        var style = document.createElement('style');
+        var style = document.createElement('link');
         style.setAttribute('type', 'text/css');
+        style.setAttribute('rel', 'stylesheet');
         style.setAttribute('id', identifier);
-        style.appendChild(document.createTextNode(content));
+        style.setAttribute('href', chrome.runtime.getURL(file));
         document.documentElement.appendChild(style);
     }
-}
-
-function loadStyle(file, identifier) {
-    getFileContent(file, writeStyle, identifier);
 }
 
 function getConfiguration(callback) {
