@@ -46,7 +46,7 @@
         "scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js",
         "scripts/execute.js"
     ],
-    "version": "2.0.7",
+    "version": "2.0.8",
     "options_page": "preferences.html",
     "options_ui": {
         "page": "preferences.html",
@@ -58,5 +58,10 @@
         "http://*/",
         "https://*/"
     ],
-    "description": "__MSG_appDesc__"
+    "description": "__MSG_appDesc__",
+    "applications": {
+        "gecko": {
+            "id": "hatemileforbrowser@hatemile.org"
+        }
+    }
 }
