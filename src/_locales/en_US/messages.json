@@ -627,10 +627,10 @@
         "message": ")"
     },
     "extensions_hatemile_elements_heading_before": {
-        "message": "Table of contents"
+        "message": ""
     },
     "extensions_hatemile_elements_heading_after": {
-        "message": ""
+        "message": "Table of contents"
     },
     "extensions_hatemile_skipper_main_content": {
         "message": "Go to main content"
