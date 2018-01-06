@@ -75,15 +75,6 @@ module.exports = function(grunt) {
                         flags: 'g'
                     },
                     {
-                        name: 'remove_set_inner_html',
-                        search: 'VanillaHTMLDOMElement\\.prototype\\.' +
-                                'setInnerHTML = function \\(html\\) {' +
-                                '[\\n\\r\\t\\s]*this\\.data\\.innerHTML' +
-                                ' = html;[\\n\\r\\t\\s]*};',
-                        replace: '',
-                        flags: 'g'
-                    },
-                    {
                         name: 'remove_get_outer_html',
                         search: 'VanillaHTMLDOMElement\\.prototype\\.' +
                                 'getOuterHTML = function \\(\\) {' +

@@ -1,7 +1,4 @@
 initHaTeMiLeForBrowser = function() {
-    var configure = new hatemile.util
-            .Configure({'prefix-generated-ids': 'id-cs-hatemile-firefox-'
-            + Math.random().toString(36).substring(7)});
     var htmlParser = new hatemile.util.html.vanilla
             .VanillaHTMLDOMParser(document);
 
@@ -12,7 +9,7 @@ initHaTeMiLeForBrowser = function() {
     accessibleEvent.makeAccessibleAllHoverEvents();
 
     var accessibleForm = new hatemile.implementation
-            .AccessibleFormImplementation(htmlParser, configure);
+            .AccessibleFormImplementation(htmlParser);
     accessibleForm.markAllInvalidFields();
 
     var forms = htmlParser.find('form').listResults();

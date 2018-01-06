@@ -21,8 +21,6 @@ function loadStyle(file, identifier) {
 
 function getConfiguration(callback) {
     var keys = {
-        'prefix-generated-ids': 'id-hatemile-browser-'
-            + Math.random().toString(36).substring(7),
         'aria-autocomplete-both-before': chrome.i18n.getMessage('extensions_'
             + 'hatemile_aria_autocomplete_both_before'),
         'aria-autocomplete-both-after': chrome.i18n.getMessage('extensions_'
@@ -181,6 +179,10 @@ function getConfiguration(callback) {
             + 'hatemile_attribute_title_suffix_after'),
         'attribute-accesskey-default': chrome.i18n.getMessage('extensions_'
             + 'hatemile_attribute_accesskey_default'),
+        'attribute-accesskey-before': chrome.i18n.getMessage('extensions'
+            + '_hatemile_attribute_accesskey_before'),
+        'attribute-accesskey-after': chrome.i18n.getMessage('extensions'
+            + '_hatemile_attribute_accesskey_after'),
         'attribute-accesskey-prefix-before': chrome.i18n.getMessage('extensions'
             + '_hatemile_attribute_accesskey_prefix_before'),
         'attribute-accesskey-suffix-before': chrome.i18n.getMessage('extensions'
@@ -293,9 +295,13 @@ function getConfiguration(callback) {
             + 'elements_heading_before'),
         'elements-heading-after': chrome.i18n.getMessage('extensions_hatemile_'
             + 'elements_heading_after'),
-        'skipper-tableofcontents': chrome.i18n.getMessage('extensions_hatemile_'
-            + 'skipper_tableofcontents')
-    }
+        'skipper-main-content': chrome.i18n.getMessage('extensions_hatemile_'
+            + 'skipper_main_content'),
+        'skipper-shortcuts-list': chrome.i18n.getMessage('extensions_hatemile_'
+            + 'skipper_shortcuts_list'),
+        'skipper-table-contents': chrome.i18n.getMessage('extensions_hatemile_'
+            + 'skipper_table_contents')
+    };
     if ((typeof browser !== typeof undefined) && (browser.storage) &&
             (browser.storage.local) && (browser.storage.local.get)) {
         var settings = browser.storage.local.get(keys);

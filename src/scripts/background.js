@@ -1,7 +1,6 @@
 loadStyle('styles/accessiblearia.css', 'accessiblearia');
 loadStyle('styles/accessibleformvalidation.css', 'accessibleformvalidation');
 loadStyle('scripts/hatemile/css/hide_changes.css', 'hidechanges');
-loadScript('hatemile/js/common.js', 'hatemile-common');
 loadScript('hatemile/js/eventlistener.js', 'eventlistenerlist');
 loadScript('hatemile/js/hatemile/util/CommonFunctions.js',
         'hatemile-common-functions');
@@ -35,16 +34,9 @@ window.addEventListener('load', function() {
         accessibleForm.markAllRangeFields();
         accessibleForm.markAllRequiredFields();
 
-        var skippers = [
-            {
-                'selector': '#container-heading',
-                'description': configuration['skipper-tableofcontents'],
-                'shortcut': '0'
-            }
-        ];
         var accessibleNavigation = new hatemile.implementation
                 .AccessibleNavigationImplementation(htmlParser, configure,
-                        skippers);
+                        hatemile_configuration_skippers);
         accessibleNavigation.provideNavigationByAllHeadings();
         accessibleNavigation.provideNavigationToAllLongDescriptions();
         accessibleNavigation.provideNavigationByAllSkippers();

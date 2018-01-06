@@ -473,8 +473,14 @@
     "extensions_hatemile_attribute_accesskey_default": {
         "message": "ALT"
     },
-    "extensions_hatemile_attribute_accesskey_prefix_before": {
+    "extensions_hatemile_attribute_accesskey_before": {
+        "message": ""
+    },
+    "extensions_hatemile_attribute_accesskey_after": {
         "message": "Lista de atalhos da página: "
+    },
+    "extensions_hatemile_attribute_accesskey_prefix_before": {
+        "message": ""
     },
     "extensions_hatemile_attribute_accesskey_suffix_before": {
         "message": ""
@@ -641,7 +647,13 @@
     "extensions_hatemile_elements_heading_after": {
         "message": ""
     },
-    "extensions_hatemile_skipper_tableofcontents": {
+    "extensions_hatemile_skipper_main_content": {
+        "message": "Ir para o conteúdo principal"
+    },
+    "extensions_hatemile_skipper_shortcuts_list": {
+        "message": "Ir para a lista de atalhos"
+    },
+    "extensions_hatemile_skipper_table_contents": {
         "message": "Ir para o sumário"
     }
 }

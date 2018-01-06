@@ -458,8 +458,14 @@
     "extensions_hatemile_attribute_accesskey_default": {
         "message": "ACCESS KEY PREFIX"
     },
-    "extensions_hatemile_attribute_accesskey_prefix_before": {
+    "extensions_hatemile_attribute_accesskey_before": {
+        "message": ""
+    },
+    "extensions_hatemile_attribute_accesskey_after": {
         "message": "List of keyboard shortcuts: "
+    },
+    "extensions_hatemile_attribute_accesskey_prefix_before": {
+        "message": ""
     },
     "extensions_hatemile_attribute_accesskey_suffix_before": {
         "message": ""
@@ -626,7 +632,13 @@
     "extensions_hatemile_elements_heading_after": {
         "message": ""
     },
-    "extensions_hatemile_skipper_tableofcontents": {
+    "extensions_hatemile_skipper_main_content": {
+        "message": "Go to main content"
+    },
+    "extensions_hatemile_skipper_shortcuts_list": {
+        "message": "Go to shortcuts list"
+    },
+    "extensions_hatemile_skipper_table_contents": {
         "message": "Go to table of contents"
     }
 }
