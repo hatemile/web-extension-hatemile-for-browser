@@ -621,10 +621,10 @@
         "message": ""
     },
     "extensions_hatemile_attribute_longdescription_prefix_after": {
-        "message": ""
+        "message": " (Long description of "
     },
     "extensions_hatemile_attribute_longdescription_suffix_after": {
-        "message": "[d]"
+        "message": ")"
     },
     "extensions_hatemile_elements_heading_before": {
         "message": "Table of contents"
