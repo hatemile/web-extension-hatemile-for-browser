@@ -98,6 +98,12 @@
     "hatemile_title_suffix_after": {
         "message": "Suffix after the title of element"
     },
+    "hatemile_accesskey_before": {
+        "message": "Shortcut list before all content of pages"
+    },
+    "hatemile_accesskey_after": {
+        "message": "Shortcut list after all content of pages"
+    },
     "hatemile_accesskey_prefix_before": {
         "message": "Prefix before of element shortcut"
     },

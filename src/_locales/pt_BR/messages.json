@@ -113,6 +113,12 @@
     "hatemile_title_suffix_after": {
         "message": "Sufixo do título depois do elemento"
     },
+    "hatemile_accesskey_before": {
+        "message": "Lista de atalhos antes de todo o conteúdo"
+    },
+    "hatemile_accesskey_after": {
+        "message": "Lista de atalhos depois de todo o conteúdo"
+    },
     "hatemile_accesskey_prefix_before": {
         "message": "Prefixo do atalho antes do elemento"
     },
