@@ -134,6 +134,18 @@
     "hatemile_elements_heading_after": {
         "message": "Texto depois do sumário"
     },
+    "hatemile_language_prefix_before": {
+        "message": "Prefixo antes da declaração do idioma"
+    },
+    "hatemile_language_suffix_before": {
+        "message": "Sufixo antes da declaração do idioma"
+    },
+    "hatemile_language_prefix_after": {
+        "message": "Prefixo depois da declaração do idioma"
+    },
+    "hatemile_language_suffix_after": {
+        "message": "Sufixo depois da declaração do idioma"
+    },
     "hatemile_skipper_table_contents": {
         "message": "Texto do link para ir direto para o sumário"
     },
@@ -640,6 +652,561 @@
     },
     "extensions_hatemile_elements_heading_after": {
         "message": "Sumário"
+    },
+    "extensions_hatemile_language_aa": {
+        "message": "Afar"
+    },
+    "extensions_hatemile_language_ab": {
+        "message": "Abcázia"
+    },
+    "extensions_hatemile_language_ae": {
+        "message": "Avéstico"
+    },
+    "extensions_hatemile_language_af": {
+        "message": "Africâner"
+    },
+    "extensions_hatemile_language_ak": {
+        "message": "Akan"
+    },
+    "extensions_hatemile_language_am": {
+        "message": "Amárico"
+    },
+    "extensions_hatemile_language_an": {
+        "message": "Aragonês"
+    },
+    "extensions_hatemile_language_ar": {
+        "message": "Árabe"
+    },
+    "extensions_hatemile_language_as": {
+        "message": "Assamês"
+    },
+    "extensions_hatemile_language_av": {
+        "message": "Avárico"
+    },
+    "extensions_hatemile_language_ay": {
+        "message": "Aimará"
+    },
+    "extensions_hatemile_language_az": {
+        "message": "Azeri"
+    },
+    "extensions_hatemile_language_ba": {
+        "message": "Baxequir"
+    },
+    "extensions_hatemile_language_be": {
+        "message": "Bielorrusso"
+    },
+    "extensions_hatemile_language_bg": {
+        "message": "Búlgaro"
+    },
+    "extensions_hatemile_language_bh": {
+        "message": "Biari"
+    },
+    "extensions_hatemile_language_bi": {
+        "message": "Bislamá"
+    },
+    "extensions_hatemile_language_bm": {
+        "message": "Bâmbara"
+    },
+    "extensions_hatemile_language_bn": {
+        "message": "Bengali"
+    },
+    "extensions_hatemile_language_bo": {
+        "message": "Tibetano"
+    },
+    "extensions_hatemile_language_br": {
+        "message": "Bretão"
+    },
+    "extensions_hatemile_language_bs": {
+        "message": "Bósnio"
+    },
+    "extensions_hatemile_language_ca": {
+        "message": "Catalão"
+    },
+    "extensions_hatemile_language_ce": {
+        "message": "Checheno"
+    },
+    "extensions_hatemile_language_ch": {
+        "message": "Chamorro"
+    },
+    "extensions_hatemile_language_co": {
+        "message": "Corso"
+    },
+    "extensions_hatemile_language_cr": {
+        "message": "Cree"
+    },
+    "extensions_hatemile_language_cs": {
+        "message": "Tcheco"
+    },
+    "extensions_hatemile_language_cu": {
+        "message": "Eslavo eclesiástico"
+    },
+    "extensions_hatemile_language_cv": {
+        "message": "Tchuvache"
+    },
+    "extensions_hatemile_language_cy": {
+        "message": "Galês"
+    },
+    "extensions_hatemile_language_da": {
+        "message": "Dinamarquês"
+    },
+    "extensions_hatemile_language_de": {
+        "message": "Alemão"
+    },
+    "extensions_hatemile_language_dv": {
+        "message": "Divehi"
+    },
+    "extensions_hatemile_language_dz": {
+        "message": "Butanês"
+    },
+    "extensions_hatemile_language_ee": {
+        "message": "Éwé"
+    },
+    "extensions_hatemile_language_el": {
+        "message": "Grego moderno"
+    },
+    "extensions_hatemile_language_en": {
+        "message": "Inglês"
+    },
+    "extensions_hatemile_language_eo": {
+        "message": "Esperanto"
+    },
+    "extensions_hatemile_language_es": {
+        "message": "Espanhol"
+    },
+    "extensions_hatemile_language_et": {
+        "message": "Estoniano"
+    },
+    "extensions_hatemile_language_eu": {
+        "message": "Basco"
+    },
+    "extensions_hatemile_language_fa": {
+        "message": "Persa"
+    },
+    "extensions_hatemile_language_ff": {
+        "message": "Fula"
+    },
+    "extensions_hatemile_language_fi": {
+        "message": "Finlandês"
+    },
+    "extensions_hatemile_language_fj": {
+        "message": "Fijiano"
+    },
+    "extensions_hatemile_language_fo": {
+        "message": "Feroês"
+    },
+    "extensions_hatemile_language_fr": {
+        "message": "Francês"
+    },
+    "extensions_hatemile_language_fy": {
+        "message": "Frísio"
+    },
+    "extensions_hatemile_language_ga": {
+        "message": "Irlandês"
+    },
+    "extensions_hatemile_language_gd": {
+        "message": "Gaélico escocês"
+    },
+    "extensions_hatemile_language_gl": {
+        "message": "Galego"
+    },
+    "extensions_hatemile_language_gn": {
+        "message": "Guarani"
+    },
+    "extensions_hatemile_language_gu": {
+        "message": "Guzerate"
+    },
+    "extensions_hatemile_language_gv": {
+        "message": "Manês"
+    },
+    "extensions_hatemile_language_ha": {
+        "message": "Hauçá"
+    },
+    "extensions_hatemile_language_he": {
+        "message": "Hebraico"
+    },
+    "extensions_hatemile_language_hi": {
+        "message": "Hindi"
+    },
+    "extensions_hatemile_language_ho": {
+        "message": "Hiri Motu"
+    },
+    "extensions_hatemile_language_hr": {
+        "message": "Croata"
+    },
+    "extensions_hatemile_language_ht": {
+        "message": "Crioulo haitiano"
+    },
+    "extensions_hatemile_language_hu": {
+        "message": "Húngaro"
+    },
+    "extensions_hatemile_language_hy": {
+        "message": "Armênio"
+    },
+    "extensions_hatemile_language_hz": {
+        "message": "Herero"
+    },
+    "extensions_hatemile_language_ia": {
+        "message": "Interlíngua"
+    },
+    "extensions_hatemile_language_id": {
+        "message": "Indonésio"
+    },
+    "extensions_hatemile_language_ie": {
+        "message": "Interlíngua"
+    },
+    "extensions_hatemile_language_ig": {
+        "message": "Igbo"
+    },
+    "extensions_hatemile_language_ii": {
+        "message": "Nuosu"
+    },
+    "extensions_hatemile_language_ik": {
+        "message": "Inupiat"
+    },
+    "extensions_hatemile_language_io": {
+        "message": "Ido"
+    },
+    "extensions_hatemile_language_is": {
+        "message": "Islandês"
+    },
+    "extensions_hatemile_language_it": {
+        "message": "Italiano"
+    },
+    "extensions_hatemile_language_iu": {
+        "message": "Inuktitut"
+    },
+    "extensions_hatemile_language_ja": {
+        "message": "Japonês"
+    },
+    "extensions_hatemile_language_jv": {
+        "message": "Javanês"
+    },
+    "extensions_hatemile_language_ka": {
+        "message": "Georgiano"
+    },
+    "extensions_hatemile_language_kg": {
+        "message": "Kongo"
+    },
+    "extensions_hatemile_language_ki": {
+        "message": "Kikuyu"
+    },
+    "extensions_hatemile_language_kj": {
+        "message": "Cuanhama"
+    },
+    "extensions_hatemile_language_kk": {
+        "message": "Cazaque"
+    },
+    "extensions_hatemile_language_kl": {
+        "message": "Groenlandês"
+    },
+    "extensions_hatemile_language_km": {
+        "message": "Khmer"
+    },
+    "extensions_hatemile_language_kn": {
+        "message": "Canará"
+    },
+    "extensions_hatemile_language_ko": {
+        "message": "Coreano"
+    },
+    "extensions_hatemile_language_kr": {
+        "message": "Kanuri"
+    },
+    "extensions_hatemile_language_ks": {
+        "message": "Caxemiriano"
+    },
+    "extensions_hatemile_language_ku": {
+        "message": "Curdo"
+    },
+    "extensions_hatemile_language_kv": {
+        "message": "Komi"
+    },
+    "extensions_hatemile_language_kw": {
+        "message": "Córnico"
+    },
+    "extensions_hatemile_language_ky": {
+        "message": "Quirguiz"
+    },
+    "extensions_hatemile_language_la": {
+        "message": "Latim"
+    },
+    "extensions_hatemile_language_lb": {
+        "message": "Luxemburguês"
+    },
+    "extensions_hatemile_language_lg": {
+        "message": "Luganda"
+    },
+    "extensions_hatemile_language_li": {
+        "message": "Limburguês"
+    },
+    "extensions_hatemile_language_ln": {
+        "message": "Lingala"
+    },
+    "extensions_hatemile_language_lo": {
+        "message": "Laociano"
+    },
+    "extensions_hatemile_language_lt": {
+        "message": "Lituano"
+    },
+    "extensions_hatemile_language_lu": {
+        "message": "Luba-Katanga"
+    },
+    "extensions_hatemile_language_lv": {
+        "message": "Letão"
+    },
+    "extensions_hatemile_language_mg": {
+        "message": "Malgaxe"
+    },
+    "extensions_hatemile_language_mh": {
+        "message": "Marshallês"
+    },
+    "extensions_hatemile_language_mi": {
+        "message": "Maori"
+    },
+    "extensions_hatemile_language_mk": {
+        "message": "Macedônio"
+    },
+    "extensions_hatemile_language_ml": {
+        "message": "Malaiala"
+    },
+    "extensions_hatemile_language_mn": {
+        "message": "Mongol"
+    },
+    "extensions_hatemile_language_mo": {
+        "message": "Moldavo"
+    },
+    "extensions_hatemile_language_mr": {
+        "message": "Marata"
+    },
+    "extensions_hatemile_language_ms": {
+        "message": "Malaio"
+    },
+    "extensions_hatemile_language_mt": {
+        "message": "Maltês"
+    },
+    "extensions_hatemile_language_my": {
+        "message": "Birmanês"
+    },
+    "extensions_hatemile_language_na": {
+        "message": "Nauruano"
+    },
+    "extensions_hatemile_language_nb": {
+        "message": "Bokmål"
+    },
+    "extensions_hatemile_language_nd": {
+        "message": "Ndebele do norte"
+    },
+    "extensions_hatemile_language_ne": {
+        "message": "Nepali"
+    },
+    "extensions_hatemile_language_ng": {
+        "message": "Xindonga"
+    },
+    "extensions_hatemile_language_nl": {
+        "message": "Holandês"
+    },
+    "extensions_hatemile_language_nn": {
+        "message": "Novo norueguês"
+    },
+    "extensions_hatemile_language_no": {
+        "message": "Norueguês"
+    },
+    "extensions_hatemile_language_nr": {
+        "message": "Ndebele do sul"
+    },
+    "extensions_hatemile_language_nv": {
+        "message": "Navajo"
+    },
+    "extensions_hatemile_language_ny": {
+        "message": "Nyanja"
+    },
+    "extensions_hatemile_language_oc": {
+        "message": "Occitano"
+    },
+    "extensions_hatemile_language_oj": {
+        "message": "Chippewa"
+    },
+    "extensions_hatemile_language_om": {
+        "message": "Oromo"
+    },
+    "extensions_hatemile_language_or": {
+        "message": "Oriá"
+    },
+    "extensions_hatemile_language_os": {
+        "message": "Osseto"
+    },
+    "extensions_hatemile_language_pa": {
+        "message": "Panjabi"
+    },
+    "extensions_hatemile_language_pi": {
+        "message": "Páli"
+    },
+    "extensions_hatemile_language_pl": {
+        "message": "Polonês"
+    },
+    "extensions_hatemile_language_ps": {
+        "message": "Pachto"
+    },
+    "extensions_hatemile_language_pt": {
+        "message": "Português"
+    },
+    "extensions_hatemile_language_qu": {
+        "message": "Quíchua"
+    },
+    "extensions_hatemile_language_rm": {
+        "message": "Romanche"
+    },
+    "extensions_hatemile_language_rn": {
+        "message": "Kirundi"
+    },
+    "extensions_hatemile_language_ro": {
+        "message": "Romeno"
+    },
+    "extensions_hatemile_language_ru": {
+        "message": "Russo"
+    },
+    "extensions_hatemile_language_rw": {
+        "message": "Kinyarwanda"
+    },
+    "extensions_hatemile_language_sa": {
+        "message": "Sânscrito"
+    },
+    "extensions_hatemile_language_sc": {
+        "message": "Sardo"
+    },
+    "extensions_hatemile_language_sd": {
+        "message": "Sindi"
+    },
+    "extensions_hatemile_language_se": {
+        "message": "Sámi"
+    },
+    "extensions_hatemile_language_sg": {
+        "message": "Sango"
+    },
+    "extensions_hatemile_language_si": {
+        "message": "Cingalês"
+    },
+    "extensions_hatemile_language_sk": {
+        "message": "Eslovaco"
+    },
+    "extensions_hatemile_language_sl": {
+        "message": "Esloveno"
+    },
+    "extensions_hatemile_language_sm": {
+        "message": "Samoano"
+    },
+    "extensions_hatemile_language_sn": {
+        "message": "Xona"
+    },
+    "extensions_hatemile_language_so": {
+        "message": "Somali"
+    },
+    "extensions_hatemile_language_sq": {
+        "message": "Albanês"
+    },
+    "extensions_hatemile_language_sr": {
+        "message": "Sérvio"
+    },
+    "extensions_hatemile_language_ss": {
+        "message": "Suázi"
+    },
+    "extensions_hatemile_language_st": {
+        "message": "Sesoto"
+    },
+    "extensions_hatemile_language_su": {
+        "message": "Sundanês"
+    },
+    "extensions_hatemile_language_sv": {
+        "message": "Sueco"
+    },
+    "extensions_hatemile_language_sw": {
+        "message": "Suaíli"
+    },
+    "extensions_hatemile_language_ta": {
+        "message": "Tâmil"
+    },
+    "extensions_hatemile_language_te": {
+        "message": "Telugo"
+    },
+    "extensions_hatemile_language_tg": {
+        "message": "Tajique"
+    },
+    "extensions_hatemile_language_th": {
+        "message": "Tailandês"
+    },
+    "extensions_hatemile_language_ti": {
+        "message": "Tigrínia"
+    },
+    "extensions_hatemile_language_tk": {
+        "message": "Turcomano"
+    },
+    "extensions_hatemile_language_tl": {
+        "message": "Tagalo"
+    },
+    "extensions_hatemile_language_tn": {
+        "message": "Tswana"
+    },
+    "extensions_hatemile_language_to": {
+        "message": "Tonganês"
+    },
+    "extensions_hatemile_language_tr": {
+        "message": "Turco"
+    },
+    "extensions_hatemile_language_ts": {
+        "message": "Tsonga"
+    },
+    "extensions_hatemile_language_tt": {
+        "message": "Tártaro"
+    },
+    "extensions_hatemile_language_tw": {
+        "message": "Twi"
+    },
+    "extensions_hatemile_language_ty": {
+        "message": "Taitiano"
+    },
+    "extensions_hatemile_language_ug": {
+        "message": "Uigur"
+    },
+    "extensions_hatemile_language_uk": {
+        "message": "Ucraniano"
+    },
+    "extensions_hatemile_language_ur": {
+        "message": "Urdu"
+    },
+    "extensions_hatemile_language_uz": {
+        "message": "Usbeque"
+    },
+    "extensions_hatemile_language_ve": {
+        "message": "Venda"
+    },
+    "extensions_hatemile_language_vi": {
+        "message": "Vietnamita"
+    },
+    "extensions_hatemile_language_vo": {
+        "message": "Volapuque"
+    },
+    "extensions_hatemile_language_wa": {
+        "message": "Valão"
+    },
+    "extensions_hatemile_language_wo": {
+        "message": "Wolof"
+    },
+    "extensions_hatemile_language_xh": {
+        "message": "Xhosa"
+    },
+    "extensions_hatemile_language_yi": {
+        "message": "Iídiche"
+    },
+    "extensions_hatemile_language_yo": {
+        "message": "Iorubá"
+    },
+    "extensions_hatemile_language_za": {
+        "message": "Zhuang"
+    },
+    "extensions_hatemile_language_zh": {
+        "message": "Chinês"
+    },
+    "extensions_hatemile_language_zu": {
+        "message": "Zulu"
     },
     "extensions_hatemile_skipper_main_content": {
         "message": "Ir para o conteúdo principal"

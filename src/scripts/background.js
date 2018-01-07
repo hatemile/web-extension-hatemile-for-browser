@@ -19,6 +19,8 @@ loadScript('execute.js', 'hatemile-execute');
 
 window.addEventListener('load', function() {
     getConfiguration(function(configuration) {
+        loadReadOnlyConfiguration(configuration);
+
         var configure = new hatemile.util.Configure(configuration);
         var htmlParser = new hatemile.util.html.vanilla
                 .VanillaHTMLDOMParser(document);
@@ -37,6 +39,7 @@ window.addEventListener('load', function() {
         var accessibleDisplay = new hatemile.implementation
                 .AccessibleDisplayScreenReaderImplementation(htmlParser,
                         configure, window.navigator.userAgent);
+        accessibleDisplay.displayAllLanguages();
         accessibleDisplay.displayAllCellHeaders();
         accessibleDisplay.displayAllWAIARIAStates();
         accessibleDisplay.displayAllLinksAttributes();
