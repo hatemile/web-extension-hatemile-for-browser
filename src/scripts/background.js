@@ -39,6 +39,7 @@ window.addEventListener('load', function() {
         var accessibleDisplay = new hatemile.implementation
                 .AccessibleDisplayScreenReaderImplementation(htmlParser,
                         configure, window.navigator.userAgent);
+        accessibleDisplay.displayAllRoles();
         accessibleDisplay.displayAllLanguages();
         accessibleDisplay.displayAllCellHeaders();
         accessibleDisplay.displayAllWAIARIAStates();

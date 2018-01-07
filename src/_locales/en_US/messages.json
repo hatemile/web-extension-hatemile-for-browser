@@ -146,6 +146,18 @@
     "hatemile_language_suffix_after": {
         "message": "Suffix text after a language declaration"
     },
+    "hatemile_role_prefix_before": {
+        "message": "Prefix text before a role declaration"
+    },
+    "hatemile_role_suffix_before": {
+        "message": "Suffix text before a role declaration"
+    },
+    "hatemile_role_prefix_after": {
+        "message": "Prefix text after a role declaration"
+    },
+    "hatemile_role_suffix_after": {
+        "message": "Suffix text after a role declaration"
+    },
     "hatemile_skipper_table_contents": {
         "message": "Text of link to go direct to table of contents"
     },
@@ -1204,6 +1216,189 @@
     },
     "extensions_hatemile_language_zu": {
         "message": "Zulu"
+    },
+    "extensions_hatemile_role_alert": {
+        "message": "alert"
+    },
+    "extensions_hatemile_role_alertdialog": {
+        "message": "alert dialog"
+    },
+    "extensions_hatemile_role_application": {
+        "message": "application"
+    },
+    "extensions_hatemile_role_article": {
+        "message": "article"
+    },
+    "extensions_hatemile_role_banner": {
+        "message": "banner"
+    },
+    "extensions_hatemile_role_button": {
+        "message": "button"
+    },
+    "extensions_hatemile_role_checkbox": {
+        "message": "checkbox"
+    },
+    "extensions_hatemile_role_columnheader": {
+        "message": "column header"
+    },
+    "extensions_hatemile_role_combobox": {
+        "message": "combobox"
+    },
+    "extensions_hatemile_role_complementary": {
+        "message": "complementary content"
+    },
+    "extensions_hatemile_role_contentinfo": {
+        "message": "information of content"
+    },
+    "extensions_hatemile_role_definition": {
+        "message": "definition"
+    },
+    "extensions_hatemile_role_dialog": {
+        "message": "dialog"
+    },
+    "extensions_hatemile_role_directory": {
+        "message": "directory"
+    },
+    "extensions_hatemile_role_document": {
+        "message": "document"
+    },
+    "extensions_hatemile_role_form": {
+        "message": "form"
+    },
+    "extensions_hatemile_role_grid": {
+        "message": "grid"
+    },
+    "extensions_hatemile_role_gridcell": {
+        "message": "cell in a grid"
+    },
+    "extensions_hatemile_role_group": {
+        "message": "group"
+    },
+    "extensions_hatemile_role_heading": {
+        "message": "heading"
+    },
+    "extensions_hatemile_role_img": {
+        "message": "image"
+    },
+    "extensions_hatemile_role_link": {
+        "message": "link"
+    },
+    "extensions_hatemile_role_list": {
+        "message": "list"
+    },
+    "extensions_hatemile_role_listbox": {
+        "message": "list box"
+    },
+    "extensions_hatemile_role_listitem": {
+        "message": "list item"
+    },
+    "extensions_hatemile_role_log": {
+        "message": "log"
+    },
+    "extensions_hatemile_role_main": {
+        "message": "main content"
+    },
+    "extensions_hatemile_role_marquee": {
+        "message": "marquee"
+    },
+    "extensions_hatemile_role_math": {
+        "message": "math"
+    },
+    "extensions_hatemile_role_menu": {
+        "message": "menu"
+    },
+    "extensions_hatemile_role_menubar": {
+        "message": "menu bar"
+    },
+    "extensions_hatemile_role_menuitem": {
+        "message": "menu item"
+    },
+    "extensions_hatemile_role_menuitemcheckbox": {
+        "message": "menu item checkbox"
+    },
+    "extensions_hatemile_role_menuitemradio": {
+        "message": "menu item radio"
+    },
+    "extensions_hatemile_role_navigation": {
+        "message": "navigation"
+    },
+    "extensions_hatemile_role_note": {
+        "message": "note"
+    },
+    "extensions_hatemile_role_option": {
+        "message": "option"
+    },
+    "extensions_hatemile_role_presentation": {
+        "message": "presentation"
+    },
+    "extensions_hatemile_role_progressbar": {
+        "message": "progress bar"
+    },
+    "extensions_hatemile_role_radio": {
+        "message": "radio"
+    },
+    "extensions_hatemile_role_radiogroup": {
+        "message": "radio group"
+    },
+    "extensions_hatemile_role_region": {
+        "message": "region"
+    },
+    "extensions_hatemile_role_row": {
+        "message": "row"
+    },
+    "extensions_hatemile_role_rowgroup": {
+        "message": "row group"
+    },
+    "extensions_hatemile_role_rowheader": {
+        "message": "row header"
+    },
+    "extensions_hatemile_role_scrollbar": {
+        "message": "scroll bar"
+    },
+    "extensions_hatemile_role_search": {
+        "message": "search"
+    },
+    "extensions_hatemile_role_separator": {
+        "message": "separator"
+    },
+    "extensions_hatemile_role_slider": {
+        "message": "slider"
+    },
+    "extensions_hatemile_role_spinbutton": {
+        "message": "spin button"
+    },
+    "extensions_hatemile_role_status": {
+        "message": "status"
+    },
+    "extensions_hatemile_role_tab": {
+        "message": "tab"
+    },
+    "extensions_hatemile_role_tablist": {
+        "message": "tab list"
+    },
+    "extensions_hatemile_role_tabpanel": {
+        "message": "tab panel"
+    },
+    "extensions_hatemile_role_textbox": {
+        "message": "text box"
+    },
+    "extensions_hatemile_role_timer": {
+        "message": "timer"
+    },
+    "extensions_hatemile_role_toolbar": {
+        "message": "toolbar"
+    },
+    "extensions_hatemile_role_tooltip": {
+        "message": "tooltip"
+    },
+    "extensions_hatemile_role_tree": {
+        "message": "tree"
+    },
+    "extensions_hatemile_role_treegrid": {
+        "message": "tree grid"
+    },
+    "extensions_hatemile_role_treeitem": {
+        "message": "tree item"
     },
     "extensions_hatemile_skipper_main_content": {
         "message": "Go to main content"
