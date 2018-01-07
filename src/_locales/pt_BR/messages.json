@@ -20,21 +20,6 @@
     "hatemile_forms_caption": {
         "message": "Formulário"
     },
-    "hatemile_draganddrop_drag_caption": {
-        "message": "Arrastar"
-    },
-    "hatemile_draganddrop_drop_caption": {
-        "message": "Soltar"
-    },
-    "hatemile_forms_common_caption": {
-        "message": "Geral"
-    },
-    "hatemile_forms_range_caption": {
-        "message": "Númerico"
-    },
-    "hatemile_forms_time_caption": {
-        "message": "Tempo"
-    },
     "hatemile_grabbed_true_before": {
         "message": "Texto antes do elemento sendo arrastado"
     },
