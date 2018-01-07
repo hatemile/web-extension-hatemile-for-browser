@@ -34,13 +34,6 @@ window.addEventListener('load', function() {
         accessibleForm.markAllRangeFields();
         accessibleForm.markAllRequiredFields();
 
-        var accessibleNavigation = new hatemile.implementation
-                .AccessibleNavigationImplementation(htmlParser, configure,
-                        hatemile_configuration_skippers);
-        accessibleNavigation.provideNavigationByAllHeadings();
-        accessibleNavigation.provideNavigationToAllLongDescriptions();
-        accessibleNavigation.provideNavigationByAllSkippers();
-
         var accessibleDisplay = new hatemile.implementation
                 .AccessibleDisplayScreenReaderImplementation(htmlParser,
                         configure, window.navigator.userAgent);
@@ -50,6 +43,15 @@ window.addEventListener('load', function() {
         accessibleDisplay.displayAllDragsAndDrops();
         accessibleDisplay.displayAllAlternativeTextImages();
         accessibleDisplay.displayAllTitles();
+        accessibleDisplay.displayAllShortcuts();
+
+        var accessibleNavigation = new hatemile.implementation
+                .AccessibleNavigationImplementation(htmlParser, configure,
+                        hatemile_configuration_skippers);
+        accessibleNavigation.provideNavigationByAllHeadings();
+        accessibleNavigation.provideNavigationToAllLongDescriptions();
+        accessibleNavigation.provideNavigationByAllSkippers();
+
         accessibleDisplay.displayAllShortcuts();
     });
 });

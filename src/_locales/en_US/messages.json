@@ -137,6 +137,9 @@
     "hatemile_skipper_tableofcontents": {
         "message": "Text of link to table of contents"
     },
+    "hatemile_skipper_shortcut_list": {
+        "message": "Text of link to go direct to shortcut list"
+    },
     "hatemile_value_maximum_prefix_before": {
         "message": "Prefix before the maximum value of field"
     },

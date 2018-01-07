@@ -152,6 +152,9 @@
     "hatemile_skipper_tableofcontents": {
         "message": "Texto do link para o sumário"
     },
+    "hatemile_skipper_shortcut_list": {
+        "message": "Texto do link para ir direto para a lista de atalhos"
+    },
     "hatemile_value_maximum_prefix_before": {
         "message": "Prefixo do valor máximo antes do campo"
     },
