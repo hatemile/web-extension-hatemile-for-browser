@@ -134,8 +134,8 @@
     "hatemile_elements_heading_after": {
         "message": "Text after the table of contents"
     },
-    "hatemile_skipper_tableofcontents": {
-        "message": "Text of link to table of contents"
+    "hatemile_skipper_table_contents": {
+        "message": "Text of link to go direct to table of contents"
     },
     "hatemile_skipper_shortcut_list": {
         "message": "Text of link to go direct to shortcut list"

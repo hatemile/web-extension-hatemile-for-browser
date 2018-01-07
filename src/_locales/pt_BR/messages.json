@@ -149,8 +149,8 @@
     "hatemile_elements_heading_after": {
         "message": "Texto depois do sumário"
     },
-    "hatemile_skipper_tableofcontents": {
-        "message": "Texto do link para o sumário"
+    "hatemile_skipper_table_contents": {
+        "message": "Texto do link para ir direto para o sumário"
     },
     "hatemile_skipper_shortcut_list": {
         "message": "Texto do link para ir direto para a lista de atalhos"
