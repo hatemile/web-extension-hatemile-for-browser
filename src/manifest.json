@@ -47,9 +47,9 @@
         "scripts/execute.js"
     ],
     "version": "2.0.8",
-    "options_page": "preferences.html",
+    "options_page": "pages/preferences.html",
     "options_ui": {
-        "page": "preferences.html",
+        "page": "pages/preferences.html",
         "open_in_tab": true
     },
     "manifest_version": 2,
