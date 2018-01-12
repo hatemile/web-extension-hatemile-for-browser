@@ -164,6 +164,12 @@
     "hatemile_skipper_shortcut_list": {
         "message": "Text of link to go direct to shortcut list"
     },
+    "hatemile_required_true_before": {
+        "message": "Text before a required field"
+    },
+    "hatemile_required_true_after": {
+        "message": "Text after a required field"
+    },
     "hatemile_value_maximum_prefix_before": {
         "message": "Prefix before the maximum value of field"
     },

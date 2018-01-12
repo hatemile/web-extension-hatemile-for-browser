@@ -164,6 +164,12 @@
     "hatemile_skipper_shortcut_list": {
         "message": "Texto do link para ir direto para a lista de atalhos"
     },
+    "hatemile_required_true_before": {
+        "message": "Texto antes de um campo obrigatório"
+    },
+    "hatemile_required_true_after": {
+        "message": "Texto depois de um campo obrigatório"
+    },
     "hatemile_value_maximum_prefix_before": {
         "message": "Prefixo do valor máximo antes do campo"
     },
