@@ -18,8 +18,8 @@ loadScript('hatemile/js/hatemile/implementation/'
 loadScript('execute.js', 'hatemile-execute');
 
 window.addEventListener('load', function() {
-    getConfiguration(function(configuration) {
-        loadReadOnlyConfiguration(configuration);
+    getUserPreferences(function(userPreferences) {
+        var configuration = loadReadOnlyConfiguration(userPreferences);
 
         var configure = new hatemile.util.Configure(configuration);
         var htmlParser = new hatemile.util.html.vanilla

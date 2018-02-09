@@ -8,7 +8,7 @@
     }
 })();
 
-getConfiguration(function(configuration) {
+getUserPreferences(function(configuration) {
     var element;
     var elements = document.querySelectorAll('[data-configuration]');
     for (var i = 0, length = elements.length; i < length; i++) {
