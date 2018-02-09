@@ -69,6 +69,28 @@ function setLanguages(configuration) {
     }
 }
 
+function setRoles(configuration) {
+    var role;
+    var roles = [
+        'alert', 'alertdialog', 'application', 'article', 'banner', 'button',
+        'checkbox', 'columnheader', 'combobox', 'complementary', 'contentinfo',
+        'definition', 'dialog', 'directory', 'document', 'form', 'grid',
+        'gridcell', 'group', 'heading', 'img', 'link', 'list', 'listbox',
+        'listitem', 'log', 'main', 'marquee', 'math', 'menu', 'menubar',
+        'menuitem', 'menuitemcheckbox', 'menuitemradio', 'navigation', 'note',
+        'option', 'progressbar', 'radio', 'radiogroup', 'region', 'row',
+        'rowgroup', 'rowheader', 'scrollbar', 'search', 'separator', 'slider',
+        'spinbutton', 'status', 'tab', 'tablist', 'tabpanel', 'textbox',
+        'timer', 'toolbar', 'tooltip', 'tree', 'treegrid', 'treeitem'
+    ];
+
+    for (var i = 0, length = roles.length; i < length; i++) {
+        role = roles[i];
+        configuration['role-' + role] = chrome.i18n
+                .getMessage('extensions_hatemile_role_' + role);
+    }
+}
+
 function getUserPreferences(callback) {
     var keys = {
         'aria-autocomplete-both': chrome.i18n.getMessage('extensions_'
@@ -571,113 +593,11 @@ function loadReadOnlyConfiguration(userPreferences) {
                 'elements-heading', 'elements-heading-position'),
         'skipper-main-content': userPreferences['skipper-main-content'],
         'skipper-shortcuts-list': userPreferences['skipper-shortcuts-list'],
-        'skipper-table-contents': userPreferences['skipper-table-contents'],
-        'role-alert': chrome.i18n.getMessage('extensions_hatemile_role_alert'),
-        'role-alertdialog': chrome.i18n
-                .getMessage('extensions_hatemile_role_alertdialog'),
-        'role-application': chrome.i18n
-                .getMessage('extensions_hatemile_role_application'),
-        'role-article': chrome.i18n
-                .getMessage('extensions_hatemile_role_article'),
-        'role-banner': chrome.i18n
-                .getMessage('extensions_hatemile_role_banner'),
-        'role-button': chrome.i18n
-                .getMessage('extensions_hatemile_role_button'),
-        'role-checkbox': chrome.i18n
-                .getMessage('extensions_hatemile_role_checkbox'),
-        'role-columnheader': chrome.i18n
-                .getMessage('extensions_hatemile_role_columnheader'),
-        'role-combobox': chrome.i18n
-                .getMessage('extensions_hatemile_role_combobox'),
-        'role-complementary': chrome.i18n
-                .getMessage('extensions_hatemile_role_complementary'),
-        'role-contentinfo': chrome.i18n
-                .getMessage('extensions_hatemile_role_contentinfo'),
-        'role-definition': chrome.i18n
-                .getMessage('extensions_hatemile_role_definition'),
-        'role-dialog': chrome.i18n
-                .getMessage('extensions_hatemile_role_dialog'),
-        'role-directory': chrome.i18n
-                .getMessage('extensions_hatemile_role_directory'),
-        'role-document': chrome.i18n
-                .getMessage('extensions_hatemile_role_document'),
-        'role-form': chrome.i18n.getMessage('extensions_hatemile_role_form'),
-        'role-grid': chrome.i18n.getMessage('extensions_hatemile_role_grid'),
-        'role-gridcell': chrome.i18n
-                .getMessage('extensions_hatemile_role_gridcell'),
-        'role-group': chrome.i18n.getMessage('extensions_hatemile_role_group'),
-        'role-heading': chrome.i18n
-                .getMessage('extensions_hatemile_role_heading'),
-        'role-img': chrome.i18n.getMessage('extensions_hatemile_role_img'),
-        'role-link': chrome.i18n.getMessage('extensions_hatemile_role_link'),
-        'role-list': chrome.i18n.getMessage('extensions_hatemile_role_list'),
-        'role-listbox': chrome.i18n
-                .getMessage('extensions_hatemile_role_listbox'),
-        'role-listitem': chrome.i18n
-                .getMessage('extensions_hatemile_role_listitem'),
-        'role-log': chrome.i18n.getMessage('extensions_hatemile_role_log'),
-        'role-main': chrome.i18n.getMessage('extensions_hatemile_role_main'),
-        'role-marquee': chrome.i18n
-                .getMessage('extensions_hatemile_role_marquee'),
-        'role-math': chrome.i18n.getMessage('extensions_hatemile_role_math'),
-        'role-menu': chrome.i18n.getMessage('extensions_hatemile_role_menu'),
-        'role-menubar': chrome.i18n
-                .getMessage('extensions_hatemile_role_menubar'),
-        'role-menuitem': chrome.i18n
-                .getMessage('extensions_hatemile_role_menuitem'),
-        'role-menuitemcheckbox': chrome.i18n
-                .getMessage('extensions_hatemile_role_menuitemcheckbox'),
-        'role-menuitemradio': chrome.i18n
-                .getMessage('extensions_hatemile_role_menuitemradio'),
-        'role-navigation': chrome.i18n
-                .getMessage('extensions_hatemile_role_navigation'),
-        'role-note': chrome.i18n.getMessage('extensions_hatemile_role_note'),
-        'role-option': chrome.i18n
-                .getMessage('extensions_hatemile_role_option'),
-        'role-progressbar': chrome.i18n
-                .getMessage('extensions_hatemile_role_progressbar'),
-        'role-radio': chrome.i18n.getMessage('extensions_hatemile_role_radio'),
-        'role-radiogroup': chrome.i18n
-                .getMessage('extensions_hatemile_role_radiogroup'),
-        'role-region': chrome.i18n
-                .getMessage('extensions_hatemile_role_region'),
-        'role-row': chrome.i18n.getMessage('extensions_hatemile_role_row'),
-        'role-rowgroup': chrome.i18n
-                .getMessage('extensions_hatemile_role_rowgroup'),
-        'role-rowheader': chrome.i18n
-                .getMessage('extensions_hatemile_role_rowheader'),
-        'role-scrollbar': chrome.i18n
-                .getMessage('extensions_hatemile_role_scrollbar'),
-        'role-search': chrome.i18n
-                .getMessage('extensions_hatemile_role_search'),
-        'role-separator': chrome.i18n
-                .getMessage('extensions_hatemile_role_separator'),
-        'role-slider': chrome.i18n
-                .getMessage('extensions_hatemile_role_slider'),
-        'role-spinbutton': chrome.i18n
-                .getMessage('extensions_hatemile_role_spinbutton'),
-        'role-status': chrome.i18n
-                .getMessage('extensions_hatemile_role_status'),
-        'role-tab': chrome.i18n.getMessage('extensions_hatemile_role_tab'),
-        'role-tablist': chrome.i18n
-                .getMessage('extensions_hatemile_role_tablist'),
-        'role-tabpanel': chrome.i18n
-                .getMessage('extensions_hatemile_role_tabpanel'),
-        'role-textbox': chrome.i18n
-                .getMessage('extensions_hatemile_role_textbox'),
-        'role-timer': chrome.i18n.getMessage('extensions_hatemile_role_timer'),
-        'role-toolbar': chrome.i18n
-                .getMessage('extensions_hatemile_role_toolbar'),
-        'role-tooltip': chrome.i18n
-                .getMessage('extensions_hatemile_role_tooltip'),
-        'role-tree': chrome.i18n.getMessage('extensions_hatemile_role_tree'),
-        'role-treegrid': chrome.i18n
-                .getMessage('extensions_hatemile_role_treegrid'),
-        'role-treeitem': chrome.i18n
-                .getMessage('extensions_hatemile_role_treeitem')
+        'skipper-table-contents': userPreferences['skipper-table-contents']
     };
 
     setLanguages(configuration);
+    setRoles(configuration);
 
     return configuration;
 }
