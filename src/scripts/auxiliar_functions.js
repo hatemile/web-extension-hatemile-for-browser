@@ -41,6 +41,34 @@ function getAfterPreference(configuration, preference, position) {
             configuration[position] === DISPLAY_AFTER);
 }
 
+function setLanguages(configuration) {
+    var languageCode;
+    var languageCodes = [
+        'aa', 'ab', 'ae', 'af', 'ak', 'am', 'an', 'ar', 'as', 'av', 'ay', 'az',
+        'ba', 'be', 'bg', 'bh', 'bi', 'bm', 'bn', 'bo', 'br', 'bs', 'ca', 'ce',
+        'ch', 'co', 'cr', 'cs', 'cu', 'cv', 'cy', 'da', 'de', 'dv', 'dz', 'ee',
+        'el', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'ff', 'fi', 'fj', 'fo', 'fr',
+        'fy', 'ga', 'gd', 'gl', 'gn', 'gu', 'gv', 'ha', 'he', 'hi', 'ho', 'hr',
+        'ht', 'hu', 'hy', 'hz', 'ia', 'id', 'ie', 'ig', 'ii', 'ik', 'io', 'is',
+        'it', 'iu', 'ja', 'jv', 'ka', 'kg', 'ki', 'kj', 'kk', 'kl', 'km', 'kn',
+        'ko', 'kr', 'ks', 'ku', 'kv', 'kw', 'ky', 'la', 'lb', 'lg', 'li', 'ln',
+        'lo', 'lt', 'lu', 'lv', 'mg', 'mh', 'mi', 'mk', 'ml', 'mn', 'mr', 'ms',
+        'mt', 'my', 'na', 'nb', 'nd', 'ne', 'ng', 'nl', 'nn', 'no', 'nr', 'nv',
+        'ny', 'oc', 'oj', 'om', 'or', 'os', 'pa', 'pi', 'pl', 'ps', 'pt', 'qu',
+        'rm', 'rn', 'ro', 'ru', 'rw', 'sa', 'sc', 'sd', 'se', 'sg', 'si', 'sk',
+        'sl', 'sm', 'sn', 'so', 'sq', 'sr', 'ss', 'st', 'su', 'sv', 'sw', 'ta',
+        'te', 'tg', 'th', 'ti', 'tk', 'tl', 'tn', 'to', 'tr', 'ts', 'tt', 'tw',
+        'ty', 'ug', 'uk', 'ur', 'uz', 've', 'vi', 'vo', 'wa', 'wo', 'xh', 'yi',
+        'yo', 'za', 'zh', 'zu'
+    ];
+
+    for (var i = 0, length = languageCodes.length; i < length; i++) {
+        languageCode = languageCodes[i];
+        configuration['language-' + languageCode] = chrome.i18n
+                .getMessage('extensions_hatemile_language_' + languageCode);
+    }
+}
+
 function getUserPreferences(callback) {
     var keys = {
         'aria-autocomplete-both': chrome.i18n.getMessage('extensions_'
@@ -218,7 +246,7 @@ function getUserPreferences(callback) {
 }
 
 function loadReadOnlyConfiguration(userPreferences) {
-    return {
+    var configuration = {
         'aria-autocomplete-both-before': getBeforePreference(userPreferences,
                 'aria-autocomplete-both', 'aria-autocomplete-position'),
         'aria-autocomplete-both-after': getAfterPreference(userPreferences,
@@ -544,374 +572,6 @@ function loadReadOnlyConfiguration(userPreferences) {
         'skipper-main-content': userPreferences['skipper-main-content'],
         'skipper-shortcuts-list': userPreferences['skipper-shortcuts-list'],
         'skipper-table-contents': userPreferences['skipper-table-contents'],
-        'language-aa': chrome.i18n
-                .getMessage('extensions_hatemile_language_aa'),
-        'language-ab': chrome.i18n
-                .getMessage('extensions_hatemile_language_ab'),
-        'language-ae': chrome.i18n
-                .getMessage('extensions_hatemile_language_ae'),
-        'language-af': chrome.i18n
-                .getMessage('extensions_hatemile_language_af'),
-        'language-ak': chrome.i18n
-                .getMessage('extensions_hatemile_language_ak'),
-        'language-am': chrome.i18n
-                .getMessage('extensions_hatemile_language_am'),
-        'language-an': chrome.i18n
-                .getMessage('extensions_hatemile_language_an'),
-        'language-ar': chrome.i18n
-                .getMessage('extensions_hatemile_language_ar'),
-        'language-as': chrome.i18n
-                .getMessage('extensions_hatemile_language_as'),
-        'language-av': chrome.i18n
-                .getMessage('extensions_hatemile_language_av'),
-        'language-ay': chrome.i18n
-                .getMessage('extensions_hatemile_language_ay'),
-        'language-az': chrome.i18n
-                .getMessage('extensions_hatemile_language_az'),
-        'language-ba': chrome.i18n
-                .getMessage('extensions_hatemile_language_ba'),
-        'language-be': chrome.i18n
-                .getMessage('extensions_hatemile_language_be'),
-        'language-bg': chrome.i18n
-                .getMessage('extensions_hatemile_language_bg'),
-        'language-bh': chrome.i18n
-                .getMessage('extensions_hatemile_language_bh'),
-        'language-bi': chrome.i18n
-                .getMessage('extensions_hatemile_language_bi'),
-        'language-bm': chrome.i18n
-                .getMessage('extensions_hatemile_language_bm'),
-        'language-bn': chrome
-                .i18n.getMessage('extensions_hatemile_language_bn'),
-        'language-bo': chrome.i18n
-                .getMessage('extensions_hatemile_language_bo'),
-        'language-br': chrome.i18n
-                .getMessage('extensions_hatemile_language_br'),
-        'language-bs': chrome.i18n
-                .getMessage('extensions_hatemile_language_bs'),
-        'language-ca': chrome.i18n
-                .getMessage('extensions_hatemile_language_ca'),
-        'language-ce': chrome.i18n
-                .getMessage('extensions_hatemile_language_ce'),
-        'language-ch': chrome.i18n
-                .getMessage('extensions_hatemile_language_ch'),
-        'language-co': chrome.i18n
-                .getMessage('extensions_hatemile_language_co'),
-        'language-cr': chrome.i18n
-                .getMessage('extensions_hatemile_language_cr'),
-        'language-cs': chrome.i18n
-                .getMessage('extensions_hatemile_language_cs'),
-        'language-cu': chrome.i18n
-                .getMessage('extensions_hatemile_language_cu'),
-        'language-cv': chrome.i18n
-                .getMessage('extensions_hatemile_language_cv'),
-        'language-cy': chrome.i18n
-                .getMessage('extensions_hatemile_language_cy'),
-        'language-da': chrome.i18n
-                .getMessage('extensions_hatemile_language_da'),
-        'language-de': chrome.i18n
-                .getMessage('extensions_hatemile_language_de'),
-        'language-dv': chrome.i18n
-                .getMessage('extensions_hatemile_language_dv'),
-        'language-dz': chrome.i18n
-                .getMessage('extensions_hatemile_language_dz'),
-        'language-ee': chrome.i18n
-                .getMessage('extensions_hatemile_language_ee'),
-        'language-el': chrome.i18n
-                .getMessage('extensions_hatemile_language_el'),
-        'language-en': chrome.i18n
-                .getMessage('extensions_hatemile_language_en'),
-        'language-eo': chrome.i18n
-                .getMessage('extensions_hatemile_language_eo'),
-        'language-es': chrome.i18n
-                .getMessage('extensions_hatemile_language_es'),
-        'language-et': chrome.i18n
-                .getMessage('extensions_hatemile_language_et'),
-        'language-eu': chrome.i18n
-                .getMessage('extensions_hatemile_language_eu'),
-        'language-fa': chrome.i18n
-                .getMessage('extensions_hatemile_language_fa'),
-        'language-ff': chrome.i18n
-                .getMessage('extensions_hatemile_language_ff'),
-        'language-fi': chrome.i18n
-                .getMessage('extensions_hatemile_language_fi'),
-        'language-fj': chrome.i18n
-                .getMessage('extensions_hatemile_language_fj'),
-        'language-fo': chrome.i18n
-                .getMessage('extensions_hatemile_language_fo'),
-        'language-fr': chrome.i18n
-                .getMessage('extensions_hatemile_language_fr'),
-        'language-fy': chrome.i18n
-                .getMessage('extensions_hatemile_language_fy'),
-        'language-ga': chrome.i18n
-                .getMessage('extensions_hatemile_language_ga'),
-        'language-gd': chrome.i18n
-                .getMessage('extensions_hatemile_language_gd'),
-        'language-gl': chrome.i18n
-                .getMessage('extensions_hatemile_language_gl'),
-        'language-gn': chrome.i18n
-                .getMessage('extensions_hatemile_language_gn'),
-        'language-gu': chrome.i18n
-                .getMessage('extensions_hatemile_language_gu'),
-        'language-gv': chrome.i18n
-                .getMessage('extensions_hatemile_language_gv'),
-        'language-ha': chrome.i18n
-                .getMessage('extensions_hatemile_language_ha'),
-        'language-he': chrome.i18n
-                .getMessage('extensions_hatemile_language_he'),
-        'language-hi': chrome.i18n
-                .getMessage('extensions_hatemile_language_hi'),
-        'language-ho': chrome.i18n
-                .getMessage('extensions_hatemile_language_ho'),
-        'language-hr': chrome.i18n
-                .getMessage('extensions_hatemile_language_hr'),
-        'language-ht': chrome.i18n
-                .getMessage('extensions_hatemile_language_ht'),
-        'language-hu': chrome.i18n
-                .getMessage('extensions_hatemile_language_hu'),
-        'language-hy': chrome.i18n
-                .getMessage('extensions_hatemile_language_hy'),
-        'language-hz': chrome.i18n
-                .getMessage('extensions_hatemile_language_hz'),
-        'language-ia': chrome.i18n
-                .getMessage('extensions_hatemile_language_ia'),
-        'language-id': chrome.i18n
-                .getMessage('extensions_hatemile_language_id'),
-        'language-ie': chrome.i18n
-                .getMessage('extensions_hatemile_language_ie'),
-        'language-ig': chrome.i18n
-                .getMessage('extensions_hatemile_language_ig'),
-        'language-ii': chrome.i18n
-                .getMessage('extensions_hatemile_language_ii'),
-        'language-ik': chrome.i18n
-                .getMessage('extensions_hatemile_language_ik'),
-        'language-io': chrome.i18n
-                .getMessage('extensions_hatemile_language_io'),
-        'language-is': chrome.i18n
-                .getMessage('extensions_hatemile_language_is'),
-        'language-it': chrome.i18n
-                .getMessage('extensions_hatemile_language_it'),
-        'language-iu': chrome.i18n
-                .getMessage('extensions_hatemile_language_iu'),
-        'language-ja': chrome.i18n
-                .getMessage('extensions_hatemile_language_ja'),
-        'language-jv': chrome.i18n
-                .getMessage('extensions_hatemile_language_jv'),
-        'language-ka': chrome.i18n
-                .getMessage('extensions_hatemile_language_ka'),
-        'language-kg': chrome.i18n
-                .getMessage('extensions_hatemile_language_kg'),
-        'language-ki': chrome.i18n
-                .getMessage('extensions_hatemile_language_ki'),
-        'language-kj': chrome.i18n
-                .getMessage('extensions_hatemile_language_kj'),
-        'language-kk': chrome.i18n
-                .getMessage('extensions_hatemile_language_kk'),
-        'language-kl': chrome.i18n
-                .getMessage('extensions_hatemile_language_kl'),
-        'language-km': chrome.i18n
-                .getMessage('extensions_hatemile_language_km'),
-        'language-kn': chrome.i18n
-                .getMessage('extensions_hatemile_language_kn'),
-        'language-ko': chrome.i18n
-                .getMessage('extensions_hatemile_language_ko'),
-        'language-kr': chrome.i18n
-                .getMessage('extensions_hatemile_language_kr'),
-        'language-ks': chrome.i18n
-                .getMessage('extensions_hatemile_language_ks'),
-        'language-ku': chrome.i18n
-                .getMessage('extensions_hatemile_language_ku'),
-        'language-kv': chrome.i18n
-                .getMessage('extensions_hatemile_language_kv'),
-        'language-kw': chrome.i18n
-                .getMessage('extensions_hatemile_language_kw'),
-        'language-ky': chrome.i18n
-                .getMessage('extensions_hatemile_language_ky'),
-        'language-la': chrome.i18n
-                .getMessage('extensions_hatemile_language_la'),
-        'language-lb': chrome.i18n
-                .getMessage('extensions_hatemile_language_lb'),
-        'language-lg': chrome.i18n
-                .getMessage('extensions_hatemile_language_lg'),
-        'language-li': chrome.i18n
-                .getMessage('extensions_hatemile_language_li'),
-        'language-ln': chrome.i18n
-                .getMessage('extensions_hatemile_language_ln'),
-        'language-lo': chrome.i18n
-                .getMessage('extensions_hatemile_language_lo'),
-        'language-lt': chrome.i18n
-                .getMessage('extensions_hatemile_language_lt'),
-        'language-lu': chrome.i18n
-                .getMessage('extensions_hatemile_language_lu'),
-        'language-lv': chrome.i18n
-                .getMessage('extensions_hatemile_language_lv'),
-        'language-mg': chrome.i18n
-                .getMessage('extensions_hatemile_language_mg'),
-        'language-mh': chrome.i18n
-                .getMessage('extensions_hatemile_language_mh'),
-        'language-mi': chrome.i18n
-                .getMessage('extensions_hatemile_language_mi'),
-        'language-mk': chrome.i18n
-                .getMessage('extensions_hatemile_language_mk'),
-        'language-ml': chrome.i18n
-                .getMessage('extensions_hatemile_language_ml'),
-        'language-mn': chrome.i18n
-                .getMessage('extensions_hatemile_language_mn'),
-        'language-mr': chrome.i18n
-                .getMessage('extensions_hatemile_language_mr'),
-        'language-ms': chrome.i18n
-                .getMessage('extensions_hatemile_language_ms'),
-        'language-mt': chrome.i18n
-                .getMessage('extensions_hatemile_language_mt'),
-        'language-my': chrome.i18n
-                .getMessage('extensions_hatemile_language_my'),
-        'language-na': chrome.i18n
-                .getMessage('extensions_hatemile_language_na'),
-        'language-nb': chrome.i18n
-                .getMessage('extensions_hatemile_language_nb'),
-        'language-nd': chrome.i18n
-                .getMessage('extensions_hatemile_language_nd'),
-        'language-ne': chrome.i18n
-                .getMessage('extensions_hatemile_language_ne'),
-        'language-ng': chrome.i18n
-                .getMessage('extensions_hatemile_language_ng'),
-        'language-nl': chrome.i18n
-                .getMessage('extensions_hatemile_language_nl'),
-        'language-nn': chrome.i18n
-                .getMessage('extensions_hatemile_language_nn'),
-        'language-no': chrome.i18n
-                .getMessage('extensions_hatemile_language_no'),
-        'language-nr': chrome.i18n
-                .getMessage('extensions_hatemile_language_nr'),
-        'language-nv': chrome.i18n
-                .getMessage('extensions_hatemile_language_nv'),
-        'language-ny': chrome.i18n
-                .getMessage('extensions_hatemile_language_ny'),
-        'language-oc': chrome.i18n
-                .getMessage('extensions_hatemile_language_oc'),
-        'language-oj': chrome.i18n
-                .getMessage('extensions_hatemile_language_oj'),
-        'language-om': chrome.i18n
-                .getMessage('extensions_hatemile_language_om'),
-        'language-or': chrome.i18n
-                .getMessage('extensions_hatemile_language_or'),
-        'language-os': chrome.i18n
-                .getMessage('extensions_hatemile_language_os'),
-        'language-pa': chrome.i18n
-                .getMessage('extensions_hatemile_language_pa'),
-        'language-pi': chrome.i18n
-                .getMessage('extensions_hatemile_language_pi'),
-        'language-pl': chrome.i18n
-                .getMessage('extensions_hatemile_language_pl'),
-        'language-ps': chrome.i18n
-                .getMessage('extensions_hatemile_language_ps'),
-        'language-pt': chrome.i18n
-                .getMessage('extensions_hatemile_language_pt'),
-        'language-qu': chrome.i18n
-                .getMessage('extensions_hatemile_language_qu'),
-        'language-rm': chrome.i18n
-                .getMessage('extensions_hatemile_language_rm'),
-        'language-rn': chrome.i18n
-                .getMessage('extensions_hatemile_language_rn'),
-        'language-ro': chrome.i18n
-                .getMessage('extensions_hatemile_language_ro'),
-        'language-ru': chrome.i18n
-                .getMessage('extensions_hatemile_language_ru'),
-        'language-rw': chrome.i18n
-                .getMessage('extensions_hatemile_language_rw'),
-        'language-sa': chrome.i18n
-                .getMessage('extensions_hatemile_language_sa'),
-        'language-sc': chrome.i18n
-                .getMessage('extensions_hatemile_language_sc'),
-        'language-sd': chrome.i18n
-                .getMessage('extensions_hatemile_language_sd'),
-        'language-se': chrome.i18n
-                .getMessage('extensions_hatemile_language_se'),
-        'language-sg': chrome.i18n
-                .getMessage('extensions_hatemile_language_sg'),
-        'language-si': chrome.i18n
-                .getMessage('extensions_hatemile_language_si'),
-        'language-sk': chrome.i18n
-                .getMessage('extensions_hatemile_language_sk'),
-        'language-sl': chrome.i18n
-                .getMessage('extensions_hatemile_language_sl'),
-        'language-sm': chrome.i18n
-                .getMessage('extensions_hatemile_language_sm'),
-        'language-sn': chrome.i18n
-                .getMessage('extensions_hatemile_language_sn'),
-        'language-so': chrome.i18n
-                .getMessage('extensions_hatemile_language_so'),
-        'language-sq': chrome.i18n
-                .getMessage('extensions_hatemile_language_sq'),
-        'language-sr': chrome.i18n
-                .getMessage('extensions_hatemile_language_sr'),
-        'language-ss': chrome.i18n
-                .getMessage('extensions_hatemile_language_ss'),
-        'language-st': chrome.i18n
-                .getMessage('extensions_hatemile_language_st'),
-        'language-su': chrome.i18n
-                .getMessage('extensions_hatemile_language_su'),
-        'language-sv': chrome.i18n
-                .getMessage('extensions_hatemile_language_sv'),
-        'language-sw': chrome.i18n
-                .getMessage('extensions_hatemile_language_sw'),
-        'language-ta': chrome.i18n
-                .getMessage('extensions_hatemile_language_ta'),
-        'language-te': chrome.i18n
-                .getMessage('extensions_hatemile_language_te'),
-        'language-tg': chrome.i18n
-                .getMessage('extensions_hatemile_language_tg'),
-        'language-th': chrome.i18n
-                .getMessage('extensions_hatemile_language_th'),
-        'language-ti': chrome.i18n
-                .getMessage('extensions_hatemile_language_ti'),
-        'language-tk': chrome.i18n
-                .getMessage('extensions_hatemile_language_tk'),
-        'language-tl': chrome.i18n
-                .getMessage('extensions_hatemile_language_tl'),
-        'language-tn': chrome.i18n
-                .getMessage('extensions_hatemile_language_tn'),
-        'language-to': chrome.i18n
-                .getMessage('extensions_hatemile_language_to'),
-        'language-tr': chrome.i18n
-                .getMessage('extensions_hatemile_language_tr'),
-        'language-ts': chrome.i18n
-                .getMessage('extensions_hatemile_language_ts'),
-        'language-tt': chrome.i18n
-                .getMessage('extensions_hatemile_language_tt'),
-        'language-tw': chrome.i18n
-                .getMessage('extensions_hatemile_language_tw'),
-        'language-ty': chrome.i18n
-                .getMessage('extensions_hatemile_language_ty'),
-        'language-ug': chrome.i18n
-                .getMessage('extensions_hatemile_language_ug'),
-        'language-uk': chrome.i18n
-                .getMessage('extensions_hatemile_language_uk'),
-        'language-ur': chrome.i18n
-                .getMessage('extensions_hatemile_language_ur'),
-        'language-uz': chrome.i18n
-                .getMessage('extensions_hatemile_language_uz'),
-        'language-ve': chrome.i18n
-                .getMessage('extensions_hatemile_language_ve'),
-        'language-vi': chrome.i18n
-                .getMessage('extensions_hatemile_language_vi'),
-        'language-vo': chrome.i18n
-                .getMessage('extensions_hatemile_language_vo'),
-        'language-wa': chrome.i18n
-                .getMessage('extensions_hatemile_language_wa'),
-        'language-wo': chrome.i18n
-                .getMessage('extensions_hatemile_language_wo'),
-        'language-xh': chrome.i18n
-                .getMessage('extensions_hatemile_language_xh'),
-        'language-yi': chrome.i18n
-                .getMessage('extensions_hatemile_language_yi'),
-        'language-yo': chrome.i18n
-                .getMessage('extensions_hatemile_language_yo'),
-        'language-za': chrome.i18n
-                .getMessage('extensions_hatemile_language_za'),
-        'language-zh': chrome.i18n
-                .getMessage('extensions_hatemile_language_zh'),
-        'language-zu': chrome.i18n
-                .getMessage('extensions_hatemile_language_zu'),
         'role-alert': chrome.i18n.getMessage('extensions_hatemile_role_alert'),
         'role-alertdialog': chrome.i18n
                 .getMessage('extensions_hatemile_role_alertdialog'),
@@ -1016,4 +676,8 @@ function loadReadOnlyConfiguration(userPreferences) {
         'role-treeitem': chrome.i18n
                 .getMessage('extensions_hatemile_role_treeitem')
     };
+
+    setLanguages(configuration);
+
+    return configuration;
 }
