@@ -75,6 +75,7 @@ If you want submit your code to HaTeMiLe for Browser you need follow the code co
   * :octocat: `:octocat:` GitHub especific resource
   * :bookmark: `:bookmark:` Version Tag
   * :wrench: `:wrench:` Tooling
+  * :lipstick: `:lipstick:` UI Cosmetic
 
 #### JavaScript styleguide
 

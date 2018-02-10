@@ -20,6 +20,48 @@
     "hatemile_forms_caption": {
         "message": "Formulário"
     },
+    "hatemile_fieldset_attribute_title": {
+        "message": "Título do elemento"
+    },
+    "hatemile_fieldset_attribute_download": {
+        "message": "Link de download"
+    },
+    "hatemile_fieldset_attribute_target": {
+        "message": "Link que abre nova aba"
+    },
+    "hatemile_fieldset_attribute_longdescription": {
+        "message": "Descrição longa da imagem"
+    },
+    "hatemile_fieldset_attribute_accesskey": {
+        "message": "Atalhos da página"
+    },
+    "hatemile_fieldset_elements_heading": {
+        "message": "Sumário"
+    },
+    "hatemile_fieldset_attribute_language": {
+        "message": "Idioma"
+    },
+    "hatemile_fieldset_attribute_role": {
+        "message": "Definição do elemento"
+    },
+    "hatemile_fieldset_skipper": {
+        "message": "Links que pulam o conteúdo da página"
+    },
+    "hatemile_fieldset_aria_grabbed": {
+        "message": "Elemento arrastável"
+    },
+    "hatemile_fieldset_aria_dropeffect": {
+        "message": "Efeito de soltar o elemento"
+    },
+    "hatemile_fieldset_aria_required": {
+        "message": "Campo obrigatório"
+    },
+    "hatemile_fieldset_aria_value": {
+        "message": "Campo com limite de valores"
+    },
+    "hatemile_fieldset_data_invalid": {
+        "message": "Campo inválido"
+    },
     "hatemile_grabbed_true": {
         "message": "Texto do elemento sendo arrastado"
     },

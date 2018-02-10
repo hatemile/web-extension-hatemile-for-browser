@@ -20,6 +20,48 @@
     "hatemile_forms_caption": {
         "message": "Forms"
     },
+    "hatemile_fieldset_attribute_title": {
+        "message": "Element title"
+    },
+    "hatemile_fieldset_attribute_download": {
+        "message": "Download link"
+    },
+    "hatemile_fieldset_attribute_target": {
+        "message": "Link that open new instance"
+    },
+    "hatemile_fieldset_attribute_longdescription": {
+        "message": "Long description of image"
+    },
+    "hatemile_fieldset_attribute_accesskey": {
+        "message": "Keyboard shortcut of page"
+    },
+    "hatemile_fieldset_elements_heading": {
+        "message": "Table of content"
+    },
+    "hatemile_fieldset_attribute_language": {
+        "message": "Language"
+    },
+    "hatemile_fieldset_attribute_role": {
+        "message": "Role"
+    },
+    "hatemile_fieldset_skipper": {
+        "message": "Skipper link"
+    },
+    "hatemile_fieldset_aria_grabbed": {
+        "message": "Draggable element"
+    },
+    "hatemile_fieldset_aria_dropeffect": {
+        "message": "Drop effect of element"
+    },
+    "hatemile_fieldset_aria_required": {
+        "message": "Required field"
+    },
+    "hatemile_fieldset_aria_value": {
+        "message": "Field with maximum or minimum value"
+    },
+    "hatemile_fieldset_data_invalid": {
+        "message": "Invalid field"
+    },
     "hatemile_grabbed_true": {
         "message": "Text for grabbed elements"
     },
