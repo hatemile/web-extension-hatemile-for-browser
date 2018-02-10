@@ -108,8 +108,7 @@ function setSimpleAttributes(configuration, userPreferences) {
         'aria-pressed-false', 'aria-pressed-mixed', 'aria-required-true',
         'aria-selected-true', 'aria-selected-false', 'aria-sort-ascending',
         'aria-sort-descending', 'aria-sort-other', 'attribute-title-prefix',
-        'attribute-title-suffix', 'attribute-accesskey-prefix',
-        'attribute-accesskey-suffix', 'attribute-target-blank',
+        'attribute-title-suffix', 'attribute-target-blank',
         'attribute-data-invalid-url', 'attribute-data-invalid-email',
         'attribute-data-invalid-range', 'attribute-data-invalid-length',
         'attribute-data-invalid-pattern', 'attribute-data-invalid-required',
@@ -122,19 +121,15 @@ function setSimpleAttributes(configuration, userPreferences) {
 
     for (var i = 0, length = attributes.length; i < length; i++) {
         attribute = attributes[i];
+
         attributeSeparated = attribute.split('-');
         attributeSeparated.pop();
-
-        if ((attribute.indexOf('-prefix-') >= 0) ||
-                (attribute.indexOf('-suffix-') >= 0)) {
-            attributeSeparated.pop();
-        }
         attributePrefix = attributeSeparated.join('-');
 
-        configuration[attribute + "-before"] =
+        configuration[attribute + '-before'] =
                 getBeforePreference(userPreferences, attribute,
                         attributePrefix + '-position');
-        configuration[attribute + "-after"] =
+        configuration[attribute + '-after'] =
                 getAfterPreference(userPreferences, attribute,
                         attributePrefix + '-position');
     }
@@ -247,6 +242,20 @@ function loadReadOnlyConfiguration(userPreferences) {
                 'attribute-accesskey', 'attribute-accesskey-page-position'),
         'attribute-accesskey-after': getAfterPreference(userPreferences,
                 'attribute-accesskey', 'attribute-accesskey-page-position'),
+        'attribute-accesskey-prefix-before':
+                getBeforePreference(userPreferences,
+                        'attribute-accesskey-prefix',
+                        'attribute-accesskey-element-position'),
+        'attribute-accesskey-suffix-before':
+                getBeforePreference(userPreferences,
+                        'attribute-accesskey-suffix',
+                        'attribute-accesskey-element-position'),
+        'attribute-accesskey-prefix-after': getAfterPreference(userPreferences,
+                'attribute-accesskey-prefix',
+                'attribute-accesskey-element-position'),
+        'attribute-accesskey-suffix-after': getAfterPreference(userPreferences,
+                'attribute-accesskey-suffix',
+                'attribute-accesskey-element-position'),
         'attribute-download-before': getBeforePreference(userPreferences,
                 'attribute-download', 'attribute-download-position'),
         'attribute-download-after': getAfterPreference(userPreferences,
