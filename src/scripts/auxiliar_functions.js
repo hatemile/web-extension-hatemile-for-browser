@@ -3,6 +3,16 @@ var DISPLAY_BEFORE = '1';
 var DISPLAY_AFTER = '2';
 var DISPLAY_BEFORE_AND_AFTER = '3';
 
+function writeScript(content, identifier) {
+    if (!document.getElementById(identifier)) {
+        var script = document.createElement('script');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('id', identifier);
+        script.appendChild(document.createTextNode(content));
+        document.documentElement.appendChild(script);
+    }
+}
+
 function loadScript(file, identifier) {
     if (!document.getElementById(identifier)) {
         var script = document.createElement('script');

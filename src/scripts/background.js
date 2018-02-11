@@ -5,6 +5,7 @@ loadScript('hatemile/js/eventlistener.js', 'eventlistenerlist');
 loadScript('hatemile/js/hatemile/util/CommonFunctions.js',
         'hatemile-common-functions');
 loadScript('hatemile/js/hatemile/util/Configure.js', 'hatemile-configure');
+loadScript('hatemile/js/hatemile/util/IDGenerator.js', 'hatemile-idgenerator');
 loadScript('hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js',
         'hatemile-vanillahtmldomelement');
 loadScript('hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMParser.js',
@@ -15,7 +16,15 @@ loadScript('hatemile/js/hatemile/implementation/'
     + 'AccessibleEventImplementation.js', 'hatemile-accessibleevent');
 loadScript('hatemile/js/hatemile/implementation/'
     + 'AccessibleFormImplementation.js', 'hatemile-accessibleform');
-loadScript('execute.js', 'hatemile-execute');
+loadScript('hatemile/js/hatemile/implementation/AccessibleDisplayScreen'
+    + 'ReaderImplementation.js', 'hatemile-accessibledisplay');
+
+getUserPreferences(function(userPreferences) {
+    var configuration = loadReadOnlyConfiguration(userPreferences);
+    writeScript('var hatemile_for_browser_configuration = '
+            + JSON.stringify(configuration) + ';', 'hatemile-configuration');
+    loadScript('execute.js', 'hatemile-execute');
+});
 
 window.addEventListener('load', function() {
     getUserPreferences(function(userPreferences) {
