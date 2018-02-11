@@ -1,6 +1,6 @@
-var NOT_DISPLAY = 0;
-var DISPLAY_BEFORE = 1;
-var DISPLAY_AFTER = 2;
+var NOT_DISPLAY = '0';
+var DISPLAY_BEFORE = '1';
+var DISPLAY_AFTER = '2';
 
 function loadScript(file, identifier) {
     if (!document.getElementById(identifier)) {

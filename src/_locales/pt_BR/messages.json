@@ -71,6 +71,60 @@
     "hatemile_fieldset_data_invalid": {
         "message": "Campo inválido"
     },
+    "hatemile_option_not_display": {
+        "message": "Não mostrar"
+    },
+    "hatemile_option_before": {
+        "message": "Antes"
+    },
+    "hatemile_option_after": {
+        "message": "Depois"
+    },
+    "hatemile_label_title_position": {
+        "message": "Posição do título do elemento"
+    },
+    "hatemile_label_haspopup_position": {
+        "message": "Posição do texto do elemento que possuí pop-up"
+    },
+    "hatemile_label_level_position": {
+        "message": "Posição do texto do nível do elemento"
+    },
+    "hatemile_label_download_position": {
+        "message": "Posição da descrição do link de download"
+    },
+    "hatemile_label_target_position": {
+        "message": "Posição da descrição do element que abre uma nova aba"
+    },
+    "hatemile_label_longdescription_position": {
+        "message": "Posição do link da imagem com descrição longa"
+    },
+    "hatemile_label_accesskey_page_position": {
+        "message": "Posição da lista de atalhos da página"
+    },
+    "hatemile_label_accesskey_element_position": {
+        "message": "Posição do descrição dos atalhos dos elementos"
+    },
+    "hatemile_label_elements_heading_position": {
+        "message": "Posição do sumário da página"
+    },
+    "hatemile_label_grabbed_position": {
+        "message": "Posição da descrição dos elementos arratáveis"
+    },
+    "hatemile_label_dropeffect_position": {
+        "message": "Posição da descrição dos efeitos de soltar o elemento"
+    },
+    "hatemile_label_required_position": {
+        "message": "Posição da descrição dos campos obrigatórios"
+    },
+    "hatemile_label_value_position": {
+        "message": "Posição da descrição dos limites de valores"
+    },
+    "hatemile_label_autocomplete_position": {
+        "message": "Posição da descrição do autocompletar dos campos"
+    },
+    "hatemile_label_data_invalid_position": {
+        "message": "Posição da descrição da erro dos campos com valores inválidos"
+    },
     "hatemile_grabbed_true": {
         "message": "Texto do elemento sendo arrastado"
     },

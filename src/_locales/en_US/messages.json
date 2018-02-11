@@ -71,6 +71,60 @@
     "hatemile_fieldset_data_invalid": {
         "message": "Invalid field"
     },
+    "hatemile_option_not_display": {
+        "message": "Not display"
+    },
+    "hatemile_option_before": {
+        "message": "Before"
+    },
+    "hatemile_option_after": {
+        "message": "After"
+    },
+    "hatemile_label_title_position": {
+        "message": "Position of text for title of element"
+    },
+    "hatemile_label_haspopup_position": {
+        "message": "Position of text that describe a element that has pop-up"
+    },
+    "hatemile_label_level_position": {
+        "message": "Position of text for element level"
+    },
+    "hatemile_label_download_position": {
+        "message": "Position of text that describe a download link"
+    },
+    "hatemile_label_target_position": {
+        "message": "Position of text that describe a link that open new tab"
+    },
+    "hatemile_label_longdescription_position": {
+        "message": "Position of longdescription link of image"
+    },
+    "hatemile_label_accesskey_page_position": {
+        "message": "Position of list of shotcuts of page"
+    },
+    "hatemile_label_accesskey_element_position": {
+        "message": "Position of shortcut description of element"
+    },
+    "hatemile_label_elements_heading_position": {
+        "message": "Position of table of contents of page"
+    },
+    "hatemile_label_grabbed_position": {
+        "message": "Position of text that describe draggable elements"
+    },
+    "hatemile_label_dropeffect_position": {
+        "message": "Position of description of drop effect"
+    },
+    "hatemile_label_required_position": {
+        "message": "Position of text that describe required fields"
+    },
+    "hatemile_label_value_position": {
+        "message": "Position of text that describe the limit values of fields"
+    },
+    "hatemile_label_autocomplete_position": {
+        "message": "Position of text that describe the field with autocompletes"
+    },
+    "hatemile_label_data_invalid_position": {
+        "message": "Position of text that describe the error of invalid fields"
+    },
     "hatemile_grabbed_true": {
         "message": "Text for grabbed elements"
     },
