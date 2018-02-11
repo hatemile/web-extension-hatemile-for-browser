@@ -206,18 +206,6 @@
     "extensions_hatemile_aria_autocomplete_list": {
         "message": " (Auto completar em lista)"
     },
-    "extensions_hatemile_aria_busy_true": {
-        "message": "(Atualizando) "
-    },
-    "extensions_hatemile_aria_checked_true": {
-        "message": " (Marcado)"
-    },
-    "extensions_hatemile_aria_checked_false": {
-        "message": " (Não marcado)"
-    },
-    "extensions_hatemile_aria_checked_mixed": {
-        "message": " (Parcialmente marcado)"
-    },
     "extensions_hatemile_aria_dropeffect_copy": {
         "message": " (Colar o elemento selecionado para o local)"
     },
@@ -233,12 +221,6 @@
     "extensions_hatemile_aria_dropeffect_popup": {
         "message": " (Abrir um pop-up no local)"
     },
-    "extensions_hatemile_aria_expanded_true": {
-        "message": " (Expandido)"
-    },
-    "extensions_hatemile_aria_expanded_false": {
-        "message": " (Contraído)"
-    },
     "extensions_hatemile_aria_grabbed_true": {
         "message": " (Arrastando)"
     },
@@ -248,47 +230,14 @@
     "extensions_hatemile_aria_haspopup_true": {
         "message": " (Possuí pop-up)"
     },
-    "extensions_hatemile_aria_invalid_true": {
-        "message": " (Informe um valor válido)"
-    },
     "extensions_hatemile_aria_level_prefix": {
         "message": "(Nível: "
     },
     "extensions_hatemile_aria_level_suffix": {
         "message": ") "
     },
-    "extensions_hatemile_aria_orientation_vertical": {
-        "message": " (Orientado verticalmente)"
-    },
-    "extensions_hatemile_aria_orientation_horizontal": {
-        "message": " (Orientado horizontalmente)"
-    },
-    "extensions_hatemile_aria_pressed_true": {
-        "message": " (Pressionado)"
-    },
-    "extensions_hatemile_aria_pressed_false": {
-        "message": " (Não pressionado)"
-    },
-    "extensions_hatemile_aria_pressed_mixed": {
-        "message": " (Parcialmente pressionado)"
-    },
     "extensions_hatemile_aria_required_true": {
         "message": " (Obrigatório)"
-    },
-    "extensions_hatemile_aria_selected_true": {
-        "message": " (Selecionado)"
-    },
-    "extensions_hatemile_aria_selected_false": {
-        "message": " (Não selecionado)"
-    },
-    "extensions_hatemile_aria_sort_ascending": {
-        "message": "(Ordenado de forma crescente) "
-    },
-    "extensions_hatemile_aria_sort_descending": {
-        "message": "(Ordenado de forma decrescente) "
-    },
-    "extensions_hatemile_aria_sort_other": {
-        "message": "(Ordenado) "
     },
     "extensions_hatemile_aria_value_maximum_prefix": {
         "message": " (Valor máximo do campo: "
