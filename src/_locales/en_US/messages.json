@@ -59,6 +59,9 @@
     "hatemile_fieldset_aria_value": {
         "message": "Field with maximum or minimum value"
     },
+    "hatemile_fieldset_aria_autocomplete": {
+        "message": "Autocomplete of field"
+    },
     "hatemile_fieldset_data_invalid": {
         "message": "Invalid field"
     },
@@ -163,6 +166,15 @@
     },
     "hatemile_value_minimum_suffix": {
         "message": "Suffix for minimum value of field"
+    },
+    "hatemile_autocomplete_both": {
+        "message": "Text of list or inline autocomplete"
+    },
+    "hatemile_autocomplete_inline": {
+        "message": "Text of inline autocomplete"
+    },
+    "hatemile_autocomplete_list": {
+        "message": "Text of list autocomplete"
     },
     "hatemile_invalid_url": {
         "message": "Text for field with invalid URL"

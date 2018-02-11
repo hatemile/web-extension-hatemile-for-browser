@@ -59,6 +59,9 @@
     "hatemile_fieldset_aria_value": {
         "message": "Campo com limite de valores"
     },
+    "hatemile_fieldset_aria_autocomplete": {
+        "message": "Autocompletar do campo"
+    },
     "hatemile_fieldset_data_invalid": {
         "message": "Campo inválido"
     },
@@ -163,6 +166,15 @@
     },
     "hatemile_value_minimum_suffix": {
         "message": "Sufixo do valor mínimo do campo"
+    },
+    "hatemile_autocomplete_both": {
+        "message": "Texto do autocompletar do campo to tipo lista ou na linha"
+    },
+    "hatemile_autocomplete_inline": {
+        "message": "Texto do autocompletar do campo to tipo linha"
+    },
+    "hatemile_autocomplete_list": {
+        "message": "Texto do autocompletar do campo do tipo lista"
     },
     "hatemile_invalid_url": {
         "message": "Texto de um campo com URL inválida"
