@@ -23,6 +23,9 @@
     "hatemile_fieldset_attribute_title": {
         "message": "Título do elemento"
     },
+    "hatemile_fieldset_aria_haspopup": {
+        "message": "Pop-up"
+    },
     "hatemile_fieldset_attribute_download": {
         "message": "Link de download"
     },
@@ -103,6 +106,9 @@
     },
     "hatemile_title_suffix": {
         "message": "Sufixo do título do elemento"
+    },
+    "hatemile_haspopup": {
+        "message": "Texto do elemento que possuí um pop-up"
     },
     "hatemile_accesskey": {
         "message": "Texto da lista de atalhos da página"

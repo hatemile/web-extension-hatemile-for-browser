@@ -23,6 +23,9 @@
     "hatemile_fieldset_attribute_title": {
         "message": "Element title"
     },
+    "hatemile_fieldset_aria_haspopup": {
+        "message": "Pop-up"
+    },
     "hatemile_fieldset_attribute_download": {
         "message": "Download link"
     },
@@ -103,6 +106,9 @@
     },
     "hatemile_title_suffix": {
         "message": "Suffix for title of element"
+    },
+    "hatemile_haspopup": {
+        "message": "Text for element that has pop-up"
     },
     "hatemile_accesskey": {
         "message": "Text before the shortcuts list"
