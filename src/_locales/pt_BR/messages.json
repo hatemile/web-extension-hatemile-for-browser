@@ -326,18 +326,6 @@
     "extensions_hatemile_attribute_download": {
         "message": "(Download) "
     },
-    "extensions_hatemile_attribute_draggable": {
-        "message": " (Arrastável)"
-    },
-    "extensions_hatemile_attribute_dropzone_copy": {
-        "message": " (Colar o elemento selecionado para o local)"
-    },
-    "extensions_hatemile_attribute_dropzone_move": {
-        "message": " (Mover o elemento selecionado para o local)"
-    },
-    "extensions_hatemile_attribute_dropzone_link": {
-        "message": " (Criar um link do elemento selecionado para o local)"
-    },
     "extensions_hatemile_attribute_data_invalid_url": {
         "message": " (Informe um endereço da internet válido)"
     },
