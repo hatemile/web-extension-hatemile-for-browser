@@ -38,8 +38,11 @@
     "hatemile_fieldset_attribute_longdescription": {
         "message": "Descrição longa da imagem"
     },
-    "hatemile_fieldset_attribute_accesskey": {
+    "hatemile_fieldset_attribute_accesskey_page": {
         "message": "Atalhos da página"
+    },
+    "hatemile_fieldset_attribute_accesskey_element": {
+        "message": "Atalho do elemento"
     },
     "hatemile_fieldset_elements_heading": {
         "message": "Sumário"

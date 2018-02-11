@@ -38,8 +38,11 @@
     "hatemile_fieldset_attribute_longdescription": {
         "message": "Long description of image"
     },
-    "hatemile_fieldset_attribute_accesskey": {
+    "hatemile_fieldset_attribute_accesskey_page": {
         "message": "Keyboard shortcut of page"
+    },
+    "hatemile_fieldset_attribute_accesskey_element": {
+        "message": "Keyboard shortcut of element"
     },
     "hatemile_fieldset_elements_heading": {
         "message": "Table of content"
