@@ -29,6 +29,9 @@
     "hatemile_fieldset_aria_level": {
         "message": "Level"
     },
+    "hatemile_fieldset_attribute_headers": {
+        "message": "Table cell headers"
+    },
     "hatemile_fieldset_attribute_download": {
         "message": "Download link"
     },
@@ -91,6 +94,9 @@
     },
     "hatemile_label_level_position": {
         "message": "Position of text for element level"
+    },
+    "hatemile_label_headers_position": {
+        "message": "Position of text of table cell headers"
     },
     "hatemile_label_download_position": {
         "message": "Position of text that describe a download link"
@@ -175,6 +181,12 @@
     },
     "hatemile_level_suffix": {
         "message": "Suffix for element level"
+    },
+    "hatemile_headers_prefix": {
+        "message": "Prefix for table cell header"
+    },
+    "hatemile_headers_suffix": {
+        "message": "Suffix for table cell header"
     },
     "hatemile_accesskey": {
         "message": "Text before the shortcuts list"

@@ -29,6 +29,9 @@
     "hatemile_fieldset_aria_level": {
         "message": "Nível"
     },
+    "hatemile_fieldset_attribute_headers": {
+        "message": "Cabelhaço da célula de uma tabela"
+    },
     "hatemile_fieldset_attribute_download": {
         "message": "Link de download"
     },
@@ -91,6 +94,9 @@
     },
     "hatemile_label_level_position": {
         "message": "Posição do texto do nível do elemento"
+    },
+    "hatemile_label_headers_position": {
+        "message": "Posição do texto do cabeçalho da célula de uma tabela"
     },
     "hatemile_label_download_position": {
         "message": "Posição da descrição do link de download"
@@ -175,6 +181,12 @@
     },
     "hatemile_level_suffix": {
         "message": "Sufixo do nível do elemento"
+    },
+    "hatemile_headers_prefix": {
+        "message": "Prefixo do cabeçalho da célula de uma tabela"
+    },
+    "hatemile_headers_suffix": {
+        "message": "Sufixo  do cabeçalho da célula de uma tabela"
     },
     "hatemile_accesskey": {
         "message": "Texto da lista de atalhos da página"
