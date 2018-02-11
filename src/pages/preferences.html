@@ -269,40 +269,74 @@
                         </fieldset>
                         <fieldset>
                             <legend data-i18n="hatemile_fieldset_attribute_language"></legend>
-                            <div class="form-group">
-                                <label for="attribute-language-prefix-before" data-i18n="hatemile_language_prefix_before"></label>
-                                <input id="attribute-language-prefix-before" class="form-control" type="text" data-configuration="attribute-language-prefix-before" />
-                            </div>
-                            <div class="form-group">
-                                <label for="attribute-language-suffix-before" data-i18n="hatemile_language_suffix_before"></label>
-                                <input id="attribute-language-suffix-before" class="form-control" type="text" data-configuration="attribute-language-suffix-before" />
-                            </div>
-                            <div class="form-group">
-                                <label for="attribute-language-prefix-after" data-i18n="hatemile_language_prefix_after"></label>
-                                <input id="attribute-language-prefix-after" class="form-control" type="text" data-configuration="attribute-language-prefix-after" />
-                            </div>
-                            <div class="form-group">
-                                <label for="attribute-language-suffix-after" data-i18n="hatemile_language_suffix_after"></label>
-                                <input id="attribute-language-suffix-after" class="form-control" type="text" data-configuration="attribute-language-suffix-after" />
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="attribute-language-position" data-i18n="hatemile_label_language_position"></label>
+                                            <select id="attribute-language-position" class="form-control" data-configuration="attribute-language-position">
+                                                <option value="0" data-i18n="hatemile_option_not_display"></option>
+                                                <option value="1" data-i18n="hatemile_option_before"></option>
+                                                <option value="2" data-i18n="hatemile_option_after"></option>
+                                                <option value="3" data-i18n="hatemile_option_before_and_after"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label for="attribute-language-prefix-before" data-i18n="hatemile_language_prefix_before"></label>
+                                            <input id="attribute-language-prefix-before" class="form-control" type="text" data-configuration="attribute-language-prefix-before" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attribute-language-suffix-before" data-i18n="hatemile_language_suffix_before"></label>
+                                            <input id="attribute-language-suffix-before" class="form-control" type="text" data-configuration="attribute-language-suffix-before" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attribute-language-prefix-after" data-i18n="hatemile_language_prefix_after"></label>
+                                            <input id="attribute-language-prefix-after" class="form-control" type="text" data-configuration="attribute-language-prefix-after" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attribute-language-suffix-after" data-i18n="hatemile_language_suffix_after"></label>
+                                            <input id="attribute-language-suffix-after" class="form-control" type="text" data-configuration="attribute-language-suffix-after" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </fieldset>
                         <fieldset>
                             <legend data-i18n="hatemile_fieldset_attribute_role"></legend>
-                            <div class="form-group">
-                                <label for="attribute-role-prefix-before" data-i18n="hatemile_role_prefix_before"></label>
-                                <input id="attribute-role-prefix-before" class="form-control" type="text" data-configuration="attribute-role-prefix-before" />
-                            </div>
-                            <div class="form-group">
-                                <label for="attribute-role-suffix-before" data-i18n="hatemile_role_suffix_before"></label>
-                                <input id="attribute-role-suffix-before" class="form-control" type="text" data-configuration="attribute-role-suffix-before" />
-                            </div>
-                            <div class="form-group">
-                                <label for="attribute-role-prefix-after" data-i18n="hatemile_role_prefix_after"></label>
-                                <input id="attribute-role-prefix-after" class="form-control" type="text" data-configuration="attribute-role-prefix-after" />
-                            </div>
-                            <div class="form-group">
-                                <label for="attribute-role-suffix-after" data-i18n="hatemile_role_suffix_after"></label>
-                                <input id="attribute-role-suffix-after" class="form-control" type="text" data-configuration="attribute-role-suffix-after" />
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="attribute-role-position" data-i18n="hatemile_label_role_position"></label>
+                                            <select id="attribute-role-position" class="form-control" data-configuration="attribute-role-position">
+                                                <option value="0" data-i18n="hatemile_option_not_display"></option>
+                                                <option value="1" data-i18n="hatemile_option_before"></option>
+                                                <option value="2" data-i18n="hatemile_option_after"></option>
+                                                <option value="3" data-i18n="hatemile_option_before_and_after"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label for="attribute-role-prefix-before" data-i18n="hatemile_role_prefix_before"></label>
+                                            <input id="attribute-role-prefix-before" class="form-control" type="text" data-configuration="attribute-role-prefix-before" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attribute-role-suffix-before" data-i18n="hatemile_role_suffix_before"></label>
+                                            <input id="attribute-role-suffix-before" class="form-control" type="text" data-configuration="attribute-role-suffix-before" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attribute-role-prefix-after" data-i18n="hatemile_role_prefix_after"></label>
+                                            <input id="attribute-role-prefix-after" class="form-control" type="text" data-configuration="attribute-role-prefix-after" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="attribute-role-suffix-after" data-i18n="hatemile_role_suffix_after"></label>
+                                            <input id="attribute-role-suffix-after" class="form-control" type="text" data-configuration="attribute-role-suffix-after" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </fieldset>
                         <fieldset>

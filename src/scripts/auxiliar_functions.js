@@ -1,6 +1,7 @@
 var NOT_DISPLAY = '0';
 var DISPLAY_BEFORE = '1';
 var DISPLAY_AFTER = '2';
+var DISPLAY_BEFORE_AND_AFTER = '3';
 
 function loadScript(file, identifier) {
     if (!document.getElementById(identifier)) {
@@ -33,12 +34,14 @@ function getPreference(configuration, preference, display) {
 
 function getBeforePreference(configuration, preference, position) {
     return getPreference(configuration, preference,
-            configuration[position] === DISPLAY_BEFORE);
+            (configuration[position] === DISPLAY_BEFORE) ||
+                    (configuration[position] === DISPLAY_BEFORE_AND_AFTER));
 }
 
 function getAfterPreference(configuration, preference, position) {
     return getPreference(configuration, preference,
-            configuration[position] === DISPLAY_AFTER);
+            (configuration[position] === DISPLAY_AFTER) ||
+                    (configuration[position] === DISPLAY_BEFORE_AND_AFTER));
 }
 
 function setLanguages(configuration) {
@@ -188,6 +191,8 @@ function getUserPreferences(callback) {
         'attribute-data-invalid-position': DISPLAY_AFTER,
         'attribute-headers-position': DISPLAY_BEFORE,
         'attribute-longdescription-position': DISPLAY_AFTER,
+        'attribute-language-position': DISPLAY_BEFORE_AND_AFTER,
+        'attribute-role-position': DISPLAY_BEFORE_AND_AFTER,
         'elements-heading-position': DISPLAY_AFTER
     };
 
@@ -294,22 +299,26 @@ function loadReadOnlyConfiguration(userPreferences) {
                 'aria-dropeffect-link', 'aria-dropeffect-position'),
         'attribute-dropzone-link-after': getAfterPreference(userPreferences,
                 'aria-dropeffect-link', 'aria-dropeffect-position'),
-        'attribute-language-prefix-before':
-                userPreferences['attribute-language-prefix-before'],
-        'attribute-language-suffix-before':
-                userPreferences['attribute-language-suffix-before'],
-        'attribute-language-prefix-after':
-                userPreferences['attribute-language-prefix-after'],
-        'attribute-language-suffix-after':
-                userPreferences['attribute-language-suffix-after'],
-        'attribute-role-prefix-before':
-                userPreferences['attribute-role-prefix-before'],
-        'attribute-role-suffix-before':
-                userPreferences['attribute-role-suffix-before'],
-        'attribute-role-prefix-after':
-                userPreferences['attribute-role-prefix-after'],
-        'attribute-role-suffix-after':
-                userPreferences['attribute-role-suffix-after'],
+        'attribute-language-prefix-before': getBeforePreference(userPreferences,
+                'attribute-language-prefix-before',
+                'attribute-language-position'),
+        'attribute-language-suffix-before': getBeforePreference(userPreferences,
+                'attribute-language-suffix-before',
+                'attribute-language-position'),
+        'attribute-language-prefix-after': getAfterPreference(userPreferences,
+                'attribute-language-prefix-after',
+                'attribute-language-position'),
+        'attribute-language-suffix-after': getAfterPreference(userPreferences,
+                'attribute-language-suffix-after',
+                'attribute-language-position'),
+        'attribute-role-prefix-before': getBeforePreference(userPreferences,
+                'attribute-role-prefix-before', 'attribute-role-position'),
+        'attribute-role-suffix-before': getBeforePreference(userPreferences,
+                'attribute-role-suffix-before', 'attribute-role-position'),
+        'attribute-role-prefix-after': getAfterPreference(userPreferences,
+                'attribute-role-prefix-after', 'attribute-role-position'),
+        'attribute-role-suffix-after': getAfterPreference(userPreferences,
+                'attribute-role-suffix-after', 'attribute-role-position'),
         'elements-heading-before': getBeforePreference(userPreferences,
                 'elements-heading', 'elements-heading-position'),
         'elements-heading-after': getAfterPreference(userPreferences,

@@ -86,6 +86,9 @@
     "hatemile_option_after": {
         "message": "After"
     },
+    "hatemile_option_before_and_after": {
+        "message": "Before and after"
+    },
     "hatemile_label_title_position": {
         "message": "Position of text for title of element"
     },
@@ -115,6 +118,12 @@
     },
     "hatemile_label_elements_heading_position": {
         "message": "Position of table of contents of page"
+    },
+    "hatemile_label_language_position": {
+        "message": "Position of text that describe the language of element"
+    },
+    "hatemile_label_role_position": {
+        "message": "Position of text that describe the role of element"
     },
     "hatemile_label_grabbed_position": {
         "message": "Position of text that describe draggable elements"
