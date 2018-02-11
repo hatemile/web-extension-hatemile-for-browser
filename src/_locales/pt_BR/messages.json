@@ -26,6 +26,9 @@
     "hatemile_fieldset_aria_haspopup": {
         "message": "Pop-up"
     },
+    "hatemile_fieldset_aria_level": {
+        "message": "Nível"
+    },
     "hatemile_fieldset_attribute_download": {
         "message": "Link de download"
     },
@@ -109,6 +112,12 @@
     },
     "hatemile_haspopup": {
         "message": "Texto do elemento que possuí um pop-up"
+    },
+    "hatemile_level_prefix": {
+        "message": "Prefix for element level"
+    },
+    "hatemile_level_suffix": {
+        "message": "Suffix for element level"
     },
     "hatemile_accesskey": {
         "message": "Texto da lista de atalhos da página"

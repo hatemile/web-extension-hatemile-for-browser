@@ -26,6 +26,9 @@
     "hatemile_fieldset_aria_haspopup": {
         "message": "Pop-up"
     },
+    "hatemile_fieldset_aria_level": {
+        "message": "Level"
+    },
     "hatemile_fieldset_attribute_download": {
         "message": "Download link"
     },
@@ -109,6 +112,12 @@
     },
     "hatemile_haspopup": {
         "message": "Text for element that has pop-up"
+    },
+    "hatemile_level_prefix": {
+        "message": "Prefix for element level"
+    },
+    "hatemile_level_suffix": {
+        "message": "Suffix for element level"
     },
     "hatemile_accesskey": {
         "message": "Text before the shortcuts list"
