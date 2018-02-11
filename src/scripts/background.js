@@ -44,7 +44,6 @@ window.addEventListener('load', function() {
         accessibleDisplay.displayAllCellHeaders();
         accessibleDisplay.displayAllWAIARIAStates();
         accessibleDisplay.displayAllLinksAttributes();
-        accessibleDisplay.displayAllDragsAndDrops();
         accessibleDisplay.displayAllAlternativeTextImages();
         accessibleDisplay.displayAllTitles();
         accessibleDisplay.displayAllShortcuts();
