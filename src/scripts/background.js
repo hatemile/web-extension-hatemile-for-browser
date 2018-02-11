@@ -54,7 +54,10 @@ window.addEventListener('load', function() {
                         hatemile_configuration_skippers);
         accessibleNavigation.provideNavigationByAllHeadings();
         accessibleNavigation.provideNavigationToAllLongDescriptions();
-        accessibleNavigation.provideNavigationByAllSkippers();
+
+        if (userPreferences['skipper-position'] === DISPLAY_BEFORE) {
+            accessibleNavigation.provideNavigationByAllSkippers();
+        }
 
         accessibleDisplay.displayAllShortcuts();
     });

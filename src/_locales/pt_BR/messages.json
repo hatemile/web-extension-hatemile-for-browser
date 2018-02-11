@@ -125,6 +125,9 @@
     "hatemile_label_role_position": {
         "message": "Posição da descrição da definição do elemento"
     },
+    "hatemile_label_skipper_position": {
+        "message": "Mostrar saltadores de conteúdo da página"
+    },
     "hatemile_label_grabbed_position": {
         "message": "Posição da descrição dos elementos arratáveis"
     },

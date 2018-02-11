@@ -125,6 +125,9 @@
     "hatemile_label_role_position": {
         "message": "Position of text that describe the role of element"
     },
+    "hatemile_label_skipper_position": {
+        "message": "Display skippers"
+    },
     "hatemile_label_grabbed_position": {
         "message": "Position of text that describe draggable elements"
     },

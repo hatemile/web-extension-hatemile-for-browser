@@ -341,13 +341,28 @@
                         </fieldset>
                         <fieldset>
                             <legend data-i18n="hatemile_fieldset_skipper"></legend>
-                            <div class="form-group">
-                                <label for="skipper-table-contents" data-i18n="hatemile_skipper_table_contents"></label>
-                                <input id="skipper-table-contents" class="form-control" type="text" data-configuration="skipper-table-contents" />
-                            </div>
-                            <div class="form-group">
-                                <label for="skipper-shortcuts-list" data-i18n="hatemile_skipper_shortcut_list"></label>
-                                <input id="skipper-shortcuts-list" class="form-control" type="text" data-configuration="skipper-shortcuts-list" />
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="skipper-position" data-i18n="hatemile_label_skipper_position"></label>
+                                            <select id="skipper-position" class="form-control" data-configuration="skipper-position">
+                                                <option value="0" data-i18n="hatemile_option_not_display"></option>
+                                                <option value="1" data-i18n="hatemile_option_before"></option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="form-group">
+                                            <label for="skipper-table-contents" data-i18n="hatemile_skipper_table_contents"></label>
+                                            <input id="skipper-table-contents" class="form-control" type="text" data-configuration="skipper-table-contents" />
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="skipper-shortcuts-list" data-i18n="hatemile_skipper_shortcut_list"></label>
+                                            <input id="skipper-shortcuts-list" class="form-control" type="text" data-configuration="skipper-shortcuts-list" />
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </fieldset>
                         <h2 data-i18n="hatemile_draganddrop_caption"></h2>
