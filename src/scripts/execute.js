@@ -1,4 +1,4 @@
-initHaTeMiLeForBrowser = function() {
+function initHaTeMiLeForBrowser() {
     var i;
     var length;
     var idGenerator = new hatemile.util.IDGenerator('hatemile-execute');
@@ -18,9 +18,15 @@ initHaTeMiLeForBrowser = function() {
     accessibleForm.markAllInvalidFields();
 
     var accessibleDisplay = new hatemile.implementation
-            .AccessibleDisplayScreenReaderImplementation(htmlParser, configure,
-                    '');
+            .AccessibleDisplayScreenReaderImplementation(htmlParser,
+                    configure, '');
 
+    var customAttributes = [
+        'data-invalidurl', 'data-invalidemail', 'data-invalidrange',
+        'data-invaliddate', 'data-invalidtime', 'data-invaliddatetime',
+        'data-invalidmonth', 'data-invalidweek', 'data-invalidlength',
+        'data-invalidpattern', 'data-invalidrequired'
+    ];
     var validateFields = htmlParser.find('[data-changeadded]').listResults();
     for (i = 0, length = validateFields.length; i < length; i++) {
         var field = validateFields[i].getData();
@@ -33,103 +39,17 @@ initHaTeMiLeForBrowser = function() {
 
             idGenerator.generateId(target);
             var id = target.getAttribute('id');
-            if (!target.hasAttribute('data-invalidurl')) {
-                var invalidURLDisplay = htmlParser
-                        .find('[data-invalidurlbeforeof="' + id
-                        + '"],[data-invalidurlafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidURLDisplay !== null) {
-                    invalidURLDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidemail')) {
-                var invalidEmailDisplay = htmlParser
-                        .find('[data-invalidemailbeforeof="' + id
-                        + '"],[data-invalidemailafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidEmailDisplay !== null) {
-                    invalidEmailDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidrange')) {
-                var invalidRangeDisplay = htmlParser
-                        .find('[data-invalidrangebeforeof="' + id
-                        + '"],[data-invalidrangeafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidRangeDisplay !== null) {
-                    invalidRangeDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invaliddate')) {
-                var invalidDateDisplay = htmlParser
-                        .find('[data-invaliddatebeforeof="' + id
-                        + '"],[data-invaliddateafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidDateDisplay !== null) {
-                    invalidDateDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidtime')) {
-                var invalidTimeDisplay = htmlParser
-                        .find('[data-invalidtimebeforeof="' + id
-                        + '"],[data-invalidtimeafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidTimeDisplay !== null) {
-                    invalidTimeDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invaliddatetime')) {
-                var invalidDateTimeDisplay = htmlParser
-                        .find('[data-invaliddatetimebeforeof="' + id
-                        + '"],[data-invaliddatetimeafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidDateTimeDisplay !== null) {
-                    invalidDateTimeDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidmonth')) {
-                var invalidMonthDisplay = htmlParser
-                        .find('[data-invalidmonthbeforeof="' + id
-                        + '"],[data-invalidmonthafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidMonthDisplay !== null) {
-                    invalidMonthDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidweek')) {
-                var invalidWeekDisplay = htmlParser
-                        .find('[data-invalidweekbeforeof="' + id
-                        + '"],[data-invalidweekafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidWeekDisplay !== null) {
-                    invalidWeekDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidlength')) {
-                var invalidLengthDisplay = htmlParser
-                        .find('[data-invalidlengthbeforeof="' + id
-                        + '"],[data-invalidlengthafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidLengthDisplay !== null) {
-                    invalidLengthDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidpattern')) {
-                var invalidPatternDisplay = htmlParser
-                        .find('[data-invalidpatternbeforeof="' + id
-                        + '"],[data-invalidpatternafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidPatternDisplay !== null) {
-                    invalidPatternDisplay.removeNode();
-                }
-            }
-            if (!target.hasAttribute('data-invalidrequired')) {
-                var invalidRequiredDisplay = htmlParser
-                        .find('[data-invalidrequiredbeforeof="' + id
-                        + '"],[data-invalidrequiredafterof="' + id + '"]')
-                        .firstResult();
-                if (invalidRequiredDisplay !== null) {
-                    invalidRequiredDisplay.removeNode();
+
+            for (var j = 0, len = customAttributes.length; j < len; j++) {
+                var customAttribute = customAttributes[j];
+                if (!target.hasAttribute(customAttribute)) {
+                    var invalidDisplay = htmlParser
+                            .find('[' + customAttribute + 'beforeof="' + id
+                                    + '"],[' + customAttribute + 'afterof="'
+                                    + id + '"]').firstResult();
+                    if (invalidDisplay !== null) {
+                        invalidDisplay.removeNode();
+                    }
                 }
             }
         });
@@ -147,6 +67,6 @@ initHaTeMiLeForBrowser = function() {
         });
     }
     window.removeEventListener('load', initHaTeMiLeForBrowser, false);
-};
+}
 
 window.addEventListener('load', initHaTeMiLeForBrowser);
