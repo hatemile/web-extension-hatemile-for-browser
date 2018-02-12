@@ -21,7 +21,7 @@
         "message": "Formulário"
     },
     "hatemile_fieldset_attribute_title": {
-        "message": "Título do elemento"
+        "message": "Título de um elemento"
     },
     "hatemile_fieldset_aria_haspopup": {
         "message": "Pop-up"
@@ -39,13 +39,13 @@
         "message": "Link que abre nova aba"
     },
     "hatemile_fieldset_attribute_longdescription": {
-        "message": "Descrição longa da imagem"
+        "message": "Descrição longa de uma imagem"
     },
     "hatemile_fieldset_attribute_accesskey_page": {
-        "message": "Atalhos da página"
+        "message": "Atalhos de uma página"
     },
     "hatemile_fieldset_attribute_accesskey_element": {
-        "message": "Atalho do elemento"
+        "message": "Atalho de um elemento"
     },
     "hatemile_fieldset_elements_heading": {
         "message": "Sumário"
@@ -54,16 +54,16 @@
         "message": "Idioma"
     },
     "hatemile_fieldset_attribute_role": {
-        "message": "Definição do elemento"
+        "message": "Definição de um elemento"
     },
     "hatemile_fieldset_skipper": {
-        "message": "Links que pulam o conteúdo da página"
+        "message": "Links que pulam o conteúdo de uma página"
     },
     "hatemile_fieldset_aria_grabbed": {
         "message": "Elemento arrastável"
     },
     "hatemile_fieldset_aria_dropeffect": {
-        "message": "Efeito de soltar o elemento"
+        "message": "Efeito de soltar um elemento"
     },
     "hatemile_fieldset_aria_required": {
         "message": "Campo obrigatório"
@@ -72,7 +72,7 @@
         "message": "Campo com limite de valores"
     },
     "hatemile_fieldset_aria_autocomplete": {
-        "message": "Autocompletar do campo"
+        "message": "Autocompletar de um campo"
     },
     "hatemile_fieldset_data_invalid": {
         "message": "Campo inválido"
@@ -90,109 +90,109 @@
         "message": "Antes e depois"
     },
     "hatemile_label_title_position": {
-        "message": "Posição do título do elemento"
+        "message": "Posição do título de um elemento"
     },
     "hatemile_label_haspopup_position": {
-        "message": "Posição do texto do elemento que possuí pop-up"
+        "message": "Posição do texto para informar que um elemento possuí pop-up"
     },
     "hatemile_label_level_position": {
-        "message": "Posição do texto do nível do elemento"
+        "message": "Posição do texto do nível de um elemento"
     },
     "hatemile_label_headers_position": {
         "message": "Posição do texto do cabeçalho da célula de uma tabela"
     },
     "hatemile_label_download_position": {
-        "message": "Posição da descrição do link de download"
+        "message": "Posição da descrição de um link de download"
     },
     "hatemile_label_target_position": {
-        "message": "Posição da descrição do element que abre uma nova aba"
+        "message": "Posição da descrição de um link que abre uma nova aba"
     },
     "hatemile_label_longdescription_position": {
-        "message": "Posição do link da imagem com descrição longa"
+        "message": "Posição do link de uma imagem com descrição longa"
     },
     "hatemile_label_accesskey_page_position": {
-        "message": "Posição da lista de atalhos da página"
+        "message": "Posição da lista de atalhos de uma página"
     },
     "hatemile_label_accesskey_element_position": {
-        "message": "Posição do descrição dos atalhos dos elementos"
+        "message": "Posição do descrição de atalho de um elemento"
     },
     "hatemile_label_elements_heading_position": {
-        "message": "Posição do sumário da página"
+        "message": "Posição do sumário de uma página"
     },
     "hatemile_label_language_position": {
-        "message": "Posição do descrição do idioma do elemento"
+        "message": "Posição do descrição do idioma de um elemento"
     },
     "hatemile_label_role_position": {
-        "message": "Posição da descrição da definição do elemento"
+        "message": "Posição da descrição da definição de um elemento"
     },
     "hatemile_label_skipper_position": {
-        "message": "Mostrar saltadores de conteúdo da página"
+        "message": "Mostrar saltadores de conteúdo de uma página"
     },
     "hatemile_label_grabbed_position": {
-        "message": "Posição da descrição dos elementos arratáveis"
+        "message": "Posição da descrição de um elemento arratável"
     },
     "hatemile_label_dropeffect_position": {
-        "message": "Posição da descrição dos efeitos de soltar o elemento"
+        "message": "Posição da descrição dos efeitos de soltar um elemento"
     },
     "hatemile_label_required_position": {
-        "message": "Posição da descrição dos campos obrigatórios"
+        "message": "Posição da descrição de um campo obrigatório"
     },
     "hatemile_label_value_position": {
-        "message": "Posição da descrição dos limites de valores"
+        "message": "Posição da descrição dos limites de valores de um campo"
     },
     "hatemile_label_autocomplete_position": {
-        "message": "Posição da descrição do autocompletar dos campos"
+        "message": "Posição da descrição do autocompletar de um campos"
     },
     "hatemile_label_data_invalid_position": {
-        "message": "Posição da descrição da erro dos campos com valores inválidos"
+        "message": "Posição da descrição que um campo possuí um valor inválido"
     },
     "hatemile_grabbed_true": {
-        "message": "Texto do elemento sendo arrastado"
+        "message": "Texto para informar que um elemento esta sendo arrastado"
     },
     "hatemile_grabbed_false": {
-        "message": "Texto do elemento arrastável"
+        "message": "Texto para informar que um elemento é arrastável"
     },
     "hatemile_label_prefix": {
-        "message": "Prefixo do rótulo do elemento"
+        "message": "Prefixo do rótulo de um elemento"
     },
     "hatemile_label_suffix": {
-        "message": "Sufixo do rótulo do elemento"
+        "message": "Sufixo do rótulo de um elemento"
     },
     "hatemile_dropeffect_copy": {
-        "message": "Texto do local para ser copiado o elemento selecionado"
+        "message": "Texto de um local para ser copiado um elemento selecionado"
     },
     "hatemile_dropeffect_move": {
-        "message": "Texto do local para ser movido o elemento selecionado"
+        "message": "Texto de um local para ser movido um elemento selecionado"
     },
     "hatemile_dropeffect_link": {
-        "message": "Texto do local a ser ligado o elemento selecionado"
+        "message": "Texto de um local a ser ligado um elemento selecionado"
     },
     "hatemile_dropeffect_execute": {
-        "message": "Texto do local a ser executado o elemento selecionado"
+        "message": "Texto de um local a ser executado um elemento selecionado"
     },
     "hatemile_dropeffect_popup": {
-        "message": "Texto do local a ser aberto o pop-up"
+        "message": "Texto de um local a ser aberto o pop-up"
     },
     "hatemile_download": {
-        "message": "Texto de um link de download"
+        "message": "Texto para informar que um link é de download"
     },
     "hatemile_target_blank": {
-        "message": "Texto de um link que abre uma nova aba"
+        "message": "Texto para informar que um link abre uma nova aba"
     },
     "hatemile_title_prefix": {
-        "message": "Prefixo do título do elemento"
+        "message": "Prefixo do título de um elemento"
     },
     "hatemile_title_suffix": {
-        "message": "Sufixo do título do elemento"
+        "message": "Sufixo do título de um elemento"
     },
     "hatemile_haspopup": {
-        "message": "Texto do elemento que possuí um pop-up"
+        "message": "Texto para informar que um elemento possuí um pop-up"
     },
     "hatemile_level_prefix": {
-        "message": "Prefixo do nível do elemento"
+        "message": "Prefixo do nível de um elemento"
     },
     "hatemile_level_suffix": {
-        "message": "Sufixo do nível do elemento"
+        "message": "Sufixo do nível de um elemento"
     },
     "hatemile_headers_prefix": {
         "message": "Prefixo do cabeçalho da célula de uma tabela"
@@ -201,46 +201,46 @@
         "message": "Sufixo  do cabeçalho da célula de uma tabela"
     },
     "hatemile_accesskey": {
-        "message": "Texto da lista de atalhos da página"
+        "message": "Texto da lista de atalhos de uma página"
     },
     "hatemile_accesskey_prefix": {
-        "message": "Prefixo do atalho do elemento"
+        "message": "Prefixo do atalho de um elemento"
     },
     "hatemile_accesskey_suffix": {
-        "message": "Sufixo do atalho do elemento"
+        "message": "Sufixo do atalho de um elemento"
     },
     "hatemile_longdescription_prefix": {
-        "message": "Prefixo do link da descrição longa da imagem"
+        "message": "Prefixo do link da descrição longa de uma imagem"
     },
     "hatemile_longdescription_suffix": {
-        "message": "Sufixo do link da descrição longa da imagem"
+        "message": "Sufixo do link da descrição longa de uma imagem"
     },
     "hatemile_elements_heading": {
         "message": "Texto do sumário"
     },
     "hatemile_language_prefix_before": {
-        "message": "Prefixo antes da declaração do idioma"
+        "message": "Prefixo antes da declaração de um idioma"
     },
     "hatemile_language_suffix_before": {
-        "message": "Sufixo antes da declaração do idioma"
+        "message": "Sufixo antes da declaração de um idioma"
     },
     "hatemile_language_prefix_after": {
-        "message": "Prefixo depois da declaração do idioma"
+        "message": "Prefixo depois da declaração de um idioma"
     },
     "hatemile_language_suffix_after": {
-        "message": "Sufixo depois da declaração do idioma"
+        "message": "Sufixo depois da declaração de um idioma"
     },
     "hatemile_role_prefix_before": {
-        "message": "Prefixo antes da declaração da definição do elemento"
+        "message": "Prefixo antes da declaração da definição de um elemento"
     },
     "hatemile_role_suffix_before": {
-        "message": "Sufixo antes da declaração da definição do elemento"
+        "message": "Sufixo antes da declaração da definição de um elemento"
     },
     "hatemile_role_prefix_after": {
-        "message": "Prefixo depois da declaração da definição do elemento"
+        "message": "Prefixo depois da declaração da definição de um elemento"
     },
     "hatemile_role_suffix_after": {
-        "message": "Sufixo depois da declaração da definição do elemento"
+        "message": "Sufixo depois da declaração da definição de um elemento"
     },
     "hatemile_skipper_table_contents": {
         "message": "Texto do link para ir direto para o sumário"
@@ -249,61 +249,61 @@
         "message": "Texto do link para ir direto para a lista de atalhos"
     },
     "hatemile_required_true": {
-        "message": "Texto de um campo obrigatório"
+        "message": "Texto para descrever um campo obrigatório"
     },
     "hatemile_value_maximum_prefix": {
-        "message": "Prefixo do valor máximo do campo"
+        "message": "Prefixo do valor máximo de um campo"
     },
     "hatemile_value_maximum_suffix": {
-        "message": "Sufixo do valor máximo do campo"
+        "message": "Sufixo do valor máximo de um campo"
     },
     "hatemile_value_minimum_prefix": {
-        "message": "Prefixo do valor mínimo do campo"
+        "message": "Prefixo do valor mínimo de um campo"
     },
     "hatemile_value_minimum_suffix": {
-        "message": "Sufixo do valor mínimo do campo"
+        "message": "Sufixo do valor mínimo de um campo"
     },
     "hatemile_autocomplete_both": {
-        "message": "Texto do autocompletar do campo to tipo lista ou na linha"
+        "message": "Texto do autocompletar de um campo do tipo lista ou na linha"
     },
     "hatemile_autocomplete_inline": {
-        "message": "Texto do autocompletar do campo to tipo linha"
+        "message": "Texto do autocompletar de um campo do tipo linha"
     },
     "hatemile_autocomplete_list": {
-        "message": "Texto do autocompletar do campo do tipo lista"
+        "message": "Texto do autocompletar de um campo do tipo lista"
     },
     "hatemile_invalid_url": {
-        "message": "Texto de um campo com URL inválida"
+        "message": "Texto para informar que um campo possuí uma URL inválida"
     },
     "hatemile_invalid_email": {
-        "message": "Texto de um campo com endereço de e-mail inválido"
+        "message": "Texto para informar que um campo possuí um endereço de e-mail inválido"
     },
     "hatemile_invalid_range": {
-        "message": "Texto de um campo com valor fora do intervalo"
+        "message": "Texto para informar que um campo possuí um valor fora do intervalo"
     },
     "hatemile_invalid_length": {
-        "message": "Texto de um campo com o número de caracteres fora do intervalo"
+        "message": "Texto para informar que um campo possuí um número de caracteres fora do intervalo"
     },
     "hatemile_invalid_pattern": {
-        "message": "Texto de um campo fora do padrão"
+        "message": "Texto para informar um campo fora do padrão"
     },
     "hatemile_invalid_required": {
-        "message": "Texto de um campo obrigatório que não foi preenchido"
+        "message": "Texto para informar que um campo obrigatório não foi preenchido"
     },
     "hatemile_invalid_date": {
-        "message": "Texto de um campo com data inválida"
+        "message": "Texto para informar um campo com data inválida"
     },
     "hatemile_invalid_time": {
-        "message": "Texto de um campo com horário inválido"
+        "message": "Texto para informar um campo com horário inválido"
     },
     "hatemile_invalid_datetime": {
-        "message": "Texto de um campo com data e horário inválido"
+        "message": "Texto para informar um campo com data e horário inválido"
     },
     "hatemile_invalid_month": {
-        "message": "Texto de um campo com mês inválido"
+        "message": "Texto para informar um campo com mês inválido"
     },
     "hatemile_invalid_week": {
-        "message": "Texto de um campo com semana inválida"
+        "message": "Texto para informar um campo com semana inválida"
     },
     "extensions_hatemile_aria_autocomplete_both": {
         "message": " (Auto completar em lista ou em linha)"
@@ -315,19 +315,19 @@
         "message": " (Auto completar em lista)"
     },
     "extensions_hatemile_aria_dropeffect_copy": {
-        "message": " (Colar o elemento selecionado para o local)"
+        "message": " (Colar o elemento selecionado aqui)"
     },
     "extensions_hatemile_aria_dropeffect_move": {
-        "message": " (Mover o elemento selecionado para o local)"
+        "message": " (Mover o elemento selecionado aqui)"
     },
     "extensions_hatemile_aria_dropeffect_link": {
-        "message": " (Criar um link do elemento selecionado para o local)"
+        "message": " (Criar um link do elemento selecionado aqui)"
     },
     "extensions_hatemile_aria_dropeffect_execute": {
-        "message": " (Executar o elemento selecionado no local)"
+        "message": " (Executar o elemento selecionado aqui)"
     },
     "extensions_hatemile_aria_dropeffect_popup": {
-        "message": " (Abrir um pop-up no local)"
+        "message": " (Abrir um pop-up aqui para selecionar a opção de soltar)"
     },
     "extensions_hatemile_aria_grabbed_true": {
         "message": " (Arrastando)"
@@ -378,25 +378,25 @@
         "message": ")"
     },
     "extensions_hatemile_attribute_target_blank": {
-        "message": "(Abrir este link numa nova aba) "
+        "message": "(Este link abre uma nova aba) "
     },
     "extensions_hatemile_attribute_download": {
         "message": "(Download) "
     },
     "extensions_hatemile_attribute_data_invalid_url": {
-        "message": " (Informe um endereço da internet válido)"
+        "message": " (Informe um endereço URL válido)"
     },
     "extensions_hatemile_attribute_data_invalid_email": {
         "message": " (Informe um endereço de e-mail válido)"
     },
     "extensions_hatemile_attribute_data_invalid_range": {
-        "message": " (Informe um valor dentro do intervalo)"
+        "message": " (Informe um valor dentro do intervalo de valores)"
     },
     "extensions_hatemile_attribute_data_invalid_length": {
         "message": " (Informe um valor com número de caracteres dentro do intervalo)"
     },
     "extensions_hatemile_attribute_data_invalid_pattern": {
-        "message": " (Informe um valor de acordo com o formato solicitado)"
+        "message": " (Informe um valor de acordo com o padrão solicitado)"
     },
     "extensions_hatemile_attribute_data_invalid_required": {
         "message": " (Preencha o campo)"
