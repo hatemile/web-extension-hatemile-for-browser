@@ -63,11 +63,13 @@
         "scripts/hatemile/js/eventlistener.js",
         "scripts/hatemile/js/hatemile/util/CommonFunctions.js",
         "scripts/hatemile/js/hatemile/util/Configure.js",
+        "scripts/hatemile/js/hatemile/util/IDGenerator.js",
         "scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js",
         "scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMParser.js",
         "scripts/hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMTextNode.js",
         "scripts/hatemile/js/hatemile/implementation/AccessibleEventImplementation.js",
         "scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js",
+        "scripts/hatemile/js/hatemile/implementation/AccessibleDisplayScreenReaderImplementation.js",
         "scripts/execute.js"
     ]
 }
