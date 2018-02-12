@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "HaTeMiLe for Browser",
     "default_locale": "en_US",
-    "version": "2.0.8",
+    "version": "3.0.0",
 
     "description": "__MSG_appDesc__",
     "homepage_url": "https://github.com/carlsonsantana/web-extension-hatemile-for-browser",
