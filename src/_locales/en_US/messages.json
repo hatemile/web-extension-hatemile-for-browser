@@ -30,22 +30,22 @@
         "message": "Level"
     },
     "hatemile_fieldset_attribute_headers": {
-        "message": "Table cell headers"
+        "message": "Header cell of a table"
     },
     "hatemile_fieldset_attribute_download": {
         "message": "Download link"
     },
     "hatemile_fieldset_attribute_target": {
-        "message": "Link that open new instance"
+        "message": "Link that open new tab"
     },
     "hatemile_fieldset_attribute_longdescription": {
-        "message": "Long description of image"
+        "message": "Long description of a image"
     },
     "hatemile_fieldset_attribute_accesskey_page": {
-        "message": "Keyboard shortcut of page"
+        "message": "Keyboard shortcut of a page"
     },
     "hatemile_fieldset_attribute_accesskey_element": {
-        "message": "Keyboard shortcut of element"
+        "message": "Keyboard shortcut of a element"
     },
     "hatemile_fieldset_elements_heading": {
         "message": "Table of content"
@@ -63,7 +63,7 @@
         "message": "Draggable element"
     },
     "hatemile_fieldset_aria_dropeffect": {
-        "message": "Drop effect of element"
+        "message": "Drop effect of a element"
     },
     "hatemile_fieldset_aria_required": {
         "message": "Required field"
@@ -90,7 +90,7 @@
         "message": "Before and after"
     },
     "hatemile_label_title_position": {
-        "message": "Position of text for title of element"
+        "message": "Position of text for title of a element"
     },
     "hatemile_label_haspopup_position": {
         "message": "Position of text that describe a element that has pop-up"
@@ -99,7 +99,7 @@
         "message": "Position of text for element level"
     },
     "hatemile_label_headers_position": {
-        "message": "Position of text of table cell headers"
+        "message": "Position of text of header cell of a table"
     },
     "hatemile_label_download_position": {
         "message": "Position of text that describe a download link"
@@ -108,49 +108,49 @@
         "message": "Position of text that describe a link that open new tab"
     },
     "hatemile_label_longdescription_position": {
-        "message": "Position of longdescription link of image"
+        "message": "Position of longdescription link of a image"
     },
     "hatemile_label_accesskey_page_position": {
-        "message": "Position of list of shotcuts of page"
+        "message": "Position of shotcuts list of a page"
     },
     "hatemile_label_accesskey_element_position": {
-        "message": "Position of shortcut description of element"
+        "message": "Position of shortcut description of a element"
     },
     "hatemile_label_elements_heading_position": {
-        "message": "Position of table of contents of page"
+        "message": "Position of table of contents of a page"
     },
     "hatemile_label_language_position": {
-        "message": "Position of text that describe the language of element"
+        "message": "Position of text that declare the language of a element"
     },
     "hatemile_label_role_position": {
-        "message": "Position of text that describe the role of element"
+        "message": "Position of text that declare the role of a element"
     },
     "hatemile_label_skipper_position": {
         "message": "Display skippers"
     },
     "hatemile_label_grabbed_position": {
-        "message": "Position of text that describe draggable elements"
+        "message": "Position of text that describe a draggable element"
     },
     "hatemile_label_dropeffect_position": {
         "message": "Position of description of drop effect"
     },
     "hatemile_label_required_position": {
-        "message": "Position of text that describe required fields"
+        "message": "Position of text that describe a required field"
     },
     "hatemile_label_value_position": {
-        "message": "Position of text that describe the limit values of fields"
+        "message": "Position of text that describe the limit values of a field"
     },
     "hatemile_label_autocomplete_position": {
-        "message": "Position of text that describe the field with autocompletes"
+        "message": "Position of text that describe a field with autocomplete"
     },
     "hatemile_label_data_invalid_position": {
-        "message": "Position of text that describe the error of invalid fields"
+        "message": "Position of text that describe the error of a invalid field"
     },
     "hatemile_grabbed_true": {
-        "message": "Text for grabbed elements"
+        "message": "Text that describe a grabbed element"
     },
     "hatemile_grabbed_false": {
-        "message": "Text for draggable elements"
+        "message": "Text that describe a draggable element"
     },
     "hatemile_label_prefix": {
         "message": "Prefix for label of element"
@@ -159,34 +159,34 @@
         "message": "Suffix for label of element"
     },
     "hatemile_dropeffect_copy": {
-        "message": "Text for target to paste the seletected element"
+        "message": "Text that describe a target to paste a seletected element"
     },
     "hatemile_dropeffect_move": {
-        "message": "Text for target to move the seletected element"
+        "message": "Text that describe a target to move a seletected element"
     },
     "hatemile_dropeffect_link": {
-        "message": "Text for target to link the seletected element"
+        "message": "Text that describe a target to link a seletected element"
     },
     "hatemile_dropeffect_execute": {
-        "message": "Text for target to execute the seletected element"
+        "message": "Text that describe a target to execute a seletected element"
     },
     "hatemile_dropeffect_popup": {
-        "message": "Text for target to show drop pop-up"
+        "message": "Text that describe a target to show drop pop-up"
     },
     "hatemile_download": {
-        "message": "Text for download link"
+        "message": "Text that describe a download link"
     },
     "hatemile_target_blank": {
-        "message": "Text for link that open new tab"
+        "message": "Text that describe a link that open new tab"
     },
     "hatemile_title_prefix": {
-        "message": "Prefix for title of element"
+        "message": "Prefix for title of a element"
     },
     "hatemile_title_suffix": {
-        "message": "Suffix for title of element"
+        "message": "Suffix for title of a element"
     },
     "hatemile_haspopup": {
-        "message": "Text for element that has pop-up"
+        "message": "Text that describe a element that has pop-up"
     },
     "hatemile_level_prefix": {
         "message": "Prefix for element level"
@@ -195,19 +195,19 @@
         "message": "Suffix for element level"
     },
     "hatemile_headers_prefix": {
-        "message": "Prefix for table cell header"
+        "message": "Prefix for header cell of a table"
     },
     "hatemile_headers_suffix": {
-        "message": "Suffix for table cell header"
+        "message": "Suffix for header cell of a table"
     },
     "hatemile_accesskey": {
-        "message": "Text before the shortcuts list"
+        "message": "Text for shortcuts list"
     },
     "hatemile_accesskey_prefix": {
-        "message": "Prefix for element shortcut"
+        "message": "Prefix for shortcut description of a element"
     },
     "hatemile_accesskey_suffix": {
-        "message": "Suffix for element shortcut"
+        "message": "Suffix for shortcut description of a element"
     },
     "hatemile_longdescription_prefix": {
         "message": "Prefix for longdescription link"
@@ -243,25 +243,25 @@
         "message": "Suffix text after a role declaration"
     },
     "hatemile_skipper_table_contents": {
-        "message": "Text of link to go direct to table of contents"
+        "message": "Text of a link to go direct to table of contents"
     },
     "hatemile_skipper_shortcut_list": {
-        "message": "Text of link to go direct to shortcut list"
+        "message": "Text of a link to go direct to shortcut list"
     },
     "hatemile_required_true": {
-        "message": "Text for required field"
+        "message": "Text that describe a required field"
     },
     "hatemile_value_maximum_prefix": {
-        "message": "Prefix for maximum value of field"
+        "message": "Prefix for maximum value of a field"
     },
     "hatemile_value_maximum_suffix": {
-        "message": "Suffix for maximum value of field"
+        "message": "Suffix for maximum value of a field"
     },
     "hatemile_value_minimum_prefix": {
-        "message": "Prefix for minimum value of field"
+        "message": "Prefix for minimum value of a field"
     },
     "hatemile_value_minimum_suffix": {
-        "message": "Suffix for minimum value of field"
+        "message": "Suffix for minimum value of a field"
     },
     "hatemile_autocomplete_both": {
         "message": "Text of list or inline autocomplete"
@@ -273,37 +273,37 @@
         "message": "Text of list autocomplete"
     },
     "hatemile_invalid_url": {
-        "message": "Text for field with invalid URL"
+        "message": "Text that describe a field with invalid URL"
     },
     "hatemile_invalid_email": {
-        "message": "Text for field with invalid e-mail"
+        "message": "Text that describe a field with invalid e-mail"
     },
     "hatemile_invalid_range": {
-        "message": "Text for field with value out of valid range"
+        "message": "Text that describe a field with value out of valid range"
     },
     "hatemile_invalid_length": {
-        "message": "Text for field that not contain a number of caracters in valid range"
+        "message": "Text that describe a field that not contain a number of caracters in valid range"
     },
     "hatemile_invalid_pattern": {
-        "message": "Text for field with value does not match with the requested format"
+        "message": "Text that describe a field with value does not match with the requested format"
     },
     "hatemile_invalid_required": {
-        "message": "Text for field that need be filled"
+        "message": "Text that describe a field that need be filled"
     },
     "hatemile_invalid_date": {
-        "message": "Text for field with invalid date"
+        "message": "Text that describe a field with invalid date"
     },
     "hatemile_invalid_time": {
-        "message": "Text for field with invalid time"
+        "message": "Text that describe a field with invalid time"
     },
     "hatemile_invalid_datetime": {
-        "message": "Text for field with invalid date and time"
+        "message": "Text that describe a field with invalid date and time"
     },
     "hatemile_invalid_month": {
-        "message": "Text for field with invalid month"
+        "message": "Text that describe a field with invalid month"
     },
     "hatemile_invalid_week": {
-        "message": "Text for field with invalid week"
+        "message": "Text that describe a field with invalid week"
     },
     "extensions_hatemile_aria_autocomplete_both": {
         "message": " (List or inline autocomplete)"
@@ -378,7 +378,7 @@
         "message": ")"
     },
     "extensions_hatemile_attribute_target_blank": {
-        "message": "(Open this link in new tab) "
+        "message": "(This link open in new tab) "
     },
     "extensions_hatemile_attribute_download": {
         "message": "(Download) "
