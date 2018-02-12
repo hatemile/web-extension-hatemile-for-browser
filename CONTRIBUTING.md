@@ -76,6 +76,7 @@ If you want submit your code to HaTeMiLe for Browser you need follow the code co
   * :bookmark: `:bookmark:` Version Tag
   * :wrench: `:wrench:` Tooling
   * :lipstick: `:lipstick:` UI Cosmetic
+  * :card_index: `:card_index:` Metadata
 
 #### JavaScript styleguide
 
