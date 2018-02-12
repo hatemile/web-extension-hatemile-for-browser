@@ -90,8 +90,8 @@ If you want submit your code to HaTeMiLe for Browser you need follow the code co
   
 If you'd like to monetarily support HaTeMiLe for Browser development, you can:
 * [Donate to us by PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7YBQ2ENMUFJW8);
-* Donate Bitcoin to *1EhnFFHv2MheyNHViwYWhKjSWoVjSnJMzA* wallet address;
-* Donate Ethereum to *0x1f9b88c3fbd4823eac4910f456a4036e24e87f5b* wallet address;
-* Donate Litecoin to *LhLTYbH2CwCuAHEkedvmHyTBQTWfCb2aK3* wallet address;
-* Donate Dogecoin to *DECZbbUb8kGKau8ycUmdgmfaPbkBTaApjQ* wallet address;
-* Donate Tether to *1EnvcNeo1gp27h8mVLMgMuiJvq8UHCENdX* wallet address.
+* Donate Bitcoin to __**1EhnFFHv2MheyNHViwYWhKjSWoVjSnJMzA**__ wallet address;
+* Donate Ethereum to __**0x1f9b88c3fbd4823eac4910f456a4036e24e87f5b**__ wallet address;
+* Donate Litecoin to __**LhLTYbH2CwCuAHEkedvmHyTBQTWfCb2aK3**__ wallet address;
+* Donate Dogecoin to __**DECZbbUb8kGKau8ycUmdgmfaPbkBTaApjQ**__ wallet address;
+* Donate Tether to __**1EnvcNeo1gp27h8mVLMgMuiJvq8UHCENdX**__ wallet address.
