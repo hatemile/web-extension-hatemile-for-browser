@@ -198,7 +198,7 @@ function getUserPreferences(callback) {
         'attribute-headers-position': DISPLAY_BEFORE,
         'attribute-longdescription-position': DISPLAY_AFTER,
         'attribute-language-position': DISPLAY_BEFORE_AND_AFTER,
-        'attribute-role-position': DISPLAY_BEFORE_AND_AFTER,
+        'attribute-role-position': NOT_DISPLAY,
         'elements-heading-position': DISPLAY_AFTER,
         'skipper-position': DISPLAY_BEFORE
     };
