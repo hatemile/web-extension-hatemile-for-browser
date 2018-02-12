@@ -1,4 +1,36 @@
 {
+    "manifest_version": 2,
+    "name": "HaTeMiLe for Browser",
+    "default_locale": "en_US",
+    "version": "2.0.8",
+
+    "description": "__MSG_appDesc__",
+    "homepage_url": "https://github.com/carlsonsantana/web-extension-hatemile-for-browser",
+    "icons": {
+        "128": "images/icon128.png",
+        "19": "images/icon19.png",
+        "48": "images/icon48.png",
+        "16": "images/icon16.png"
+    },
+
+    "applications": {
+        "gecko": {
+            "id": "hatemileforbrowser@hatemile.org"
+        }
+    },
+
+    "permissions": [
+        "storage",
+        "http://*/",
+        "https://*/"
+    ],
+
+    "options_page": "pages/preferences.html",
+    "options_ui": {
+        "page": "pages/preferences.html",
+        "open_in_tab": true
+    },
+
     "content_scripts": [
         {
             "matches": [
@@ -24,14 +56,6 @@
             ]
         }
     ],
-    "name": "HaTeMiLe for Browser",
-    "default_locale": "en_US",
-    "icons": {
-        "128": "images/icon128.png",
-        "19": "images/icon19.png",
-        "48": "images/icon48.png",
-        "16": "images/icon16.png"
-    },
     "web_accessible_resources": [
         "styles/accessiblearia.css",
         "styles/accessibleformvalidation.css",
@@ -45,23 +69,5 @@
         "scripts/hatemile/js/hatemile/implementation/AccessibleEventImplementation.js",
         "scripts/hatemile/js/hatemile/implementation/AccessibleFormImplementation.js",
         "scripts/execute.js"
-    ],
-    "version": "2.0.8",
-    "options_page": "pages/preferences.html",
-    "options_ui": {
-        "page": "pages/preferences.html",
-        "open_in_tab": true
-    },
-    "manifest_version": 2,
-    "permissions": [
-        "storage",
-        "http://*/",
-        "https://*/"
-    ],
-    "description": "__MSG_appDesc__",
-    "applications": {
-        "gecko": {
-            "id": "hatemileforbrowser@hatemile.org"
-        }
-    }
+    ]
 }
