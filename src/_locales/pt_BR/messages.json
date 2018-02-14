@@ -152,12 +152,6 @@
     "hatemile_grabbed_false": {
         "message": "Texto para informar que um elemento é arrastável"
     },
-    "hatemile_label_prefix": {
-        "message": "Prefixo do rótulo de um elemento"
-    },
-    "hatemile_label_suffix": {
-        "message": "Sufixo do rótulo de um elemento"
-    },
     "hatemile_dropeffect_copy": {
         "message": "Texto de um local para ser copiado um elemento selecionado"
     },

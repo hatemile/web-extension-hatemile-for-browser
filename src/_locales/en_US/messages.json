@@ -152,12 +152,6 @@
     "hatemile_grabbed_false": {
         "message": "Text that describe a draggable element"
     },
-    "hatemile_label_prefix": {
-        "message": "Prefix for label of element"
-    },
-    "hatemile_label_suffix": {
-        "message": "Suffix for label of element"
-    },
     "hatemile_dropeffect_copy": {
         "message": "Text that describe a target to paste a seletected element"
     },
