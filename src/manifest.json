@@ -5,7 +5,7 @@
     "version": "3.0.0",
 
     "description": "__MSG_appDesc__",
-    "homepage_url": "https://github.com/carlsonsantana/web-extension-hatemile-for-browser",
+    "homepage_url": "https://github.com/hatemile/web-extension-hatemile-for-browser",
     "icons": {
         "128": "images/icon128.png",
         "19": "images/icon19.png",
