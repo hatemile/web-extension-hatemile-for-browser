@@ -7,7 +7,6 @@ First off, thank you for considering contributing to HaTeMiLe for Browser.
 * [Code of conduct](#code-of-conduct)
 * [Reporting bugs](#reporting-bugs)
 * [Request new feature](#request-new-feature)
-* [Translating](#translating)
 * [Code contribution](#code-contribution)
   * [Pull request](#pull-request)
   * [Styleguides](#styleguides)
@@ -34,10 +33,6 @@ This section guides you through request new feature for HaTeMiLe for Browser.
 Before submitting a request feature check if you're using the latest version of HaTeMiLe for Browser and [ensure the feature was not already requested](https://github.com/hatemile/web-extension-hatemile-for-browser/issues).
 
 If you're unable to find an open issue requesting this feature, [open a new one](https://github.com/hatemile/web-extension-hatemile-for-browser/issues/new).
-
-## Translating
-
-[To translate the HaTeMiLe you must access our project in Zanata](https://translate.zanata.org/project/view/hatemile), you will need a account to translate.
 
 ## Code contribution
 
