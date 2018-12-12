@@ -1,0 +1,1193 @@
+{
+    "appDesc": {
+        "message": "Mejora la accesibilidad de las páginas Web, principalmente a los usuarios que utilizan lectores de pantalla o navegan por el teclado."
+    },
+    "hatemile_preferences_caption": {
+        "message": "Preferencias del HaTeMiLe"
+    },
+    "hatemile_description_caption": {
+        "message": "Texto descriptivo"
+    },
+    "hatemile_link_caption": {
+        "message": "Enlaces"
+    },
+    "hatemile_navigation_caption": {
+        "message": "Navegación"
+    },
+    "hatemile_draganddrop_caption": {
+        "message": "Arrastrar y soltar"
+    },
+    "hatemile_forms_caption": {
+        "message": "Formulario"
+    },
+    "hatemile_fieldset_attribute_title": {
+        "message": "Título de un elemento"
+    },
+    "hatemile_fieldset_aria_haspopup": {
+        "message": "Pop-up"
+    },
+    "hatemile_fieldset_aria_level": {
+        "message": "Nivel"
+    },
+    "hatemile_fieldset_attribute_headers": {
+        "message": "Encabezado de la célula de una tabla"
+    },
+    "hatemile_fieldset_attribute_download": {
+        "message": "Enlace de descarga"
+    },
+    "hatemile_fieldset_attribute_target": {
+        "message": "Enlace que abre nueva ala"
+    },
+    "hatemile_fieldset_attribute_longdescription": {
+        "message": "Descripción larga de una imagen"
+    },
+    "hatemile_fieldset_attribute_accesskey_page": {
+        "message": "Atajos de una página"
+    },
+    "hatemile_fieldset_attribute_accesskey_element": {
+        "message": "Atajo de un elemento"
+    },
+    "hatemile_fieldset_elements_heading": {
+        "message": "Sumario"
+    },
+    "hatemile_fieldset_attribute_language": {
+        "message": "Idioma"
+    },
+    "hatemile_fieldset_attribute_role": {
+        "message": "Definición de un elemento"
+    },
+    "hatemile_fieldset_skipper": {
+        "message": "Enlaces que saltan el contenido de una página"
+    },
+    "hatemile_fieldset_aria_grabbed": {
+        "message": "Elemento arrastrable"
+    },
+    "hatemile_fieldset_aria_dropeffect": {
+        "message": "Efecto de soltar un elemento"
+    },
+    "hatemile_fieldset_aria_required": {
+        "message": "Campo obligatorio"
+    },
+    "hatemile_fieldset_aria_value": {
+        "message": "Campo con límites de valores"
+    },
+    "hatemile_fieldset_aria_autocomplete": {
+        "message": "Autocompletar de un campo"
+    },
+    "hatemile_fieldset_data_invalid": {
+        "message": "Campo inválido"
+    },
+    "hatemile_option_not_display": {
+        "message": "No mostrar"
+    },
+    "hatemile_option_before": {
+        "message": "Antes"
+    },
+    "hatemile_option_after": {
+        "message": "Después"
+    },
+    "hatemile_option_before_and_after": {
+        "message": "Antes y después"
+    },
+    "hatemile_label_title_position": {
+        "message": "Posición del título de un elemento"
+    },
+    "hatemile_label_haspopup_position": {
+        "message": "Posición del texto para informar que un elemento posee pop-up"
+    },
+    "hatemile_label_level_position": {
+        "message": "Posición del texto del nivel de un elemento"
+    },
+    "hatemile_label_headers_position": {
+        "message": "Posición del texto del encabezamiento de la célula de una tabla"
+    },
+    "hatemile_label_download_position": {
+        "message": "Posición de la descripción de un enlace de descarga"
+    },
+    "hatemile_label_target_position": {
+        "message": "Posición de la descripción de un enlace que abre una ventana"
+    },
+    "hatemile_label_longdescription_position": {
+        "message": "Posición del enlace de una imagen con descripción larga"
+    },
+    "hatemile_label_accesskey_page_position": {
+        "message": "Posición de la lista de atajos de una página"
+    },
+    "hatemile_label_accesskey_element_position": {
+        "message": "Posición de la descripción de atajo de un elemento"
+    },
+    "hatemile_label_elements_heading_position": {
+        "message": "Posición del sumario de una pagina"
+    },
+    "hatemile_label_language_position": {
+        "message": "Posición de la descripción del idioma de un elemento"
+    },
+    "hatemile_label_role_position": {
+        "message": "Posición de la descripción de la definición de un elemento"
+    },
+    "hatemile_label_skipper_position": {
+        "message": "Mostar salteadores del contenido de una página"
+    },
+    "hatemile_label_grabbed_position": {
+        "message": "Posición de la descripción de un elemento arrastrable"
+    },
+    "hatemile_label_dropeffect_position": {
+        "message": "Posición de la descripción de los efectos de soltar un elemento"
+    },
+    "hatemile_label_required_position": {
+        "message": "Posición de la descripción de un campo obligatorio"
+    },
+    "hatemile_label_value_position": {
+        "message": "Posición de la descripción de los límites de  valores de un campo"
+    },
+    "hatemile_label_autocomplete_position": {
+        "message": "Posición de la descripción del autocompletar de un campo"
+    },
+    "hatemile_label_data_invalid_position": {
+        "message": "Posición de la descripción que un campo posee un valor inválido"
+    },
+    "hatemile_grabbed_true": {
+        "message": "Texto para informar que un elemento está siendo arrastrado"
+    },
+    "hatemile_grabbed_false": {
+        "message": "Texto para informar que un elemento es arrastrable"
+    },
+    "hatemile_dropeffect_copy": {
+        "message": "Texto de una ubicación para ser copiado un elemento seleccionado"
+    },
+    "hatemile_dropeffect_move": {
+        "message": "Texto de una ubicación para ser movido un elemento seleccionado"
+    },
+    "hatemile_dropeffect_link": {
+        "message": "Texto de una ubicación a conectar un elemento seleccionado"
+    },
+    "hatemile_dropeffect_execute": {
+        "message": "Texto de una ubicación a ejecutar un elemento seleccionado"
+    },
+    "hatemile_dropeffect_popup": {
+        "message": "Texto de una ubicación que se abre el pop-up"
+    },
+    "hatemile_download": {
+        "message": "Texto para informar que un enlace es de descargar"
+    },
+    "hatemile_target_blank": {
+        "message": "Texto para informar que un enlace abre una nueva ala"
+    },
+    "hatemile_title_prefix": {
+        "message": "Prefijo del título de un elemento"
+    },
+    "hatemile_title_suffix": {
+        "message": "Sufijo del título de un elemento"
+    },
+    "hatemile_haspopup": {
+        "message": "Texto para informar que un elemento posee un pop-up"
+    },
+    "hatemile_level_prefix": {
+        "message": "Prefijo del nivel de un elemento"
+    },
+    "hatemile_level_suffix": {
+        "message": "Sufijo del nivel de un elemento"
+    },
+    "hatemile_headers_prefix": {
+        "message": "Prefijo del encabezado de la célula de una tabla"
+    },
+    "hatemile_headers_suffix": {
+        "message": "Sufijo del encabezado de la célula de una tabla"
+    },
+    "hatemile_accesskey": {
+        "message": "Texto de la lista de atajos de una página"
+    },
+    "hatemile_accesskey_prefix": {
+        "message": "Prefijo del atajo de un elemento"
+    },
+    "hatemile_accesskey_suffix": {
+        "message": "Sufijo del atajo de un elemento"
+    },
+    "hatemile_longdescription_prefix": {
+        "message": "Prefijo del enlace de la descripción larga de una imagen"
+    },
+    "hatemile_longdescription_suffix": {
+        "message": "Sufijo del enlace de la descripción larga de una imagen"
+    },
+    "hatemile_elements_heading": {
+        "message": "Texto del sumario"
+    },
+    "hatemile_language_prefix_before": {
+        "message": "Prefijo antes de la declaración de un idioma"
+    },
+    "hatemile_language_suffix_before": {
+        "message": "Sufijo antes de la declaración de un idioma"
+    },
+    "hatemile_language_prefix_after": {
+        "message": "Prefijo después de la declaración de un idioma"
+    },
+    "hatemile_language_suffix_after": {
+        "message": "Sufijo después de la declaración de un idioma"
+    },
+    "hatemile_role_prefix_before": {
+        "message": "Prefijo antes de la declaración de la definición de un elemento"
+    },
+    "hatemile_role_suffix_before": {
+        "message": "Sufijo antes de la declaración de la definición de un elemento"
+    },
+    "hatemile_role_prefix_after": {
+        "message": "Prefijo después de la declaración de la definición de un elemento"
+    },
+    "hatemile_role_suffix_after": {
+        "message": "Sufijo después de la declaración de la definición de un elemento"
+    },
+    "hatemile_skipper_table_contents": {
+        "message": "Texto del enlace para ir directo al sumario"
+    },
+    "hatemile_skipper_shortcut_list": {
+        "message": "Texto del enlace para ir directo a la lista de atajos"
+    },
+    "hatemile_required_true": {
+        "message": "Texto para describir un campo obligatorio"
+    },
+    "hatemile_value_maximum_prefix": {
+        "message": "Prefijo del valor máximo de un campo"
+    },
+    "hatemile_value_maximum_suffix": {
+        "message": "Sufijo del valor máximo de un campo"
+    },
+    "hatemile_value_minimum_prefix": {
+        "message": "Prefijo del valor mínimo de un campo"
+    },
+    "hatemile_value_minimum_suffix": {
+        "message": "Sufijo del valor mínimo de un campo"
+    },
+    "hatemile_autocomplete_both": {
+        "message": "Texto del auto completar de n campo del tipo lista o en la línea"
+    },
+    "hatemile_autocomplete_inline": {
+        "message": "Texto del autocompletar de un campo del tipo línea"
+    },
+    "hatemile_autocomplete_list": {
+        "message": "Texto del autocompletar de un campo del tipo lista"
+    },
+    "hatemile_invalid_url": {
+        "message": "Texto para informar que un campo posee una URL inválida"
+    },
+    "hatemile_invalid_email": {
+        "message": "Texto para informar que un campo posee una dirección de correo electrónico inválido"
+    },
+    "hatemile_invalid_range": {
+        "message": "Texto para informar que un campo posee un valor fuera del intervalo"
+    },
+    "hatemile_invalid_length": {
+        "message": "Texto para informar que un campo posee un número de caracteres fuera de intervalo"
+    },
+    "hatemile_invalid_pattern": {
+        "message": "Texto para informar un campo fuera del estándar"
+    },
+    "hatemile_invalid_required": {
+        "message": "Texto para informar que un campo obligatorio no fue lleno"
+    },
+    "hatemile_invalid_date": {
+        "message": "Texto para informar un campo con fecha inválida"
+    },
+    "hatemile_invalid_time": {
+        "message": "Texto para informar un campo con horario inválido"
+    },
+    "hatemile_invalid_datetime": {
+        "message": "Texto para informar un campo con fecha y horario invalido"
+    },
+    "hatemile_invalid_month": {
+        "message": "Texto para informar un campo con mes inválido"
+    },
+    "hatemile_invalid_week": {
+        "message": "Texto para informar un campo con semana inválida"
+    },
+    "extensions_hatemile_aria_autocomplete_both": {
+        "message": " (List or inline autocomplete)"
+    },
+    "extensions_hatemile_aria_autocomplete_inline": {
+        "message": " (Inline autocomplete)"
+    },
+    "extensions_hatemile_aria_autocomplete_list": {
+        "message": " (List autocomplete)"
+    },
+    "extensions_hatemile_aria_dropeffect_copy": {
+        "message": " (Drop copy in target)"
+    },
+    "extensions_hatemile_aria_dropeffect_move": {
+        "message": " (Drop move in target)"
+    },
+    "extensions_hatemile_aria_dropeffect_link": {
+        "message": " (Drop link in target)"
+    },
+    "extensions_hatemile_aria_dropeffect_execute": {
+        "message": " (Drop execute in target)"
+    },
+    "extensions_hatemile_aria_dropeffect_popup": {
+        "message": " (Drop popup in target)"
+    },
+    "extensions_hatemile_aria_grabbed_true": {
+        "message": " (Dragging)"
+    },
+    "extensions_hatemile_aria_grabbed_false": {
+        "message": " (Draggable)"
+    },
+    "extensions_hatemile_aria_haspopup_true": {
+        "message": " (Has popup)"
+    },
+    "extensions_hatemile_aria_level_prefix": {
+        "message": "(Level: "
+    },
+    "extensions_hatemile_aria_level_suffix": {
+        "message": ") "
+    },
+    "extensions_hatemile_aria_required_true": {
+        "message": " (Required)"
+    },
+    "extensions_hatemile_aria_value_maximum_prefix": {
+        "message": " (Maximum value: "
+    },
+    "extensions_hatemile_aria_value_maximum_suffix": {
+        "message": ") "
+    },
+    "extensions_hatemile_aria_value_minimum_prefix": {
+        "message": " (Minimum value: "
+    },
+    "extensions_hatemile_aria_value_minimum_suffix": {
+        "message": ") "
+    },
+    "extensions_hatemile_attribute_title_prefix": {
+        "message": "(Title: "
+    },
+    "extensions_hatemile_attribute_title_suffix": {
+        "message": ") "
+    },
+    "extensions_hatemile_attribute_accesskey_default": {
+        "message": "ACCESS KEY PREFIX"
+    },
+    "extensions_hatemile_attribute_accesskey": {
+        "message": "List of keyboard shortcuts: "
+    },
+    "extensions_hatemile_attribute_accesskey_prefix": {
+        "message": " (Keyboard shortcut: "
+    },
+    "extensions_hatemile_attribute_accesskey_suffix": {
+        "message": ")"
+    },
+    "extensions_hatemile_attribute_target_blank": {
+        "message": "(This link open in new tab) "
+    },
+    "extensions_hatemile_attribute_download": {
+        "message": "(Download) "
+    },
+    "extensions_hatemile_attribute_data_invalid_url": {
+        "message": " (Invalid URL value)"
+    },
+    "extensions_hatemile_attribute_data_invalid_email": {
+        "message": " (Invalid e-mail address value)"
+    },
+    "extensions_hatemile_attribute_data_invalid_range": {
+        "message": " (Value out of valid range)"
+    },
+    "extensions_hatemile_attribute_data_invalid_length": {
+        "message": " (Value not contain a number of caracters in valid range)"
+    },
+    "extensions_hatemile_attribute_data_invalid_pattern": {
+        "message": " (Value does not match with the requested format)"
+    },
+    "extensions_hatemile_attribute_data_invalid_required": {
+        "message": " (Fill out the field)"
+    },
+    "extensions_hatemile_attribute_data_invalid_date": {
+        "message": " (Invalid date value)"
+    },
+    "extensions_hatemile_attribute_data_invalid_time": {
+        "message": " (Invalid time value)"
+    },
+    "extensions_hatemile_attribute_data_invalid_datetime": {
+        "message": " (Invalid date and time value)"
+    },
+    "extensions_hatemile_attribute_data_invalid_month": {
+        "message": " (Invalid month value)"
+    },
+    "extensions_hatemile_attribute_data_invalid_week": {
+        "message": " (Invalid week value)"
+    },
+    "extensions_hatemile_attribute_language_prefix_before": {
+        "message": "(Begin of language: "
+    },
+    "extensions_hatemile_attribute_language_suffix_before": {
+        "message": ") "
+    },
+    "extensions_hatemile_attribute_language_prefix_after": {
+        "message": " (End of language: "
+    },
+    "extensions_hatemile_attribute_language_suffix_after": {
+        "message": ")"
+    },
+    "extensions_hatemile_attribute_role_prefix_before": {
+        "message": "(Begin of "
+    },
+    "extensions_hatemile_attribute_role_suffix_before": {
+        "message": ") "
+    },
+    "extensions_hatemile_attribute_role_prefix_after": {
+        "message": " (End of "
+    },
+    "extensions_hatemile_attribute_role_suffix_after": {
+        "message": ")"
+    },
+    "extensions_hatemile_attribute_headers_prefix": {
+        "message": " (Headers: "
+    },
+    "extensions_hatemile_attribute_headers_suffix": {
+        "message": ") "
+    },
+    "extensions_hatemile_attribute_longdescription_prefix": {
+        "message": " (Long description of "
+    },
+    "extensions_hatemile_attribute_longdescription_suffix": {
+        "message": ")"
+    },
+    "extensions_hatemile_elements_heading": {
+        "message": "Table of contents"
+    },
+    "extensions_hatemile_language_aa": {
+        "message": "Afar"
+    },
+    "extensions_hatemile_language_ab": {
+        "message": "Abkhazian"
+    },
+    "extensions_hatemile_language_ae": {
+        "message": "Avestan"
+    },
+    "extensions_hatemile_language_af": {
+        "message": "Afrikaans"
+    },
+    "extensions_hatemile_language_ak": {
+        "message": "Akan"
+    },
+    "extensions_hatemile_language_am": {
+        "message": "Amharic"
+    },
+    "extensions_hatemile_language_an": {
+        "message": "Aragonese"
+    },
+    "extensions_hatemile_language_ar": {
+        "message": "Arabic"
+    },
+    "extensions_hatemile_language_as": {
+        "message": "Assamese"
+    },
+    "extensions_hatemile_language_av": {
+        "message": "Avaric"
+    },
+    "extensions_hatemile_language_ay": {
+        "message": "Aymara"
+    },
+    "extensions_hatemile_language_az": {
+        "message": "Azerbaijani"
+    },
+    "extensions_hatemile_language_ba": {
+        "message": "Bashkir"
+    },
+    "extensions_hatemile_language_be": {
+        "message": "Belarusian"
+    },
+    "extensions_hatemile_language_bg": {
+        "message": "Bulgarian"
+    },
+    "extensions_hatemile_language_bh": {
+        "message": "Bihari languages"
+    },
+    "extensions_hatemile_language_bi": {
+        "message": "Bislama"
+    },
+    "extensions_hatemile_language_bm": {
+        "message": "Bambara"
+    },
+    "extensions_hatemile_language_bn": {
+        "message": "Bengali"
+    },
+    "extensions_hatemile_language_bo": {
+        "message": "Tibetan"
+    },
+    "extensions_hatemile_language_br": {
+        "message": "Breton"
+    },
+    "extensions_hatemile_language_bs": {
+        "message": "Bosnian"
+    },
+    "extensions_hatemile_language_ca": {
+        "message": "Catalan"
+    },
+    "extensions_hatemile_language_ce": {
+        "message": "Chechen"
+    },
+    "extensions_hatemile_language_ch": {
+        "message": "Chamorro"
+    },
+    "extensions_hatemile_language_co": {
+        "message": "Corsican"
+    },
+    "extensions_hatemile_language_cr": {
+        "message": "Cree"
+    },
+    "extensions_hatemile_language_cs": {
+        "message": "Czech"
+    },
+    "extensions_hatemile_language_cu": {
+        "message": "Church Slavic"
+    },
+    "extensions_hatemile_language_cv": {
+        "message": "Chuvash"
+    },
+    "extensions_hatemile_language_cy": {
+        "message": "Welsh"
+    },
+    "extensions_hatemile_language_da": {
+        "message": "Danish"
+    },
+    "extensions_hatemile_language_de": {
+        "message": "German"
+    },
+    "extensions_hatemile_language_dv": {
+        "message": "Divehi"
+    },
+    "extensions_hatemile_language_dz": {
+        "message": "Dzongkha"
+    },
+    "extensions_hatemile_language_ee": {
+        "message": "Ewe"
+    },
+    "extensions_hatemile_language_el": {
+        "message": "Greek"
+    },
+    "extensions_hatemile_language_en": {
+        "message": "English"
+    },
+    "extensions_hatemile_language_eo": {
+        "message": "Esperanto"
+    },
+    "extensions_hatemile_language_es": {
+        "message": "Spanish"
+    },
+    "extensions_hatemile_language_et": {
+        "message": "Estonian"
+    },
+    "extensions_hatemile_language_eu": {
+        "message": "Basque"
+    },
+    "extensions_hatemile_language_fa": {
+        "message": "Persian"
+    },
+    "extensions_hatemile_language_ff": {
+        "message": "Fulah"
+    },
+    "extensions_hatemile_language_fi": {
+        "message": "Finnish"
+    },
+    "extensions_hatemile_language_fj": {
+        "message": "Fijian"
+    },
+    "extensions_hatemile_language_fo": {
+        "message": "Faroese"
+    },
+    "extensions_hatemile_language_fr": {
+        "message": "French"
+    },
+    "extensions_hatemile_language_fy": {
+        "message": "Western Frisian"
+    },
+    "extensions_hatemile_language_ga": {
+        "message": "Irish"
+    },
+    "extensions_hatemile_language_gd": {
+        "message": "Gaelic"
+    },
+    "extensions_hatemile_language_gl": {
+        "message": "Galician"
+    },
+    "extensions_hatemile_language_gn": {
+        "message": "Guarani"
+    },
+    "extensions_hatemile_language_gu": {
+        "message": "Gujarati"
+    },
+    "extensions_hatemile_language_gv": {
+        "message": "Manx"
+    },
+    "extensions_hatemile_language_ha": {
+        "message": "Hausa"
+    },
+    "extensions_hatemile_language_he": {
+        "message": "Hebrew"
+    },
+    "extensions_hatemile_language_hi": {
+        "message": "Hindi"
+    },
+    "extensions_hatemile_language_ho": {
+        "message": "Hiri Motu"
+    },
+    "extensions_hatemile_language_hr": {
+        "message": "Croatian"
+    },
+    "extensions_hatemile_language_ht": {
+        "message": "Haitian"
+    },
+    "extensions_hatemile_language_hu": {
+        "message": "Hungarian"
+    },
+    "extensions_hatemile_language_hy": {
+        "message": "Armenian"
+    },
+    "extensions_hatemile_language_hz": {
+        "message": "Herero"
+    },
+    "extensions_hatemile_language_ia": {
+        "message": "Interlingua"
+    },
+    "extensions_hatemile_language_id": {
+        "message": "Indonesian"
+    },
+    "extensions_hatemile_language_ie": {
+        "message": "Interlingue"
+    },
+    "extensions_hatemile_language_ig": {
+        "message": "Igbo"
+    },
+    "extensions_hatemile_language_ii": {
+        "message": "Sichuan Yi"
+    },
+    "extensions_hatemile_language_ik": {
+        "message": "Inupiaq"
+    },
+    "extensions_hatemile_language_io": {
+        "message": "Ido"
+    },
+    "extensions_hatemile_language_is": {
+        "message": "Icelandic"
+    },
+    "extensions_hatemile_language_it": {
+        "message": "Italian"
+    },
+    "extensions_hatemile_language_iu": {
+        "message": "Inuktitut"
+    },
+    "extensions_hatemile_language_ja": {
+        "message": "Japanese"
+    },
+    "extensions_hatemile_language_jv": {
+        "message": "Javanese"
+    },
+    "extensions_hatemile_language_ka": {
+        "message": "Georgian"
+    },
+    "extensions_hatemile_language_kg": {
+        "message": "Kongo"
+    },
+    "extensions_hatemile_language_ki": {
+        "message": "Kikuyu"
+    },
+    "extensions_hatemile_language_kj": {
+        "message": "Kuanyama"
+    },
+    "extensions_hatemile_language_kk": {
+        "message": "Kazakh"
+    },
+    "extensions_hatemile_language_kl": {
+        "message": "Kalaallisut"
+    },
+    "extensions_hatemile_language_km": {
+        "message": "Central Khmer"
+    },
+    "extensions_hatemile_language_kn": {
+        "message": "Kannada"
+    },
+    "extensions_hatemile_language_ko": {
+        "message": "Korean"
+    },
+    "extensions_hatemile_language_kr": {
+        "message": "Kanuri"
+    },
+    "extensions_hatemile_language_ks": {
+        "message": "Kashmiri"
+    },
+    "extensions_hatemile_language_ku": {
+        "message": "Kurdish"
+    },
+    "extensions_hatemile_language_kv": {
+        "message": "Komi"
+    },
+    "extensions_hatemile_language_kw": {
+        "message": "Cornish"
+    },
+    "extensions_hatemile_language_ky": {
+        "message": "Kirghiz"
+    },
+    "extensions_hatemile_language_la": {
+        "message": "Latin"
+    },
+    "extensions_hatemile_language_lb": {
+        "message": "Luxembourgish"
+    },
+    "extensions_hatemile_language_lg": {
+        "message": "Ganda"
+    },
+    "extensions_hatemile_language_li": {
+        "message": "Limburgan"
+    },
+    "extensions_hatemile_language_ln": {
+        "message": "Lingala"
+    },
+    "extensions_hatemile_language_lo": {
+        "message": "Lao"
+    },
+    "extensions_hatemile_language_lt": {
+        "message": "Lithuanian"
+    },
+    "extensions_hatemile_language_lu": {
+        "message": "Luba-Katanga"
+    },
+    "extensions_hatemile_language_lv": {
+        "message": "Latvian"
+    },
+    "extensions_hatemile_language_mg": {
+        "message": "Malagasy"
+    },
+    "extensions_hatemile_language_mh": {
+        "message": "Marshallese"
+    },
+    "extensions_hatemile_language_mi": {
+        "message": "Maori"
+    },
+    "extensions_hatemile_language_mk": {
+        "message": "Macedonian"
+    },
+    "extensions_hatemile_language_ml": {
+        "message": "Malayalam"
+    },
+    "extensions_hatemile_language_mn": {
+        "message": "Mongolian"
+    },
+    "extensions_hatemile_language_mr": {
+        "message": "Marathi"
+    },
+    "extensions_hatemile_language_ms": {
+        "message": "Malay"
+    },
+    "extensions_hatemile_language_mt": {
+        "message": "Maltese"
+    },
+    "extensions_hatemile_language_my": {
+        "message": "Burmese"
+    },
+    "extensions_hatemile_language_na": {
+        "message": "Nauru"
+    },
+    "extensions_hatemile_language_nb": {
+        "message": "Bokmål, Norwegian"
+    },
+    "extensions_hatemile_language_nd": {
+        "message": "Ndebele, North"
+    },
+    "extensions_hatemile_language_ne": {
+        "message": "Nepali"
+    },
+    "extensions_hatemile_language_ng": {
+        "message": "Ndonga"
+    },
+    "extensions_hatemile_language_nl": {
+        "message": "Dutch"
+    },
+    "extensions_hatemile_language_nn": {
+        "message": "Norwegian Nynorsk"
+    },
+    "extensions_hatemile_language_no": {
+        "message": "Norwegian"
+    },
+    "extensions_hatemile_language_nr": {
+        "message": "Ndebele, South"
+    },
+    "extensions_hatemile_language_nv": {
+        "message": "Navajo"
+    },
+    "extensions_hatemile_language_ny": {
+        "message": "Chichewa"
+    },
+    "extensions_hatemile_language_oc": {
+        "message": "Occitan"
+    },
+    "extensions_hatemile_language_oj": {
+        "message": "Ojibwa"
+    },
+    "extensions_hatemile_language_om": {
+        "message": "Oromo"
+    },
+    "extensions_hatemile_language_or": {
+        "message": "Oriya"
+    },
+    "extensions_hatemile_language_os": {
+        "message": "Ossetian"
+    },
+    "extensions_hatemile_language_pa": {
+        "message": "Panjabi"
+    },
+    "extensions_hatemile_language_pi": {
+        "message": "Pali"
+    },
+    "extensions_hatemile_language_pl": {
+        "message": "Polish"
+    },
+    "extensions_hatemile_language_ps": {
+        "message": "Pushto"
+    },
+    "extensions_hatemile_language_pt": {
+        "message": "Portuguese"
+    },
+    "extensions_hatemile_language_qu": {
+        "message": "Quechua"
+    },
+    "extensions_hatemile_language_rm": {
+        "message": "Romansh"
+    },
+    "extensions_hatemile_language_rn": {
+        "message": "Rundi"
+    },
+    "extensions_hatemile_language_ro": {
+        "message": "Romanian"
+    },
+    "extensions_hatemile_language_ru": {
+        "message": "Russian"
+    },
+    "extensions_hatemile_language_rw": {
+        "message": "Kinyarwanda"
+    },
+    "extensions_hatemile_language_sa": {
+        "message": "Sanskrit"
+    },
+    "extensions_hatemile_language_sc": {
+        "message": "Sardinian"
+    },
+    "extensions_hatemile_language_sd": {
+        "message": "Sindhi"
+    },
+    "extensions_hatemile_language_se": {
+        "message": "Northern Sami"
+    },
+    "extensions_hatemile_language_sg": {
+        "message": "Sango"
+    },
+    "extensions_hatemile_language_si": {
+        "message": "Sinhala"
+    },
+    "extensions_hatemile_language_sk": {
+        "message": "Slovak"
+    },
+    "extensions_hatemile_language_sl": {
+        "message": "Slovenian"
+    },
+    "extensions_hatemile_language_sm": {
+        "message": "Samoan"
+    },
+    "extensions_hatemile_language_sn": {
+        "message": "Shona"
+    },
+    "extensions_hatemile_language_so": {
+        "message": "Somali"
+    },
+    "extensions_hatemile_language_sq": {
+        "message": "Albanian"
+    },
+    "extensions_hatemile_language_sr": {
+        "message": "Serbian"
+    },
+    "extensions_hatemile_language_ss": {
+        "message": "Swati"
+    },
+    "extensions_hatemile_language_st": {
+        "message": "Sotho, Southern"
+    },
+    "extensions_hatemile_language_su": {
+        "message": "Sundanese"
+    },
+    "extensions_hatemile_language_sv": {
+        "message": "Swedish"
+    },
+    "extensions_hatemile_language_sw": {
+        "message": "Swahili"
+    },
+    "extensions_hatemile_language_ta": {
+        "message": "Tamil"
+    },
+    "extensions_hatemile_language_te": {
+        "message": "Telugu"
+    },
+    "extensions_hatemile_language_tg": {
+        "message": "Tajik"
+    },
+    "extensions_hatemile_language_th": {
+        "message": "Thai"
+    },
+    "extensions_hatemile_language_ti": {
+        "message": "Tigrinya"
+    },
+    "extensions_hatemile_language_tk": {
+        "message": "Turkmen"
+    },
+    "extensions_hatemile_language_tl": {
+        "message": "Tagalog"
+    },
+    "extensions_hatemile_language_tn": {
+        "message": "Tswana"
+    },
+    "extensions_hatemile_language_to": {
+        "message": "Tonga"
+    },
+    "extensions_hatemile_language_tr": {
+        "message": "Turkish"
+    },
+    "extensions_hatemile_language_ts": {
+        "message": "Tsonga"
+    },
+    "extensions_hatemile_language_tt": {
+        "message": "Tatar"
+    },
+    "extensions_hatemile_language_tw": {
+        "message": "Twi"
+    },
+    "extensions_hatemile_language_ty": {
+        "message": "Tahitian"
+    },
+    "extensions_hatemile_language_ug": {
+        "message": "Uighur"
+    },
+    "extensions_hatemile_language_uk": {
+        "message": "Ukrainian"
+    },
+    "extensions_hatemile_language_ur": {
+        "message": "Urdu"
+    },
+    "extensions_hatemile_language_uz": {
+        "message": "Uzbek"
+    },
+    "extensions_hatemile_language_ve": {
+        "message": "Venda"
+    },
+    "extensions_hatemile_language_vi": {
+        "message": "Vietnamese"
+    },
+    "extensions_hatemile_language_vo": {
+        "message": "Volapük"
+    },
+    "extensions_hatemile_language_wa": {
+        "message": "Walloon"
+    },
+    "extensions_hatemile_language_wo": {
+        "message": "Wolof"
+    },
+    "extensions_hatemile_language_xh": {
+        "message": "Xhosa"
+    },
+    "extensions_hatemile_language_yi": {
+        "message": "Yiddish"
+    },
+    "extensions_hatemile_language_yo": {
+        "message": "Yoruba"
+    },
+    "extensions_hatemile_language_za": {
+        "message": "Zhuang"
+    },
+    "extensions_hatemile_language_zh": {
+        "message": "Chinese"
+    },
+    "extensions_hatemile_language_zu": {
+        "message": "Zulu"
+    },
+    "extensions_hatemile_role_alert": {
+        "message": "alert"
+    },
+    "extensions_hatemile_role_alertdialog": {
+        "message": "alert dialog"
+    },
+    "extensions_hatemile_role_application": {
+        "message": "application"
+    },
+    "extensions_hatemile_role_article": {
+        "message": "article"
+    },
+    "extensions_hatemile_role_banner": {
+        "message": "banner"
+    },
+    "extensions_hatemile_role_button": {
+        "message": "button"
+    },
+    "extensions_hatemile_role_checkbox": {
+        "message": "checkbox"
+    },
+    "extensions_hatemile_role_columnheader": {
+        "message": "column header"
+    },
+    "extensions_hatemile_role_combobox": {
+        "message": "combobox"
+    },
+    "extensions_hatemile_role_complementary": {
+        "message": "complementary content"
+    },
+    "extensions_hatemile_role_contentinfo": {
+        "message": "information of content"
+    },
+    "extensions_hatemile_role_definition": {
+        "message": "definition"
+    },
+    "extensions_hatemile_role_dialog": {
+        "message": "dialog"
+    },
+    "extensions_hatemile_role_directory": {
+        "message": "directory"
+    },
+    "extensions_hatemile_role_document": {
+        "message": "document"
+    },
+    "extensions_hatemile_role_form": {
+        "message": "form"
+    },
+    "extensions_hatemile_role_grid": {
+        "message": "grid"
+    },
+    "extensions_hatemile_role_gridcell": {
+        "message": "cell in a grid"
+    },
+    "extensions_hatemile_role_group": {
+        "message": "group"
+    },
+    "extensions_hatemile_role_heading": {
+        "message": "heading"
+    },
+    "extensions_hatemile_role_img": {
+        "message": "image"
+    },
+    "extensions_hatemile_role_link": {
+        "message": "link"
+    },
+    "extensions_hatemile_role_list": {
+        "message": "list"
+    },
+    "extensions_hatemile_role_listbox": {
+        "message": "list box"
+    },
+    "extensions_hatemile_role_listitem": {
+        "message": "list item"
+    },
+    "extensions_hatemile_role_log": {
+        "message": "log"
+    },
+    "extensions_hatemile_role_main": {
+        "message": "main content"
+    },
+    "extensions_hatemile_role_marquee": {
+        "message": "marquee"
+    },
+    "extensions_hatemile_role_math": {
+        "message": "math"
+    },
+    "extensions_hatemile_role_menu": {
+        "message": "menu"
+    },
+    "extensions_hatemile_role_menubar": {
+        "message": "menu bar"
+    },
+    "extensions_hatemile_role_menuitem": {
+        "message": "menu item"
+    },
+    "extensions_hatemile_role_menuitemcheckbox": {
+        "message": "menu item checkbox"
+    },
+    "extensions_hatemile_role_menuitemradio": {
+        "message": "menu item radio"
+    },
+    "extensions_hatemile_role_navigation": {
+        "message": "navigation"
+    },
+    "extensions_hatemile_role_note": {
+        "message": "note"
+    },
+    "extensions_hatemile_role_option": {
+        "message": "option"
+    },
+    "extensions_hatemile_role_progressbar": {
+        "message": "progress bar"
+    },
+    "extensions_hatemile_role_radio": {
+        "message": "radio"
+    },
+    "extensions_hatemile_role_radiogroup": {
+        "message": "radio group"
+    },
+    "extensions_hatemile_role_region": {
+        "message": "region"
+    },
+    "extensions_hatemile_role_row": {
+        "message": "row"
+    },
+    "extensions_hatemile_role_rowgroup": {
+        "message": "row group"
+    },
+    "extensions_hatemile_role_rowheader": {
+        "message": "row header"
+    },
+    "extensions_hatemile_role_scrollbar": {
+        "message": "scroll bar"
+    },
+    "extensions_hatemile_role_search": {
+        "message": "search"
+    },
+    "extensions_hatemile_role_separator": {
+        "message": "separator"
+    },
+    "extensions_hatemile_role_slider": {
+        "message": "slider"
+    },
+    "extensions_hatemile_role_spinbutton": {
+        "message": "spin button"
+    },
+    "extensions_hatemile_role_status": {
+        "message": "status"
+    },
+    "extensions_hatemile_role_tab": {
+        "message": "tab"
+    },
+    "extensions_hatemile_role_tablist": {
+        "message": "tab list"
+    },
+    "extensions_hatemile_role_tabpanel": {
+        "message": "tab panel"
+    },
+    "extensions_hatemile_role_textbox": {
+        "message": "text box"
+    },
+    "extensions_hatemile_role_timer": {
+        "message": "timer"
+    },
+    "extensions_hatemile_role_toolbar": {
+        "message": "toolbar"
+    },
+    "extensions_hatemile_role_tooltip": {
+        "message": "tooltip"
+    },
+    "extensions_hatemile_role_tree": {
+        "message": "tree"
+    },
+    "extensions_hatemile_role_treegrid": {
+        "message": "tree grid"
+    },
+    "extensions_hatemile_role_treeitem": {
+        "message": "tree item"
+    },
+    "extensions_hatemile_skipper_main_content": {
+        "message": "Go to main content"
+    },
+    "extensions_hatemile_skipper_shortcuts_list": {
+        "message": "Go to shortcuts list"
+    },
+    "extensions_hatemile_skipper_table_contents": {
+        "message": "Go to table of contents"
+    }
+}
