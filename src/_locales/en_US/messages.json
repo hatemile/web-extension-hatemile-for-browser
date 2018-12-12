@@ -299,6 +299,15 @@
     "hatemile_invalid_week": {
         "message": "Text that describe a field with invalid week"
     },
+    "hatemile_send_translation": {
+        "message": "Send your translation to us"
+    },
+    "hatemile_translation_sent": {
+        "message": "Thank you, your translation was successfully sent."
+    },
+    "hatemile_translation_not_sent": {
+        "message": "Sorry, could not send your translation."
+    },
     "extensions_hatemile_aria_autocomplete_both": {
         "message": " (List or inline autocomplete)"
     },

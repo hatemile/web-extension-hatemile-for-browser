@@ -299,6 +299,15 @@
     "hatemile_invalid_week": {
         "message": "Texto para informar um campo com semana inválida"
     },
+    "hatemile_send_translation": {
+        "message": "Enviar a sua tradução para nós"
+    },
+    "hatemile_translation_sent": {
+        "message": "Obrigado, sua tradução foi enviada com sucesso."
+    },
+    "hatemile_translation_not_sent": {
+        "message": "Desculpe, não foi possível enviar a sua tradução."
+    },
     "extensions_hatemile_aria_autocomplete_both": {
         "message": " (Auto completar em lista ou em linha)"
     },

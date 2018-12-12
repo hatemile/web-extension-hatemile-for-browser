@@ -1,7 +1,6 @@
 {
     "extends": "eslint:recommended",
     "rules": {
-        "no-alert": "error",
         "no-console": "off",
         "no-undef": "off",
         "no-unused-vars": "off",
