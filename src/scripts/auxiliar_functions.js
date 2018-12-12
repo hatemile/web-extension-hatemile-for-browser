@@ -43,15 +43,25 @@ function getPreference(configuration, preference, display) {
 }
 
 function getBeforePreference(configuration, preference, position) {
-    return getPreference(configuration, preference,
-            (configuration[position] === DISPLAY_BEFORE) ||
-                    (configuration[position] === DISPLAY_BEFORE_AND_AFTER));
+    return getPreference(
+        configuration,
+        preference,
+        (
+            (configuration[position] === DISPLAY_BEFORE)
+            || (configuration[position] === DISPLAY_BEFORE_AND_AFTER)
+        )
+    );
 }
 
 function getAfterPreference(configuration, preference, position) {
-    return getPreference(configuration, preference,
-            (configuration[position] === DISPLAY_AFTER) ||
-                    (configuration[position] === DISPLAY_BEFORE_AND_AFTER));
+    return getPreference(
+        configuration,
+        preference,
+        (
+            (configuration[position] === DISPLAY_AFTER)
+            || (configuration[position] === DISPLAY_BEFORE_AND_AFTER)
+        )
+    );
 }
 
 function setLanguages(configuration) {
@@ -77,8 +87,9 @@ function setLanguages(configuration) {
 
     for (var i = 0, length = languageCodes.length; i < length; i++) {
         languageCode = languageCodes[i];
-        configuration['language-' + languageCode] = chrome.i18n
-                .getMessage('extensions_hatemile_language_' + languageCode);
+        configuration['language-' + languageCode] = chrome.i18n.getMessage(
+            'extensions_hatemile_language_' + languageCode
+        );
     }
 }
 
@@ -99,8 +110,9 @@ function setRoles(configuration) {
 
     for (var i = 0, length = roles.length; i < length; i++) {
         role = roles[i];
-        configuration['role-' + role] = chrome.i18n
-                .getMessage('extensions_hatemile_role_' + role);
+        configuration['role-' + role] = chrome.i18n.getMessage(
+            'extensions_hatemile_role_' + role
+        );
     }
 }
 
@@ -133,12 +145,16 @@ function setSimpleAttributes(configuration, userPreferences) {
         attributeSeparated.pop();
         attributePrefix = attributeSeparated.join('-');
 
-        configuration[attribute + '-before'] =
-                getBeforePreference(userPreferences, attribute,
-                        attributePrefix + '-position');
-        configuration[attribute + '-after'] =
-                getAfterPreference(userPreferences, attribute,
-                        attributePrefix + '-position');
+        configuration[attribute + '-before'] = getBeforePreference(
+            userPreferences,
+            attribute,
+            attributePrefix + '-position'
+        );
+        configuration[attribute + '-after'] = getAfterPreference(
+            userPreferences,
+            attribute,
+            attributePrefix + '-position'
+        );
     }
 }
 
@@ -175,8 +191,9 @@ function setSimpleUserPreferences(keys) {
     for (var i = 0, length = attributes.length; i < length; i++) {
         attribute = attributes[i];
 
-        keys[attribute] = chrome.i18n.getMessage('extensions_hatemile_'
-            + attribute.replace(/-/g, '_'));
+        keys[attribute] = chrome.i18n.getMessage(
+            'extensions_hatemile_' + attribute.replace(/-/g, '_')
+        );
     }
 }
 
@@ -205,8 +222,12 @@ function getUserPreferences(callback) {
 
     setSimpleUserPreferences(keys);
 
-    if ((typeof browser !== typeof undefined) && (browser.storage) &&
-            (browser.storage.local) && (browser.storage.local.get)) {
+    if (
+        (typeof browser !== typeof undefined)
+        && (browser.storage)
+        && (browser.storage.local)
+        && (browser.storage.local.get)
+    ) {
         var settings = browser.storage.local.get(keys);
         settings.then(callback, function () {});
     } else {
@@ -250,86 +271,179 @@ function loadReadOnlyConfiguration(userPreferences) {
         'aria-sort-descending-after': '',
         'aria-sort-other-before': '',
         'aria-sort-other-after': '',
-        'aria-value-maximum-prefix-before': getBeforePreference(userPreferences,
-                'aria-value-maximum-prefix', 'aria-value-position'),
-        'aria-value-maximum-suffix-before': getBeforePreference(userPreferences,
-                'aria-value-maximum-suffix', 'aria-value-position'),
-        'aria-value-maximum-prefix-after': getAfterPreference(userPreferences,
-                'aria-value-maximum-prefix', 'aria-value-position'),
-        'aria-value-maximum-suffix-after': getAfterPreference(userPreferences,
-                'aria-value-maximum-suffix', 'aria-value-position'),
-        'aria-value-minimum-prefix-before': getBeforePreference(userPreferences,
-                'aria-value-minimum-prefix', 'aria-value-position'),
-        'aria-value-minimum-suffix-before': getBeforePreference(userPreferences,
-                'aria-value-minimum-suffix', 'aria-value-position'),
-        'aria-value-minimum-prefix-after': getAfterPreference(userPreferences,
-                'aria-value-minimum-prefix', 'aria-value-position'),
-        'aria-value-minimum-suffix-after': getAfterPreference(userPreferences,
-                'aria-value-minimum-suffix', 'aria-value-position'),
-        'attribute-accesskey-default':
-                userPreferences['attribute-accesskey-default'],
-        'attribute-accesskey-before': getBeforePreference(userPreferences,
-                'attribute-accesskey', 'attribute-accesskey-page-position'),
-        'attribute-accesskey-after': getAfterPreference(userPreferences,
-                'attribute-accesskey', 'attribute-accesskey-page-position'),
-        'attribute-accesskey-prefix-before':
-                getBeforePreference(userPreferences,
-                        'attribute-accesskey-prefix',
-                        'attribute-accesskey-element-position'),
-        'attribute-accesskey-suffix-before':
-                getBeforePreference(userPreferences,
-                        'attribute-accesskey-suffix',
-                        'attribute-accesskey-element-position'),
-        'attribute-accesskey-prefix-after': getAfterPreference(userPreferences,
-                'attribute-accesskey-prefix',
-                'attribute-accesskey-element-position'),
-        'attribute-accesskey-suffix-after': getAfterPreference(userPreferences,
-                'attribute-accesskey-suffix',
-                'attribute-accesskey-element-position'),
-        'attribute-download-before': getBeforePreference(userPreferences,
-                'attribute-download', 'attribute-download-position'),
-        'attribute-download-after': getAfterPreference(userPreferences,
-                'attribute-download', 'attribute-download-position'),
-        'attribute-draggable-before': getBeforePreference(userPreferences,
-                'aria-grabbed-false', 'aria-grabbed-position'),
-        'attribute-draggable-after': getAfterPreference(userPreferences,
-                'aria-grabbed-false', 'aria-grabbed-position'),
-        'attribute-dropzone-copy-before': getBeforePreference(userPreferences,
-                'aria-dropeffect-copy', 'aria-dropeffect-position'),
-        'attribute-dropzone-copy-after': getAfterPreference(userPreferences,
-                'aria-dropeffect-copy', 'aria-dropeffect-position'),
-        'attribute-dropzone-move-before': getBeforePreference(userPreferences,
-                'aria-dropeffect-move', 'aria-dropeffect-position'),
-        'attribute-dropzone-move-after': getAfterPreference(userPreferences,
-                'aria-dropeffect-move', 'aria-dropeffect-position'),
-        'attribute-dropzone-link-before': getBeforePreference(userPreferences,
-                'aria-dropeffect-link', 'aria-dropeffect-position'),
-        'attribute-dropzone-link-after': getAfterPreference(userPreferences,
-                'aria-dropeffect-link', 'aria-dropeffect-position'),
-        'attribute-language-prefix-before': getBeforePreference(userPreferences,
-                'attribute-language-prefix-before',
-                'attribute-language-position'),
-        'attribute-language-suffix-before': getBeforePreference(userPreferences,
-                'attribute-language-suffix-before',
-                'attribute-language-position'),
-        'attribute-language-prefix-after': getAfterPreference(userPreferences,
-                'attribute-language-prefix-after',
-                'attribute-language-position'),
-        'attribute-language-suffix-after': getAfterPreference(userPreferences,
-                'attribute-language-suffix-after',
-                'attribute-language-position'),
-        'attribute-role-prefix-before': getBeforePreference(userPreferences,
-                'attribute-role-prefix-before', 'attribute-role-position'),
-        'attribute-role-suffix-before': getBeforePreference(userPreferences,
-                'attribute-role-suffix-before', 'attribute-role-position'),
-        'attribute-role-prefix-after': getAfterPreference(userPreferences,
-                'attribute-role-prefix-after', 'attribute-role-position'),
-        'attribute-role-suffix-after': getAfterPreference(userPreferences,
-                'attribute-role-suffix-after', 'attribute-role-position'),
-        'elements-heading-before': getBeforePreference(userPreferences,
-                'elements-heading', 'elements-heading-position'),
-        'elements-heading-after': getAfterPreference(userPreferences,
-                'elements-heading', 'elements-heading-position'),
+        'aria-value-maximum-prefix-before': getBeforePreference(
+            userPreferences,
+            'aria-value-maximum-prefix',
+            'aria-value-position'
+        ),
+        'aria-value-maximum-suffix-before': getBeforePreference(
+            userPreferences,
+            'aria-value-maximum-suffix',
+            'aria-value-position'
+        ),
+        'aria-value-maximum-prefix-after': getAfterPreference(
+            userPreferences,
+            'aria-value-maximum-prefix',
+            'aria-value-position'
+        ),
+        'aria-value-maximum-suffix-after': getAfterPreference(
+            userPreferences,
+            'aria-value-maximum-suffix',
+            'aria-value-position'
+        ),
+        'aria-value-minimum-prefix-before': getBeforePreference(
+            userPreferences,
+            'aria-value-minimum-prefix',
+            'aria-value-position'
+        ),
+        'aria-value-minimum-suffix-before': getBeforePreference(
+            userPreferences,
+            'aria-value-minimum-suffix',
+            'aria-value-position'
+        ),
+        'aria-value-minimum-prefix-after': getAfterPreference(
+            userPreferences,
+            'aria-value-minimum-prefix',
+            'aria-value-position'
+        ),
+        'aria-value-minimum-suffix-after': getAfterPreference(
+            userPreferences,
+            'aria-value-minimum-suffix',
+            'aria-value-position'
+        ),
+        'attribute-accesskey-default': userPreferences[
+            'attribute-accesskey-default'
+        ],
+        'attribute-accesskey-before': getBeforePreference(
+            userPreferences,
+            'attribute-accesskey',
+            'attribute-accesskey-page-position'
+        ),
+        'attribute-accesskey-after': getAfterPreference(
+            userPreferences,
+            'attribute-accesskey',
+            'attribute-accesskey-page-position'
+        ),
+        'attribute-accesskey-prefix-before': getBeforePreference(
+            userPreferences,
+            'attribute-accesskey-prefix',
+            'attribute-accesskey-element-position'
+        ),
+        'attribute-accesskey-suffix-before': getBeforePreference(
+            userPreferences,
+            'attribute-accesskey-suffix',
+            'attribute-accesskey-element-position'
+        ),
+        'attribute-accesskey-prefix-after': getAfterPreference(
+            userPreferences,
+            'attribute-accesskey-prefix',
+            'attribute-accesskey-element-position'
+        ),
+        'attribute-accesskey-suffix-after': getAfterPreference(
+            userPreferences,
+            'attribute-accesskey-suffix',
+            'attribute-accesskey-element-position'
+        ),
+        'attribute-download-before': getBeforePreference(
+            userPreferences,
+            'attribute-download',
+            'attribute-download-position'
+        ),
+        'attribute-download-after': getAfterPreference(
+            userPreferences,
+            'attribute-download',
+            'attribute-download-position'
+        ),
+        'attribute-draggable-before': getBeforePreference(
+            userPreferences,
+            'aria-grabbed-false',
+            'aria-grabbed-position'
+        ),
+        'attribute-draggable-after': getAfterPreference(
+            userPreferences,
+            'aria-grabbed-false',
+            'aria-grabbed-position'
+        ),
+        'attribute-dropzone-copy-before': getBeforePreference(
+            userPreferences,
+            'aria-dropeffect-copy',
+            'aria-dropeffect-position'
+        ),
+        'attribute-dropzone-copy-after': getAfterPreference(
+            userPreferences,
+            'aria-dropeffect-copy',
+            'aria-dropeffect-position'
+        ),
+        'attribute-dropzone-move-before': getBeforePreference(
+            userPreferences,
+            'aria-dropeffect-move',
+            'aria-dropeffect-position'
+        ),
+        'attribute-dropzone-move-after': getAfterPreference(
+            userPreferences,
+            'aria-dropeffect-move',
+            'aria-dropeffect-position'
+        ),
+        'attribute-dropzone-link-before': getBeforePreference(
+            userPreferences,
+            'aria-dropeffect-link',
+            'aria-dropeffect-position'
+        ),
+        'attribute-dropzone-link-after': getAfterPreference(
+            userPreferences,
+            'aria-dropeffect-link',
+            'aria-dropeffect-position'
+        ),
+        'attribute-language-prefix-before': getBeforePreference(
+            userPreferences,
+            'attribute-language-prefix-before',
+            'attribute-language-position'
+        ),
+        'attribute-language-suffix-before': getBeforePreference(
+            userPreferences,
+            'attribute-language-suffix-before',
+            'attribute-language-position'
+        ),
+        'attribute-language-prefix-after': getAfterPreference(
+            userPreferences,
+            'attribute-language-prefix-after',
+            'attribute-language-position'
+        ),
+        'attribute-language-suffix-after': getAfterPreference(
+            userPreferences,
+            'attribute-language-suffix-after',
+            'attribute-language-position'
+        ),
+        'attribute-role-prefix-before': getBeforePreference(
+            userPreferences,
+            'attribute-role-prefix-before',
+            'attribute-role-position'
+        ),
+        'attribute-role-suffix-before': getBeforePreference(
+            userPreferences,
+            'attribute-role-suffix-before',
+            'attribute-role-position'
+        ),
+        'attribute-role-prefix-after': getAfterPreference(
+            userPreferences,
+            'attribute-role-prefix-after',
+            'attribute-role-position'
+        ),
+        'attribute-role-suffix-after': getAfterPreference(
+            userPreferences,
+            'attribute-role-suffix-after',
+            'attribute-role-position'
+        ),
+        'elements-heading-before': getBeforePreference(
+            userPreferences,
+            'elements-heading',
+            'elements-heading-position'
+        ),
+        'elements-heading-after': getAfterPreference(
+            userPreferences,
+            'elements-heading',
+            'elements-heading-position'
+        ),
         'skipper-main-content': userPreferences['skipper-main-content'],
         'skipper-shortcuts-list': userPreferences['skipper-shortcuts-list'],
         'skipper-table-contents': userPreferences['skipper-table-contents']

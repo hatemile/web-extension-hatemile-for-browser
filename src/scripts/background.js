@@ -2,27 +2,50 @@ loadStyle('styles/accessiblearia.css', 'accessiblearia');
 loadStyle('styles/accessibleformvalidation.css', 'accessibleformvalidation');
 loadStyle('scripts/hatemile/css/hide_changes.css', 'hidechanges');
 loadScript('hatemile/js/eventlistener.js', 'eventlistenerlist');
-loadScript('hatemile/js/hatemile/util/CommonFunctions.js',
-        'hatemile-common-functions');
+loadScript(
+    'hatemile/js/hatemile/util/CommonFunctions.js',
+    'hatemile-common-functions'
+);
 loadScript('hatemile/js/hatemile/util/Configure.js', 'hatemile-configure');
 loadScript('hatemile/js/hatemile/util/IDGenerator.js', 'hatemile-idgenerator');
-loadScript('hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js',
-        'hatemile-vanillahtmldomelement');
-loadScript('hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMParser.js',
-        'hatemile-vanillahtmldomparser');
-loadScript('hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMTextNode.js',
-        'hatemile-vanillahtmldomtextnode');
-loadScript('hatemile/js/hatemile/implementation/'
-    + 'AccessibleEventImplementation.js', 'hatemile-accessibleevent');
-loadScript('hatemile/js/hatemile/implementation/'
-    + 'AccessibleFormImplementation.js', 'hatemile-accessibleform');
-loadScript('hatemile/js/hatemile/implementation/AccessibleDisplayScreen'
-    + 'ReaderImplementation.js', 'hatemile-accessibledisplay');
+loadScript(
+    'hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMElement.js',
+    'hatemile-vanillahtmldomelement'
+);
+loadScript(
+    'hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMParser.js',
+    'hatemile-vanillahtmldomparser'
+);
+loadScript(
+    'hatemile/js/hatemile/util/html/vanilla/VanillaHTMLDOMTextNode.js',
+    'hatemile-vanillahtmldomtextnode'
+);
+loadScript(
+    'hatemile/js/hatemile/implementation/AccessibleEventImplementation.js',
+    'hatemile-accessibleevent'
+);
+loadScript(
+    'hatemile/js/hatemile/implementation/AccessibleFormImplementation.js',
+    'hatemile-accessibleform'
+);
+loadScript(
+    (
+        'hatemile/js/hatemile/implementation/'
+        + 'AccessibleDisplayScreenReaderImplementation.js'
+    ),
+    'hatemile-accessibledisplay'
+);
 
 getUserPreferences(function(userPreferences) {
     var configuration = loadReadOnlyConfiguration(userPreferences);
-    writeScript('var hatemile_for_browser_configuration = '
-            + JSON.stringify(configuration) + ';', 'hatemile-configuration');
+    writeScript(
+        (
+            'var hatemile_for_browser_configuration = '
+            + JSON.stringify(configuration)
+            + ';'
+        ),
+        'hatemile-configuration'
+    );
     loadScript('execute.js', 'hatemile-execute');
 });
 
@@ -31,23 +54,37 @@ window.addEventListener('load', function() {
         var configuration = loadReadOnlyConfiguration(userPreferences);
 
         var configure = new hatemile.util.Configure(configuration);
-        var htmlParser = new hatemile.util.html.vanilla
-                .VanillaHTMLDOMParser(document);
+        var htmlParser = new hatemile.util.html.vanilla.VanillaHTMLDOMParser(
+            document
+        );
 
-        var accessibleAssociation = new hatemile.implementation
-                .AccessibleAssociationImplementation(htmlParser, configure);
+        var accessibleAssociation = (
+            new hatemile.implementation.AccessibleAssociationImplementation(
+                htmlParser,
+                configure
+            )
+        );
         accessibleAssociation.associateAllDataCellsWithHeaderCells();
         accessibleAssociation.associateAllLabelsWithFields();
 
-        var accessibleForm = new hatemile.implementation
-                .AccessibleFormImplementation(htmlParser, configure);
+        var accessibleForm = (
+            new hatemile.implementation.AccessibleFormImplementation(
+                htmlParser,
+                configure
+            )
+        );
         accessibleForm.markAllAutoCompleteFields();
         accessibleForm.markAllRangeFields();
         accessibleForm.markAllRequiredFields();
 
-        var accessibleDisplay = new hatemile.implementation
-                .AccessibleDisplayScreenReaderImplementation(htmlParser,
-                        configure, window.navigator.userAgent);
+        var accessibleDisplay = (
+            new hatemile.implementation
+                .AccessibleDisplayScreenReaderImplementation(
+                    htmlParser,
+                    configure,
+                    window.navigator.userAgent
+                )
+        );
         accessibleDisplay.displayAllRoles();
         accessibleDisplay.displayAllLanguages();
         accessibleDisplay.displayAllCellHeaders();
@@ -57,9 +94,13 @@ window.addEventListener('load', function() {
         accessibleDisplay.displayAllTitles();
         accessibleDisplay.displayAllShortcuts();
 
-        var accessibleNavigation = new hatemile.implementation
-                .AccessibleNavigationImplementation(htmlParser, configure,
-                        hatemile_configuration_skippers);
+        var accessibleNavigation = (
+            new hatemile.implementation.AccessibleNavigationImplementation(
+                htmlParser,
+                configure,
+                hatemile_configuration_skippers
+            )
+        );
         accessibleNavigation.provideNavigationByAllHeadings();
         accessibleNavigation.provideNavigationToAllLongDescriptions();
 
