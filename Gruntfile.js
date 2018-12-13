@@ -82,21 +82,6 @@ module.exports = function(grunt) {
                                 'outerHTML;[\\n\\r\\t\\s]*};',
                         replace: '',
                         flags: 'g'
-                    },
-                    {
-                        name: 'remove_clone_element',
-                        search: 'VanillaHTMLDOMElement\\.prototype\\.' +
-                                'cloneElement = function \\(\\) {' +
-                                '[\\n\\r\\t\\s]*var div;[\\n\\r\\t\\s]*div' +
-                                ' = this\\.data\\.ownerDocument\\.' +
-                                'createElement\\(\'div\'\\);[\\n\\r\\t\\s]*' +
-                                'div\\.innerHTML = this\\.getOuterHTML\\(\\);' +
-                                '[\\n\\r\\t\\s]*return new self\\.' +
-                                'hatemile\\.util\\.html\\.vanilla\\.' +
-                                'VanillaHTMLDOMElement\\(div\\.' +
-                                'firstElementChild\\);[\\n\\r\\t\\s]*};',
-                        replace: '',
-                        flags: 'g'
                     }
                 ]
             }
