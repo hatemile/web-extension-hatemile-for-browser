@@ -2,8 +2,7 @@
     "manifest_version": 2,
     "name": "HaTeMiLe for Browser",
     "default_locale": "en_US",
-    "version": "3.1.0",
-
+    "version": "3.1.1",
     "description": "__MSG_appDesc__",
     "homepage_url": "https://github.com/hatemile/web-extension-hatemile-for-browser",
     "icons": {
@@ -12,25 +11,21 @@
         "48": "images/icon48.png",
         "16": "images/icon16.png"
     },
-
     "applications": {
         "gecko": {
             "id": "hatemileforbrowser@hatemile.org"
         }
     },
-
     "permissions": [
         "storage",
         "http://*/",
         "https://*/"
     ],
-
     "options_page": "pages/preferences.html",
     "options_ui": {
         "page": "pages/preferences.html",
         "open_in_tab": true
     },
-
     "content_scripts": [
         {
             "matches": [
