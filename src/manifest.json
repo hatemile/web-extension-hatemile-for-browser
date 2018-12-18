@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "HaTeMiLe for Browser",
     "default_locale": "en_US",
-    "version": "3.1.1",
+    "version": "3.2.0",
     "description": "__MSG_appDesc__",
     "homepage_url": "https://github.com/hatemile/web-extension-hatemile-for-browser",
     "icons": {
