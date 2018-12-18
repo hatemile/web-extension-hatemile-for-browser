@@ -258,7 +258,7 @@
         "message": "Sufijo del valor mínimo de un campo"
     },
     "hatemile_autocomplete_both": {
-        "message": "Texto del auto completar de n campo del tipo lista o en la línea"
+        "message": "Texto del autocompletar de un campo del tipo lista o en la línea"
     },
     "hatemile_autocomplete_inline": {
         "message": "Texto del autocompletar de un campo del tipo línea"
@@ -309,154 +309,154 @@
         "message": "Lo sentimos, no fue posible enviar su traducción."
     },
     "extensions_hatemile_aria_autocomplete_both": {
-        "message": " (List or inline autocomplete)"
+        "message": " (Autocompletar del tipo lista o en la línea)"
     },
     "extensions_hatemile_aria_autocomplete_inline": {
-        "message": " (Inline autocomplete)"
+        "message": " (Autocompletar del tipo línea)"
     },
     "extensions_hatemile_aria_autocomplete_list": {
-        "message": " (List autocomplete)"
+        "message": " (Autocompletar del tipo lista)"
     },
     "extensions_hatemile_aria_dropeffect_copy": {
-        "message": " (Drop copy in target)"
+        "message": " (Ubicación para ser copiado)"
     },
     "extensions_hatemile_aria_dropeffect_move": {
-        "message": " (Drop move in target)"
+        "message": " (Ubicación para ser movido)"
     },
     "extensions_hatemile_aria_dropeffect_link": {
-        "message": " (Drop link in target)"
+        "message": " (Ubicación a conectar)"
     },
     "extensions_hatemile_aria_dropeffect_execute": {
-        "message": " (Drop execute in target)"
+        "message": " (Ubicación a ejecutar)"
     },
     "extensions_hatemile_aria_dropeffect_popup": {
-        "message": " (Drop popup in target)"
+        "message": " (Ubicación que se abre el pop-up)"
     },
     "extensions_hatemile_aria_grabbed_true": {
-        "message": " (Dragging)"
+        "message": " (Siendo arrastrado)"
     },
     "extensions_hatemile_aria_grabbed_false": {
-        "message": " (Draggable)"
+        "message": " (Es arrastrable)"
     },
     "extensions_hatemile_aria_haspopup_true": {
-        "message": " (Has popup)"
+        "message": " (Posee un pop-up)"
     },
     "extensions_hatemile_aria_level_prefix": {
-        "message": "(Level: "
+        "message": "(Nivel: "
     },
     "extensions_hatemile_aria_level_suffix": {
         "message": ") "
     },
     "extensions_hatemile_aria_required_true": {
-        "message": " (Required)"
+        "message": " (Campo obligatorio)"
     },
     "extensions_hatemile_aria_value_maximum_prefix": {
-        "message": " (Maximum value: "
+        "message": " (Valor máximo: "
     },
     "extensions_hatemile_aria_value_maximum_suffix": {
         "message": ") "
     },
     "extensions_hatemile_aria_value_minimum_prefix": {
-        "message": " (Minimum value: "
+        "message": " (Valor mínimo: "
     },
     "extensions_hatemile_aria_value_minimum_suffix": {
         "message": ") "
     },
     "extensions_hatemile_attribute_title_prefix": {
-        "message": "(Title: "
+        "message": "(Título: "
     },
     "extensions_hatemile_attribute_title_suffix": {
         "message": ") "
     },
     "extensions_hatemile_attribute_accesskey_default": {
-        "message": "ACCESS KEY PREFIX"
+        "message": "PREFIJO DE MÉTODO ABREVIADO DE TECLADO"
     },
     "extensions_hatemile_attribute_accesskey": {
-        "message": "List of keyboard shortcuts: "
+        "message": "Lista de métodos abreviados de teclado de una página: "
     },
     "extensions_hatemile_attribute_accesskey_prefix": {
-        "message": " (Keyboard shortcut: "
+        "message": " (Métodos abreviados de teclado: "
     },
     "extensions_hatemile_attribute_accesskey_suffix": {
         "message": ")"
     },
     "extensions_hatemile_attribute_target_blank": {
-        "message": "(This link open in new tab) "
+        "message": "(Este enlace abre una nueva ala) "
     },
     "extensions_hatemile_attribute_download": {
-        "message": "(Download) "
+        "message": "(Descargar) "
     },
     "extensions_hatemile_attribute_data_invalid_url": {
-        "message": " (Invalid URL value)"
+        "message": " (URL inválida)"
     },
     "extensions_hatemile_attribute_data_invalid_email": {
-        "message": " (Invalid e-mail address value)"
+        "message": " (Dirección de correo electrónico inválido)"
     },
     "extensions_hatemile_attribute_data_invalid_range": {
-        "message": " (Value out of valid range)"
+        "message": " (Valor fuera del intervalo)"
     },
     "extensions_hatemile_attribute_data_invalid_length": {
-        "message": " (Value not contain a number of caracters in valid range)"
+        "message": " (Número de caracteres fuera de intervalo)"
     },
     "extensions_hatemile_attribute_data_invalid_pattern": {
-        "message": " (Value does not match with the requested format)"
+        "message": " (Fuera del estándar)"
     },
     "extensions_hatemile_attribute_data_invalid_required": {
-        "message": " (Fill out the field)"
+        "message": " (Rellena el campo)"
     },
     "extensions_hatemile_attribute_data_invalid_date": {
-        "message": " (Invalid date value)"
+        "message": " (Fecha inválida)"
     },
     "extensions_hatemile_attribute_data_invalid_time": {
-        "message": " (Invalid time value)"
+        "message": " (Horario inválido)"
     },
     "extensions_hatemile_attribute_data_invalid_datetime": {
-        "message": " (Invalid date and time value)"
+        "message": " (Fecha y horario invalido)"
     },
     "extensions_hatemile_attribute_data_invalid_month": {
-        "message": " (Invalid month value)"
+        "message": " (Mes inválido)"
     },
     "extensions_hatemile_attribute_data_invalid_week": {
-        "message": " (Invalid week value)"
+        "message": " (Semana inválida)"
     },
     "extensions_hatemile_attribute_language_prefix_before": {
-        "message": "(Begin of language: "
+        "message": "(Declaración del idioma: "
     },
     "extensions_hatemile_attribute_language_suffix_before": {
         "message": ") "
     },
     "extensions_hatemile_attribute_language_prefix_after": {
-        "message": " (End of language: "
+        "message": " (Fin del idioma: "
     },
     "extensions_hatemile_attribute_language_suffix_after": {
         "message": ")"
     },
     "extensions_hatemile_attribute_role_prefix_before": {
-        "message": "(Begin of "
+        "message": "(Comienzo de "
     },
     "extensions_hatemile_attribute_role_suffix_before": {
         "message": ") "
     },
     "extensions_hatemile_attribute_role_prefix_after": {
-        "message": " (End of "
+        "message": " (Fin de "
     },
     "extensions_hatemile_attribute_role_suffix_after": {
         "message": ")"
     },
     "extensions_hatemile_attribute_headers_prefix": {
-        "message": " (Headers: "
+        "message": " (Encabezado de la célula: "
     },
     "extensions_hatemile_attribute_headers_suffix": {
         "message": ") "
     },
     "extensions_hatemile_attribute_longdescription_prefix": {
-        "message": " (Long description of "
+        "message": " (Descripción larga de "
     },
     "extensions_hatemile_attribute_longdescription_suffix": {
         "message": ")"
     },
     "extensions_hatemile_elements_heading": {
-        "message": "Table of contents"
+        "message": "Sumario"
     },
     "extensions_hatemile_language_aa": {
         "message": "Afar"
@@ -1194,12 +1194,12 @@
         "message": "elemento del árbol"
     },
     "extensions_hatemile_skipper_main_content": {
-        "message": "Go to main content"
+        "message": "Ir para contenido principal"
     },
     "extensions_hatemile_skipper_shortcuts_list": {
-        "message": "Go to shortcuts list"
+        "message": "Ir para métodos abreviados de teclado"
     },
     "extensions_hatemile_skipper_table_contents": {
-        "message": "Go to table of contents"
+        "message": "Ir para sumario"
     }
 }
